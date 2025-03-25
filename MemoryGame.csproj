@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\StartButton.png" />
+    <None Remove="Assets\TheMemoryGame.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\StartButton.png" />
+    <Resource Include="Assets\TheMemoryGame.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>

@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:MemoryGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Background>
+        <ImageBrush ImageSource="/Assets/TheMemoryGame.jpg" Stretch="Fill"/>
+    </Window.Background>
     <Grid>
+        <Button Width="180" Height="60"
+        HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,187,0,0" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/StartButton.png"></ImageBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

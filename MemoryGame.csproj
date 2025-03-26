@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\StartButton.png" />
+    <None Remove="Assets\MemoryGameIcon.jpg" />
     <None Remove="Assets\TheMemoryGame.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\StartButton.png" />
+    <Resource Include="Assets\MemoryGameIcon.jpg" />
     <Resource Include="Assets\TheMemoryGame.jpg" />
   </ItemGroup>
 

@@ -6,7 +6,6 @@ D:\MemoryGame\bin\Debug\net8.0-windows\MemoryGame.pdb
 D:\MemoryGame\obj\Debug\net8.0-windows\View\MainWindow.g.cs
 D:\MemoryGame\obj\Debug\net8.0-windows\App.g.cs
 D:\MemoryGame\obj\Debug\net8.0-windows\MemoryGame_MarkupCompile.cache
-D:\MemoryGame\obj\Debug\net8.0-windows\MemoryGame_MarkupCompile.lref
 D:\MemoryGame\obj\Debug\net8.0-windows\View\MainWindow.baml
 D:\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.g.resources
 D:\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.GeneratedMSBuildEditorConfig.editorconfig

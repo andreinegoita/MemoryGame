@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\MemoryGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\assets\\memorygameicon.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:assets\\memorygameicon.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\viewmodel\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\assets\\thememorygame.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:assets\\thememorygame.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\assets\\startbutton.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:assets\\startbutton.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,20 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\MemoryGame\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
               "ToolTip": "D:\\MemoryGame\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T20:33:26.648Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemoryGameIcon.jpg",
+              "DocumentMoniker": "D:\\MemoryGame\\Assets\\MemoryGameIcon.jpg",
+              "RelativeDocumentMoniker": "Assets\\MemoryGameIcon.jpg",
+              "ToolTip": "D:\\MemoryGame\\Assets\\MemoryGameIcon.jpg",
+              "RelativeToolTip": "Assets\\MemoryGameIcon.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-26T09:53:41.875Z",
               "EditorCaption": ""
             },
             {
@@ -56,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\MemoryGame\\ViewModel\\Commands\\RelayCommand.cs",
               "RelativeDocumentMoniker": "ViewModel\\Commands\\RelayCommand.cs",
@@ -64,32 +76,18 @@
               "RelativeToolTip": "ViewModel\\Commands\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:40:25.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T21:40:25.487Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StartButton.png",
-              "DocumentMoniker": "D:\\MemoryGame\\Assets\\StartButton.png",
-              "RelativeDocumentMoniker": "Assets\\StartButton.png",
-              "ToolTip": "D:\\MemoryGame\\Assets\\StartButton.png",
-              "RelativeToolTip": "Assets\\StartButton.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-25T21:37:36.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "TheMemoryGame.jpg",
               "DocumentMoniker": "D:\\MemoryGame\\Assets\\TheMemoryGame.jpg",
               "RelativeDocumentMoniker": "Assets\\TheMemoryGame.jpg",
               "ToolTip": "D:\\MemoryGame\\Assets\\TheMemoryGame.jpg",
               "RelativeToolTip": "Assets\\TheMemoryGame.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-25T21:12:45.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T21:12:45.3Z"
             },
             {
               "$type": "Document",
@@ -105,12 +103,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\MemoryGame\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "View\\MainWindow.xaml",
-              "ToolTip": "D:\\MemoryGame\\View\\MainWindow.xaml*",
-              "RelativeToolTip": "View\\MainWindow.xaml*",
+              "ToolTip": "D:\\MemoryGame\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-25T20:33:36.067Z",
               "EditorCaption": ""

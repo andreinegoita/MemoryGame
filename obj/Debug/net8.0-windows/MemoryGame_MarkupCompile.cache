@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\MemoryGame\App.xaml
-4820938676
-
-9-1270374597
+5911022673
+11-1836035827
+14-188370892
 1981839832580
-View\MainMenuView.xaml;View\MainWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;
+View\AddUserWindow.xaml;View\MainMenuView.xaml;View\MainWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;
 
 False
 

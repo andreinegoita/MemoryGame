@@ -10,16 +10,58 @@
 
   <ItemGroup>
     <None Remove="Assets\MemoryGameIcon.jpg" />
+    <None Remove="Assets\MemoryGameMenu.jpg" />
     <None Remove="Assets\TheMemoryGame.jpg" />
+    <None Remove="Assets\Users\1336-fabian-pfpsgg.png" />
+    <None Remove="Assets\Users\21cec04a1daef96dad10405131b41e45.jpg" />
+    <None Remove="Assets\Users\2a9bd72cb276c78aa3a82ddaf8ce57bf.jpg" />
+    <None Remove="Assets\Users\4113-luffy-pfpsgg.png" />
+    <None Remove="Assets\Users\5517-lildeady-pfpsgg.png" />
+    <None Remove="Assets\Users\5f17444866bfbe3030bcf82faff3c68b.jpg" />
+    <None Remove="Assets\Users\7442-tyler-the-creator-pfpsgg.png" />
+    <None Remove="Assets\Users\751197fc16e5ad4facc97d0ccf6ce42b.jpg" />
+    <None Remove="Assets\Users\8168-sonic-pfpsgg.gif" />
+    <None Remove="Assets\Users\ccbbe672da735eb688531af38104c66d.jpg" />
+    <None Remove="Assets\Users\d124cf0275f0ee14da828f1a84d0aa3b.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Assets\MemoryGameIcon.jpg" />
+    <Resource Include="Assets\MemoryGameMenu.jpg" />
     <Resource Include="Assets\TheMemoryGame.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
+    <Content Include="Assets\Users\1336-fabian-pfpsgg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\21cec04a1daef96dad10405131b41e45.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\2a9bd72cb276c78aa3a82ddaf8ce57bf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\4113-luffy-pfpsgg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\5517-lildeady-pfpsgg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\5f17444866bfbe3030bcf82faff3c68b.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\7442-tyler-the-creator-pfpsgg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\751197fc16e5ad4facc97d0ccf6ce42b.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\8168-sonic-pfpsgg.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\ccbbe672da735eb688531af38104c66d.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Users\d124cf0275f0ee14da828f1a84d0aa3b.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

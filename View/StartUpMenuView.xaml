@@ -7,6 +7,57 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock Text="StartUp Menu" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Image Source="/Assets/MemoryGameMenu.jpg" 
+               Stretch="Fill" />
+
+        <TextBlock Text="Welcome  Enjoy this game!" 
+                   FontSize="40" 
+                   FontWeight="Bold" 
+                   FontFamily="Javanese Text" 
+                   Foreground="Crimson" 
+                   HorizontalAlignment="Left" 
+                   VerticalAlignment="Top" 
+                   Height="85" 
+                   Width="629" 
+                   Margin="144,0,0,0"/>
+
+        <Image Source="{Binding SelectedImage}" Width="209" Height="121"
+               HorizontalAlignment="Left" VerticalAlignment="Top"
+               Margin="349,146,0,0"/>
+
+        <Button Content="&lt;&lt;" Command="{Binding PreviousImageCommand}" 
+                HorizontalAlignment="Left" VerticalAlignment="Top"
+                Width="56" Height="30" Margin="344,300,0,0"/>
+
+        <Button Content=">>" Command="{Binding NextImageCommand}"
+                HorizontalAlignment="Right" VerticalAlignment="Top"
+                Width="56" Height="30" Margin="0,300,256,0"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="90,370,0,0">
+            <Button Content="New User" Command="{Binding AddUserCommand}" Width="80" Margin="5"/>
+            <Button Content="Delete User" Command="{Binding DeleteUserCommand}"  IsEnabled="{Binding SelectedUser, Converter={StaticResource  NullToBooleanConverter}}" Width="80" Margin="5"/>
+            <Button Content="Play" Command="{Binding PlayCommand}" Width="80" Margin="5"/>
+            <Button Content="Cancel" Command="{Binding CancelCommand}" Width="80" Margin="5"/>
+        </StackPanel>
+
+        <ListBox ItemsSource="{Binding Users}" 
+         SelectedItem="{Binding SelectedUser, Mode=TwoWay}" 
+         DisplayMemberPath="Name"
+         HorizontalAlignment="Left" 
+         VerticalAlignment="Center" 
+         Background="Transparent"
+         BorderBrush="Transparent"
+         Foreground=" LightGray"
+         FontSize="20"
+         FontStyle="Italic"
+         FontWeight="Bold"
+         Width="200" Height="238" 
+         Margin="10,0,0,0"
+                 />
+        
+        
+     
+        
+
     </Grid>
 </UserControl>

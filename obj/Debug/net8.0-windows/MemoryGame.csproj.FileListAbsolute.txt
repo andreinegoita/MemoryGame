@@ -41,3 +41,6 @@ D:\MemoryGame\bin\Debug\net8.0-windows\Assets\Users\d124cf0275f0ee14da828f1a84d0
 D:\MemoryGame\obj\Debug\net8.0-windows\View\AddUserWindow.baml
 D:\MemoryGame\obj\Debug\net8.0-windows\View\AddUserWindow.g.cs
 D:\MemoryGame\obj\Debug\net8.0-windows\App.baml
+D:\MemoryGame\obj\Debug\net8.0-windows\View\SettingsWindow.g.cs
+D:\MemoryGame\obj\Debug\net8.0-windows\View\SettingsWindow.baml
+D:\MemoryGame\bin\Debug\net8.0-windows\Assets\Sounds\Untitled.mp3

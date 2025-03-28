@@ -26,7 +26,7 @@ namespace MemoryGame.ViewModel
         public ICommand ConfirmCommand { get; }
         public ICommand CancelCommand { get; }
 
-        public Action CloseAction { get; set; } // Permite închiderea ferestrei
+        public Action CloseAction { get; set; } 
 
         public AddUserViewModel()
         {
@@ -38,7 +38,7 @@ namespace MemoryGame.ViewModel
         {
             if (!string.IsNullOrWhiteSpace(UserName))
             {
-                CloseAction?.Invoke(); // Închide fereastra
+                CloseAction?.Invoke(); 
             }
             else
             {
@@ -49,7 +49,7 @@ namespace MemoryGame.ViewModel
         private void Cancel(object parameter)
         {
             UserName = null;
-            CloseAction?.Invoke(); // Închide fereastra
+            CloseAction?.Invoke(); 
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

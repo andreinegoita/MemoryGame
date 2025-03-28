@@ -11,6 +11,10 @@
   <ItemGroup>
     <None Remove="Assets\MemoryGameIcon.jpg" />
     <None Remove="Assets\MemoryGameMenu.jpg" />
+    <None Remove="Assets\Sounds\KILLINGMYLOVE.mp3" />
+    <None Remove="Assets\Sounds\RAGEYOURDREAM.mp3" />
+    <None Remove="Assets\Sounds\STAY.mp3" />
+    <None Remove="Assets\Sounds\Untitled.mp3" />
     <None Remove="Assets\TheMemoryGame.jpg" />
     <None Remove="Assets\Users\1336-fabian-pfpsgg.png" />
     <None Remove="Assets\Users\21cec04a1daef96dad10405131b41e45.jpg" />
@@ -61,6 +65,12 @@
     </Content>
     <Content Include="Assets\Users\d124cf0275f0ee14da828f1a84d0aa3b.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Sounds\Untitled.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 

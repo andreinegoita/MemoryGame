@@ -28,11 +28,14 @@ namespace MemoryGame.ViewModel
 
         public ICommand StartCommand { get; }
 
+        public ICommand OpenSettingsCommand { get; }
+
         public MainViewModel()
         {
             CurrentView = new View.MainMenuView();
 
             StartCommand = new RelayCommand(SwitchToStartUpMenu);
+            OpenSettingsCommand = new RelayCommand(OpenSettingsWindow);
         }
 
         private void SwitchToStartUpMenu(object obj)
@@ -41,6 +44,13 @@ namespace MemoryGame.ViewModel
             {
                 DataContext = new StartUpMenuViewModel(this) 
             };
+        }
+
+        private void OpenSettingsWindow(object obj)
+        {
+            
+            var settingsWindow = new SettingsWindow();
+            settingsWindow.ShowDialog();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

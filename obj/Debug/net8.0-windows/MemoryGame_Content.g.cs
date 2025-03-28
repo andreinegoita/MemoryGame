@@ -19,5 +19,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/8168-sonic-pfpsgg.gif")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/ccbbe672da735eb688531af38104c66d.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/d124cf0275f0ee14da828f1a84d0aa3b.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sounds/untitled.mp3")]
 
 

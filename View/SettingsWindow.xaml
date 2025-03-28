@@ -1,0 +1,18 @@
+﻿<Window x:Class="MemoryGame.View.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MemoryGame.ViewModel"
+        Title="Settings" Height="350" Width="400">
+    <Window.DataContext>
+        <local:SettingsViewModel />
+    </Window.DataContext>
+    <Grid>
+        <StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Button Content="Play" Width="80" Margin="5" Command="{Binding PlayCommand}"/>
+            </StackPanel>
+            <Button Content="Stop" Width="80" Command="{Binding StopCommand}"/>
+        </StackPanel>
+    </Grid>
+</Window>

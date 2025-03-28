@@ -7,8 +7,15 @@
     <Window.DataContext>
         <local:MainViewModel/>
     </Window.DataContext>
+
+
+    <Window.InputBindings>
+        <KeyBinding Key="Escape" Command="{Binding OpenSettingsCommand}" />
+    </Window.InputBindings>
     
     <Grid>
         <ContentControl Content="{Binding CurrentView}"/>
+        <Button Content="Settings" Command="{Binding OpenSettingsCommand}" Width="100" Height="40" Margin="-125,0,825,394"/>
+
     </Grid>
 </Window>

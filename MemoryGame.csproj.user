@@ -8,6 +8,9 @@
     <Compile Update="View\MainMenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\SettingsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\StartUpMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

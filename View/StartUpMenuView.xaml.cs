@@ -24,7 +24,6 @@ namespace MemoryGame.View
         public StartUpMenuView()
         {
             InitializeComponent();
-            DataContext = new StartUpMenuViewModel();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using MemoryGame.ViewModel.Commands;
+﻿using MemoryGame.View;
+using MemoryGame.ViewModel.Commands;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,6 +13,7 @@ namespace MemoryGame.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged
     {
+
         private object _currentView;
 
         public object CurrentView
@@ -35,7 +37,10 @@ namespace MemoryGame.ViewModel
 
         private void SwitchToStartUpMenu(object obj)
         {
-            CurrentView = new View.StartUpMenuView();
+            CurrentView = new StartUpMenuView
+            {
+                DataContext = new StartUpMenuViewModel(this) 
+            };
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using MemoryGame.Model;
 using MemoryGame.View;
+using System.Windows;
 
 namespace MemoryGame.ViewModel
 {
@@ -17,6 +18,7 @@ namespace MemoryGame.ViewModel
         private int _currentImageIndex;
         private string _selectedImage;
 
+        private readonly MainViewModel _mainViewModel;
         public ObservableCollection<string> ImageOptions { get; set; }
         public ObservableCollection<User> Users { get; set; }=new ObservableCollection<User>();
 
@@ -69,7 +71,7 @@ namespace MemoryGame.ViewModel
             if (SelectedUser != null)
             {
                 Users.Remove(SelectedUser);
-                SelectedUser = null; // Resetare selecție
+                SelectedUser = null; 
             }
         }
 
@@ -78,7 +80,14 @@ namespace MemoryGame.ViewModel
             return SelectedUser != null;
         }
 
-        public StartUpMenuViewModel()
+        public ICommand CancelCommand { get; }
+        
+        private void SwitchMainMenu(object obj)
+        {
+           _mainViewModel.CurrentView = new MainMenuView();
+            MessageBox.Show("Switching to Main Menu");
+        }
+        public StartUpMenuViewModel(MainViewModel mainViewModel)
         {
             ImageOptions = new ObservableCollection<string>
             {
@@ -98,11 +107,13 @@ namespace MemoryGame.ViewModel
             _currentImageIndex = 0;
             SelectedImage = ImageOptions[1];
             Users.Add(new User { Name = "Alice" });
+            _mainViewModel = mainViewModel;
 
             NextImageCommand = new RelayCommand(_ => NextImage());
             PreviousImageCommand = new RelayCommand(_ => PreviousImage());
             AddUserCommand = new RelayCommand(_ => OpenAddUserWindow());
             DeleteUserCommand = new RelayCommand(_ => DeleteUser(), _ => CanDeleteUser());
+            CancelCommand = new RelayCommand(SwitchMainMenu);
         }
 
         private void NextImage()

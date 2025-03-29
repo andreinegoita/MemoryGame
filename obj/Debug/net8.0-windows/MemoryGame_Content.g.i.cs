@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygameplaymenu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/1336-fabian-pfpsgg.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/21cec04a1daef96dad10405131b41e45.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/2a9bd72cb276c78aa3a82ddaf8ce57bf.jpg")]

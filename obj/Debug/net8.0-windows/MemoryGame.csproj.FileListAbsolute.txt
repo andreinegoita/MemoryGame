@@ -44,3 +44,8 @@ D:\MemoryGame\obj\Debug\net8.0-windows\App.baml
 D:\MemoryGame\obj\Debug\net8.0-windows\View\SettingsWindow.g.cs
 D:\MemoryGame\obj\Debug\net8.0-windows\View\SettingsWindow.baml
 D:\MemoryGame\bin\Debug\net8.0-windows\Assets\Sounds\Untitled.mp3
+D:\MemoryGame\obj\Debug\net8.0-windows\View\PlayMenu.g.cs
+D:\MemoryGame\obj\Debug\net8.0-windows\View\PlayMenu.baml
+D:\MemoryGame\bin\Debug\net8.0-windows\Assets\MemoryGamePlayMenu.png
+D:\MemoryGame\obj\Debug\net8.0-windows\View\FIleWindow.g.cs
+D:\MemoryGame\obj\Debug\net8.0-windows\View\FIleWindow.baml

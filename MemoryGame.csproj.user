@@ -5,7 +5,13 @@
     <Compile Update="View\AddUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\FIleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\MainMenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PlayMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\SettingsWindow.xaml.cs">

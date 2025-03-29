@@ -120,6 +120,10 @@ namespace MemoryGame.ViewModel
                 SelectedUser.SelectedImage = SelectedImage;
                 UserService.SaveUsers(Users);
                 MessageBox.Show($"Game started for {SelectedUser.Name}!");
+                _mainViewModel.CurrentView = new PlayMenu
+                {
+                    DataContext = new PlayMenuViewModel(_mainViewModel) 
+                };
             }
         }
 

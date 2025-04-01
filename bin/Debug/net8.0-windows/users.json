@@ -17,7 +17,7 @@
   {
     "Id": "97bab8a2-f7ab-4d13-b08d-100ab2c9ac0f",
     "Name": "ionica",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
+    "SelectedImage": "/Assets/Users/4113-luffy-pfpsgg.png"
   },
   {
     "Id": "ce3e8e60-e8cb-464a-ab7a-2575800294ca",
@@ -38,5 +38,10 @@
     "Id": "c7642bd6-c6dd-47d5-a7b7-a40b1f01e298",
     "Name": "ionicaal",
     "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
+  },
+  {
+    "Id": "629c6985-afac-40e1-bbca-8362c1c4bd23",
+    "Name": "ba",
+    "SelectedImage": "/Assets/Users/4113-luffy-pfpsgg.png"
   }
 ]

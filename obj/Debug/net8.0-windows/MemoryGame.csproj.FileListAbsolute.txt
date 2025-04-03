@@ -104,3 +104,5 @@ D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\OptionsWindow.g.cs
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\OptionsWindow.baml
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\HelpWindow.g.cs
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\HelpWindow.baml
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\CategoryWindow.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\CategoryWindow.baml

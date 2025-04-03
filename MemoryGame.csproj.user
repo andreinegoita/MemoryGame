@@ -5,6 +5,9 @@
     <Compile Update="View\AddUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\CategoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\FIleWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

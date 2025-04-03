@@ -9,33 +9,23 @@ using MemoryGame.ViewModel.Commands;
 
 namespace MemoryGame.ViewModel
 {
-    public class FileViewModel
+    public class CategoryViewModel
     {
         private readonly MainViewModel _mainViewModel;
 
         public ICommand ExitCommand { get; }
-        public ICommand CategoryCommand { get; }
 
-        public FileViewModel(MainViewModel mainViewModel)
+        public CategoryViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
             ExitCommand = new RelayCommand(Exit);
-            CategoryCommand = new RelayCommand(Category);
         }
 
         private void Exit(object parameter)
         {
-            _mainViewModel.CurrentView = new PlayMenu
+            _mainViewModel.CurrentView = new FIleWindow
             {
-                DataContext = new PlayMenuViewModel(_mainViewModel)
-            };
-        }
-
-        private void Category(object parameter)
-        {
-            _mainViewModel.CurrentView = new CategoryWindow
-            {
-                DataContext = new CategoryViewModel(_mainViewModel)
+                DataContext = new FileViewModel(_mainViewModel)
             };
         }
     }

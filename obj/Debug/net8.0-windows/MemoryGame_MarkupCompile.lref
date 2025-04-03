@@ -1,4 +1,4 @@
-﻿D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+﻿
 FD:\MemoryGame\MemoryGame\App.xaml;;
 FD:\MemoryGame\MemoryGame\View\FIleWindow.xaml;;
 FD:\MemoryGame\MemoryGame\View\MainMenuView.xaml;;
@@ -7,4 +7,6 @@ FD:\MemoryGame\MemoryGame\View\PlayMenu.xaml;;
 FD:\MemoryGame\MemoryGame\View\SettingsWindow.xaml;;
 FD:\MemoryGame\MemoryGame\View\StartUpMenu.xaml;;
 FD:\MemoryGame\MemoryGame\View\StartUpMenuView.xaml;;
+FD:\MemoryGame\MemoryGame\View\OptionsWindow.xaml;;
+FD:\MemoryGame\MemoryGame\View\HelpWindow.xaml;;
 

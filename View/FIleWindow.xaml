@@ -5,17 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MemoryGame.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="550" d:DesignWidth="950">
     <Grid>
         <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" />
 
-        <UniformGrid Columns="1" Rows="3"  HorizontalAlignment="Center" Width="200" Height="150" Margin="0,86,0,214">
-            <Button Content="Category" Height="40"/>
-            <Button Content="New Game" Height="40"/>
-            <Button Content="Open Game" Height="40"/>
-            <Button Content="Save Game" Height="40"/>
-            <Button Content="Statistics" Height="40"/>
-            <Button Content="Exit" Height="40"/>
-        </UniformGrid>
+            <Button Content="Category" Height="40" Width="150" Margin="325,57,325,353"/>
+            <Button Content="New Game" Height="40"  Width="150" Margin="325,116,325,294"/>
+            <Button Content="Open Game" Height="40"  Width="150" Margin="325,172,325,238"/>
+        <Button Content="Save Game" Height="40"  Width="150" Margin="325,230,325,180"/>
+        <Button Content="Statistics" Height="40"  Width="150" Margin="325,289,325,121"/>
+        <Button Content="Exit" Command="{Binding ExitCommand}" Height="40"  Width="150" Margin="325,349,325,61"/>
     </Grid>
 </UserControl>

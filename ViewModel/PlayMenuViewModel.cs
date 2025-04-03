@@ -16,13 +16,19 @@ namespace MemoryGame.ViewModel
     {
         private readonly MainViewModel _mainViewModel;
         public ICommand ExitCommand { get; }
+        public ICommand FileCommand { get; }
+        public ICommand OptionsCommand { get; }
 
+        public ICommand HelpCommand { get; }
 
 
         public PlayMenuViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
             ExitCommand = new RelayCommand(Exit);
+            FileCommand = new RelayCommand(File);
+            OptionsCommand = new RelayCommand(Options);
+            HelpCommand = new RelayCommand(Help);
         }
 
         private void Exit(object parameter)
@@ -33,6 +39,29 @@ namespace MemoryGame.ViewModel
             };
         }
 
+        private void File(object parameter)
+        {
+            _mainViewModel.CurrentView= new FIleWindow
+            {
+                DataContext = new FileViewModel(_mainViewModel)
+            };
+        }
+
+        private void Options(object parameter)
+        {
+            _mainViewModel.CurrentView = new OptionsWindow
+            {
+                DataContext = new OptionsViewModel(_mainViewModel)
+            };
+        }
+
+        private void Help(object parameter)
+        {
+            _mainViewModel.CurrentView = new HelpWindow
+            {
+                DataContext = new HelpViewModel(_mainViewModel)
+            };
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string name = null)

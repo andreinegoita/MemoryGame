@@ -100,3 +100,7 @@ D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\refint\MemoryGame.dll
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.pdb
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\MemoryGame.genruntimeconfig.cache
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\ref\MemoryGame.dll
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\OptionsWindow.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\OptionsWindow.baml
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\HelpWindow.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\HelpWindow.baml

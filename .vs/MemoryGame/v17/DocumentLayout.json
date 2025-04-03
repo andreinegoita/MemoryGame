@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\MemoryGame\\MemoryGame\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\helpwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\playmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\playmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\viewmodel\\helpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\helpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\viewmodel\\playmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\playmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\optionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\optionswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\mainmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\mainmenuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\view\\filewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:view\\filewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\viewmodel\\optionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\optionsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\viewmodel\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\fileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\services\\musicplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:services\\musicplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|d:\\memorygame\\memorygame\\viewmodel\\startupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26AA10B3-A3E2-4A24-963C-DFB950B615CD}|MemoryGame.csproj|solutionrelative:viewmodel\\startupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +58,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelpViewModel.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\ViewModel\\HelpViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\HelpViewModel.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\ViewModel\\HelpViewModel.cs",
+              "RelativeToolTip": "ViewModel\\HelpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:50:58.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenuView.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\MainMenuView.xaml",
+              "RelativeDocumentMoniker": "View\\MainMenuView.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\MainMenuView.xaml",
+              "RelativeToolTip": "View\\MainMenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T11:48:45.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelpWindow.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\HelpWindow.xaml",
+              "RelativeDocumentMoniker": "View\\HelpWindow.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\HelpWindow.xaml",
+              "RelativeToolTip": "View\\HelpWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T11:48:24.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartUpViewModel.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\ViewModel\\StartUpViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\StartUpViewModel.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\ViewModel\\StartUpViewModel.cs",
+              "RelativeToolTip": "ViewModel\\StartUpViewModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:08:46.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FIleWindow.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\FIleWindow.xaml",
+              "RelativeDocumentMoniker": "View\\FIleWindow.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\FIleWindow.xaml",
+              "RelativeToolTip": "View\\FIleWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T21:04:28.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayMenuViewModel.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\ViewModel\\PlayMenuViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PlayMenuViewModel.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\ViewModel\\PlayMenuViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PlayMenuViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:05:15.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayMenu.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\PlayMenu.xaml",
+              "RelativeDocumentMoniker": "View\\PlayMenu.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\PlayMenu.xaml",
+              "RelativeToolTip": "View\\PlayMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T21:05:12.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OptionsViewModel.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\ViewModel\\OptionsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OptionsViewModel.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\ViewModel\\OptionsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\OptionsViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:27:23.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileViewModel.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\ViewModel\\FileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FileViewModel.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\ViewModel\\FileViewModel.cs",
+              "RelativeToolTip": "ViewModel\\FileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:08:36.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OptionsWindow.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\OptionsWindow.xaml",
+              "RelativeDocumentMoniker": "View\\OptionsWindow.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\OptionsWindow.xaml",
+              "RelativeToolTip": "View\\OptionsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T21:25:18.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T21:18:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MusicPlayerService.cs",
+              "DocumentMoniker": "D:\\MemoryGame\\MemoryGame\\Services\\MusicPlayerService.cs",
+              "RelativeDocumentMoniker": "Services\\MusicPlayerService.cs",
+              "ToolTip": "D:\\MemoryGame\\MemoryGame\\Services\\MusicPlayerService.cs",
+              "RelativeToolTip": "Services\\MusicPlayerService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T21:15:37.319Z"
             }
           ]
         }

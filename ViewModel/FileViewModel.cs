@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows;
 using System.Windows.Input;
 using MemoryGame.View;
 using MemoryGame.ViewModel.Commands;
@@ -15,12 +11,14 @@ namespace MemoryGame.ViewModel
 
         public ICommand ExitCommand { get; }
         public ICommand CategoryCommand { get; }
+        public ICommand NewGameCommand { get; }
 
         public FileViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
             ExitCommand = new RelayCommand(Exit);
             CategoryCommand = new RelayCommand(Category);
+            NewGameCommand = new RelayCommand(NewGame);
         }
 
         private void Exit(object parameter)
@@ -36,6 +34,20 @@ namespace MemoryGame.ViewModel
             _mainViewModel.CurrentView = new CategoryWindow
             {
                 DataContext = new CategoryViewModel(_mainViewModel)
+            };
+        }
+
+        private void NewGame(object parameter)
+        {
+            if ((_mainViewModel.GameRows * _mainViewModel.GameColumns) % 2 != 0)
+            {
+                MessageBox.Show("Numărul de jetoane trebuie să fie par!", "Eroare", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            _mainViewModel.CurrentView = new GameBoardView
+            {
+                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns)
             };
         }
     }

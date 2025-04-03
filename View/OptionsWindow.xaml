@@ -11,8 +11,8 @@
             <ImageBrush ImageSource="/Assets/MemoryGamePlayMenu.png"/>
         </Grid.Background>
 
-        <Button Content="Standard" Height="40" Width="150" Margin="325,144,325,266"/>
-        <Button Content="Custom" Height="40" Width="150" Margin="325,225,325,185"/>
+        <Button Content="Standard" Command="{Binding StandardCommand}" Height="40" Width="150" Margin="325,144,325,266"/>
+        <Button Content="Custom" Command="{Binding CustomCommand}" Height="40" Width="150" Margin="325,225,325,185"/>
         <Button Content="Exit" Command="{Binding ExitCommand}" Height="40" Width="150" Margin="325,317,325,93"/>
     </Grid>
 </UserControl>

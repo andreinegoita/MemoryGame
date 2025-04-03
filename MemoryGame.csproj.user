@@ -8,7 +8,13 @@
     <Compile Update="View\CategoryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\CustomOptionsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\FIleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GameBoardView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\HelpWindow.xaml.cs">

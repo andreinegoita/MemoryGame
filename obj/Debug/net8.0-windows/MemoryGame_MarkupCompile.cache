@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\MemoryGame\MemoryGame\App.xaml
-11572884948
+13-1063353884
 131376826365
-28-1270132231
+331156888449
 1981839832580
-View\AddUserWindow.xaml;View\CategoryWindow.xaml;View\FIleWindow.xaml;View\HelpWindow.xaml;View\MainMenuView.xaml;View\MainWindow.xaml;View\OptionsWindow.xaml;View\PlayMenu.xaml;View\SettingsWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;
+View\AddUserWindow.xaml;View\CategoryWindow.xaml;View\CustomOptionsWindow.xaml;View\FIleWindow.xaml;View\GameBoardView.xaml;View\HelpWindow.xaml;View\MainMenuView.xaml;View\MainWindow.xaml;View\OptionsWindow.xaml;View\PlayMenu.xaml;View\SettingsWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;
 
 False
 

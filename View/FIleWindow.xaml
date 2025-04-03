@@ -10,7 +10,7 @@
         <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" />
 
         <Button Content="Category" Command="{Binding  CategoryCommand}" Height="40" Width="150" Margin="325,57,325,353"/>
-            <Button Content="New Game" Height="40"  Width="150" Margin="325,116,325,294"/>
+            <Button Content="New Game" Command="{Binding NewGameCommand}" Height="40"  Width="150" Margin="325,116,325,294"/>
             <Button Content="Open Game" Height="40"  Width="150" Margin="325,172,325,238"/>
         <Button Content="Save Game" Height="40"  Width="150" Margin="325,230,325,180"/>
         <Button Content="Statistics" Height="40"  Width="150" Margin="325,289,325,121"/>

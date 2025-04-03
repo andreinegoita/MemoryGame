@@ -25,7 +25,27 @@ namespace MemoryGame.ViewModel
                 OnPropertyChanged();
             }
         }
+        private int _gameRows = 4;
+        public int GameRows
+        {
+            get => _gameRows;
+            set
+            {
+                _gameRows = value;
+                OnPropertyChanged();
+            }
+        }
 
+        private int _gameColumns = 4;
+        public int GameColumns
+        {
+            get => _gameColumns;
+            set
+            {
+                _gameColumns = value;
+                OnPropertyChanged();
+            }
+        }
         public ICommand StartCommand { get; }
 
         public ICommand OpenSettingsCommand { get; }

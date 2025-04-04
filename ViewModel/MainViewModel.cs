@@ -46,6 +46,20 @@ namespace MemoryGame.ViewModel
                 OnPropertyChanged();
             }
         }
+
+
+        private string _selectedCategory = "Default";
+        public string SelectedCategory
+        {
+            get => _selectedCategory;
+            set
+            {
+                _selectedCategory = value;
+                OnPropertyChanged();
+            }
+        }
+
+
         public ICommand StartCommand { get; }
 
         public ICommand OpenSettingsCommand { get; }

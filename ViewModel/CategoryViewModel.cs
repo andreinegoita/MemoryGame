@@ -15,12 +15,24 @@ namespace MemoryGame.ViewModel
 
         public ICommand ExitCommand { get; }
 
+
+        public ICommand SelectCategoryCommand { get; }
+
         public CategoryViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
             ExitCommand = new RelayCommand(Exit);
+            SelectCategoryCommand = new RelayCommand(SelectCategory);
         }
 
+
+        private void SelectCategory(object parameter)
+        {
+            if (parameter is string category)
+            {
+                _mainViewModel.SelectedCategory = category;
+            }
+        }
         private void Exit(object parameter)
         {
             _mainViewModel.CurrentView = new FIleWindow

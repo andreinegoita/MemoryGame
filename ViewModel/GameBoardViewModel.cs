@@ -23,15 +23,18 @@ namespace MemoryGame.ViewModel
         public int Rows => _rows;
         public int Columns => _columns;
 
-        public GameBoardViewModel(int rows, int columns)
+        public string SelectedCategory { get; }
+        public GameBoardViewModel(int rows, int columns, string selectedCategory)
         {
             _rows = rows;
             _columns = columns;
+            SelectedCategory = selectedCategory;
             Tiles = new ObservableCollection<GameTileModel>();
 
             GenerateTiles();
 
             TileClickCommand = new RelayCommand(FlipTile);
+            SelectedCategory = selectedCategory;
         }
 
         private void GenerateTiles()

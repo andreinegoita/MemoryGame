@@ -9,6 +9,8 @@ namespace MemoryGame.ViewModel
     {
         private readonly MainViewModel _mainViewModel;
 
+
+
         public ICommand ExitCommand { get; }
         public ICommand CategoryCommand { get; }
         public ICommand NewGameCommand { get; }
@@ -45,10 +47,13 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
+           
+            
             _mainViewModel.CurrentView = new GameBoardView
             {
-                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns)
+                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns,_mainViewModel.SelectedCategory)
             };
+
         }
     }
 }

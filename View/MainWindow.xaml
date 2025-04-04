@@ -2,7 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:MemoryGame.ViewModel"  
-        Title="Memory Game" Height="650" Width="900"
+        Title="Memory Game" Height="950" Width="1600"
+        WindowStartupLocation="CenterScreen"
         Icon="/Assets/MemoryGameIcon.jpg">
     <Window.DataContext>
         <local:MainViewModel/>
@@ -15,7 +16,7 @@
     
     <Grid>
         <ContentControl Content="{Binding CurrentView}"/>
-        <Button Content="Settings" Command="{Binding OpenSettingsCommand}" Width="100" Height="40" Margin="-301,79,1101,515"/>
+        <Button Content="Settings" Command="{Binding OpenSettingsCommand}" Width="100" Height="40" Margin="-2355,-387,3855,1281"/>
 
     </Grid>
 </Window>

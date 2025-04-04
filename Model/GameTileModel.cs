@@ -1,22 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace MemoryGame.Model
 {
-    public class GameTileModel
+    public class GameTileModel : INotifyPropertyChanged
     {
-        public string Value { get; set; } // Conținutul jetonului (ex: literă, simbol, număr)
-        public bool IsMatched { get; set; } // Dacă jetonul a fost descoperit
-        public bool IsFlipped { get; set; } // Dacă jetonul este momentan întors
+        public bool IsMatched { get; set; }
+        public bool IsFlipped { get; set; }
 
-        public GameTileModel(string value)
+        private string _imagePath;
+        public string ImagePath
         {
-            Value = value;
+            get => _imagePath;
+            set
+            {
+                _imagePath = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public GameTileModel(string imagePath)
+        {
+            ImagePath = imagePath;
             IsMatched = false;
             IsFlipped = false;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Input;
 using MemoryGame.Model;
 using MemoryGame.ViewModel.Commands;
@@ -15,6 +17,7 @@ namespace MemoryGame.ViewModel
         private readonly int _columns;
         private GameTileModel _firstSelectedTile;
         private GameTileModel _secondSelectedTile;
+        private readonly Random _random = new Random();
 
         public ObservableCollection<GameTileModel> Tiles { get; }
 
@@ -22,8 +25,8 @@ namespace MemoryGame.ViewModel
 
         public int Rows => _rows;
         public int Columns => _columns;
-
         public string SelectedCategory { get; }
+
         public GameBoardViewModel(int rows, int columns, string selectedCategory)
         {
             _rows = rows;
@@ -34,19 +37,38 @@ namespace MemoryGame.ViewModel
             GenerateTiles();
 
             TileClickCommand = new RelayCommand(FlipTile);
-            SelectedCategory = selectedCategory;
         }
 
         private void GenerateTiles()
         {
             int totalTiles = _rows * _columns;
-            string[] values = Enumerable.Range(1, totalTiles / 2).Select(i => i.ToString()).ToArray();
-            string[] pairedValues = values.Concat(values).OrderBy(x => Guid.NewGuid()).ToArray();
+            int numberOfPairs = totalTiles / 2; 
 
-            foreach (var value in pairedValues)
+            string categoryFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Icons", SelectedCategory);
+
+            if (!Directory.Exists(categoryFolder))
             {
-                Tiles.Add(new GameTileModel(value));
+                MessageBox.Show($"Folderul nu există: {categoryFolder}");
+                return;
             }
+
+            string[] imageFiles = Directory.GetFiles(categoryFolder, "*.png");
+
+            if (imageFiles.Length < numberOfPairs)
+            {
+                MessageBox.Show($"Nu sunt suficiente imagini în {SelectedCategory}. Ai nevoie de {numberOfPairs}, dar sunt doar {imageFiles.Length}.");
+                return;
+            }
+
+            var selectedImages = imageFiles.OrderBy(x => _random.Next()).Take(numberOfPairs).ToList();
+            var pairedImages = selectedImages.Concat(selectedImages).OrderBy(x => _random.Next()).ToList();
+
+            foreach (var imagePath in pairedImages)
+            {
+                Tiles.Add(new GameTileModel(imagePath));
+            }
+
+            OnPropertyChanged(nameof(Tiles));
         }
 
         private void FlipTile(object parameter)
@@ -64,7 +86,7 @@ namespace MemoryGame.ViewModel
                 {
                     _secondSelectedTile = tile;
 
-                    if (_firstSelectedTile.Value == _secondSelectedTile.Value)
+                    if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
                     {
                         _firstSelectedTile.IsMatched = true;
                         _secondSelectedTile.IsMatched = true;

@@ -9,7 +9,293 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Icons\Anime\45628.jpg" />
+    <None Remove="Assets\Icons\Anime\48517.jpg" />
+    <None Remove="Assets\Icons\Anime\72546.jpg" />
+    <None Remove="Assets\Icons\Anime\72715.jpg" />
+    <None Remove="Assets\Icons\Anime\86185.jpg" />
+    <None Remove="Assets\Icons\Anime\Asuka_Langley_Sohryu_29.png" />
+    <None Remove="Assets\Icons\Anime\Boruto.jpg" />
+    <None Remove="Assets\Icons\Anime\Bruno_Bucciarati_Anime.png" />
+    <None Remove="Assets\Icons\Anime\bunta-fujiwara-1.jpg" />
+    <None Remove="Assets\Icons\Anime\CaesarA.png" />
+    <None Remove="Assets\Icons\Anime\Chrollo_Lucilfer_GI_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\Diavolo_anime2.png" />
+    <None Remove="Assets\Icons\Anime\Dio3Anime.png" />
+    <None Remove="Assets\Icons\Anime\Doppioinfobox-removebg.png" />
+    <None Remove="Assets\Icons\Anime\Episode-1-Rebirth-death-note-22008500-1391-782.png" />
+    <None Remove="Assets\Icons\Anime\Erina_infobox_anime.png" />
+    <None Remove="Assets\Icons\Anime\EsidisiA.png" />
+    <None Remove="Assets\Icons\Anime\GingAv.png" />
+    <None Remove="Assets\Icons\Anime\Giorno_Giovanna_Anime.png" />
+    <None Remove="Assets\Icons\Anime\Hisoka_Morow_YC_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\Holhorseanime.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP117_Silva_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP147_Gon_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP147_Killua_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP50_Feitan_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP53_Shalnark_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP53_Shizuku_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\HxH2011_EP97_Kalluto_Close_Up.png" />
+    <None Remove="Assets\Icons\Anime\Illumi_Zoldyck_HCE_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\ImagesCASWBZQN.png" />
+    <None Remove="Assets\Icons\Anime\Isaac_Netero_HE_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\itsuki-takeuchi-1.jpg" />
+    <None Remove="Assets\Icons\Anime\JonathanP2.png" />
+    <None Remove="Assets\Icons\Anime\Joseph_Joestar_anime.png" />
+    <None Remove="Assets\Icons\Anime\JosukeAnime.PNG.png" />
+    <None Remove="Assets\Icons\Anime\Jotaro4Anime.PNG.png" />
+    <None Remove="Assets\Icons\Anime\KarsA.png" />
+    <None Remove="Assets\Icons\Anime\keisuke-takahashi-1.jpg" />
+    <None Remove="Assets\Icons\Anime\KiraBDset.png" />
+    <None Remove="Assets\Icons\Anime\Kite_CA_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\Koichi_anime_AV.png" />
+    <None Remove="Assets\Icons\Anime\Kurapika_HCE_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\Lawliet-L-Cole.png" />
+    <None Remove="Assets\Icons\Anime\Leone_Anime-0.png" />
+    <None Remove="Assets\Icons\Anime\Leorio_portrait_1999.png" />
+    <None Remove="Assets\Icons\Anime\Light_yagami.png" />
+    <None Remove="Assets\Icons\Anime\Machi_Komacine_HA_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\mako-sato-1.jpg" />
+    <None Remove="Assets\Icons\Anime\Meruem_CA_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\Misato_Katsuragi_NGE_Illustration.png" />
+    <None Remove="Assets\Icons\Anime\Mista_Anime.png" />
+    <None Remove="Assets\Icons\Anime\MuhammadAvdol.png" />
+    <None Remove="Assets\Icons\Anime\Narancia_Ghirga_Anime.png" />
+    <None Remove="Assets\Icons\Anime\natsuki-mogi-1.jpg" />
+    <None Remove="Assets\Icons\Anime\NoriakiKakyoin.png" />
+    <None Remove="Assets\Icons\Anime\Okuyasu_anime_AV.png" />
+    <None Remove="Assets\Icons\Anime\Pannacotta_Fugo_Anime.png" />
+    <None Remove="Assets\Icons\Anime\Pariston_Hill_HCE_Portrait.png" />
+    <None Remove="Assets\Icons\Anime\pasted image 0.png" />
+    <None Remove="Assets\Icons\Anime\Reimi_AV.png" />
+    <None Remove="Assets\Icons\Anime\Rei_Ayanami_29.png" />
+    <None Remove="Assets\Icons\Anime\Rohan_anime_AV.png" />
+    <None Remove="Assets\Icons\Anime\ryousuke-takahashi-1.jpg" />
+    <None Remove="Assets\Icons\Anime\Sarada.jpg" />
+    <None Remove="Assets\Icons\Anime\sayuki-initial-d-1.jpg" />
+    <None Remove="Assets\Icons\Anime\shingo-shoji-1.jpg" />
+    <None Remove="Assets\Icons\Anime\Shinji_Ikari.png" />
+    <None Remove="Assets\Icons\Anime\SpeedwagonA.png" />
+    <None Remove="Assets\Icons\Anime\Straizo_Young_in_Anime.png" />
+    <None Remove="Assets\Icons\Anime\Suzieq.png" />
+    <None Remove="Assets\Icons\Anime\takumi-fujiwara-1.jpg" />
+    <None Remove="Assets\Icons\Anime\unnamed %281%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %2810%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %282%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %283%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %284%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %285%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %286%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %287%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %288%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed %289%29.png" />
+    <None Remove="Assets\Icons\Anime\unnamed.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %281%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2810%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2811%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2812%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2813%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2814%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2815%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2816%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2817%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2818%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2819%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %282%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2820%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2821%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2822%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2823%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2824%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2825%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %2826%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %283%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %284%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %285%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %286%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %287%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %288%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled %289%29.png" />
+    <None Remove="Assets\Icons\Anime\Untitled.png" />
+    <None Remove="Assets\Icons\Anime\WamuuA.png" />
+    <None Remove="Assets\Icons\Anime\WilliamA.png" />
+    <None Remove="Assets\Icons\F1 Cars\1969 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1970 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1973 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1974 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1975 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1976 ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1977 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1978 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1978 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1979 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1980 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1980 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1981 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1982 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1982 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\1983 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1985 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1988 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1989 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1990 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1991 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1991 Tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1992 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1993 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1993 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\1993 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\1995 Bennetton.png" />
+    <None Remove="Assets\Icons\F1 Cars\1995 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1996 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1996 tyrrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1997 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1997 Stewart.png" />
+    <None Remove="Assets\Icons\F1 Cars\1997 Tyrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1997 Williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\1998 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1998 Stewart.png" />
+    <None Remove="Assets\Icons\F1 Cars\1998 tyrell.png" />
+    <None Remove="Assets\Icons\F1 Cars\1999 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\1999 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\1999 Stewart.png" />
+    <None Remove="Assets\Icons\F1 Cars\200 Jaguar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2000 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2000 Bennoton.png" />
+    <None Remove="Assets\Icons\F1 Cars\2000 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2001 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2001 Jaguar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2001 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2002 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2002 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2002 Jaguar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2003 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2003 Jaguar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2004 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2004 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2004 Jaguar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2004 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2004 Williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2005 Bar.png" />
+    <None Remove="Assets\Icons\F1 Cars\2005 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2005 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2006 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2006 Honda.png" />
+    <None Remove="Assets\Icons\F1 Cars\2006 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2006 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2007 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2007 Honda.png" />
+    <None Remove="Assets\Icons\F1 Cars\2007 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2008 Honda.png" />
+    <None Remove="Assets\Icons\F1 Cars\2008 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2008 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2008 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2008 Toro Rosso.png" />
+    <None Remove="Assets\Icons\F1 Cars\2009 Brawn.png" />
+    <None Remove="Assets\Icons\F1 Cars\2009 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2009 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2010 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2010 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2010 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2011 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2011 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2011 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2012 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2012 Lotu.png" />
+    <None Remove="Assets\Icons\F1 Cars\2012 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2012 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2012 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2013 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2013 Force India.png" />
+    <None Remove="Assets\Icons\F1 Cars\2013 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2013 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2013 Williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2014 ferrrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2014 Lotus.png" />
+    <None Remove="Assets\Icons\F1 Cars\2014 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2014 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2014 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2015 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2015 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2015 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Toro Rosso.png" />
+    <None Remove="Assets\Icons\F1 Cars\2016 Williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2017 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2017 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2017 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2017 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Haas.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2018 Williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 Haas.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2019 Toro Rosso.png" />
+    <None Remove="Assets\Icons\F1 Cars\2020 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2020 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2020 Racing point.png" />
+    <None Remove="Assets\Icons\F1 Cars\2020 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2020 Renault.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 alfa romeo.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Alpine.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Aston Martin.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2021 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Alfa romeo.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Alphatauri.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Alpine.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Haas.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2022 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Alfa Romeo.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Alphatauri.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Alpine.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Haas.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2023 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Alpine.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Aston Martin.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Racing Bulls.png" />
+    <None Remove="Assets\Icons\F1 Cars\2024 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Alpine.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Aston Martin.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Ferrari.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Haas.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Mercedes.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Racing Bulls.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 Redbull.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 stake.png" />
+    <None Remove="Assets\Icons\F1 Cars\2025 williams.png" />
+    <None Remove="Assets\Icons\F1 Cars\Ferrari 2001.png" />
+    <None Remove="Assets\Icons\F1 Cars\Ferrari 2003.png" />
+    <None Remove="Assets\Icons\F1 Cars\Ferrari 2008.png" />
+    <None Remove="Assets\Icons\F1 Cars\Lotus 2015.png" />
+    <None Remove="Assets\Icons\F1 Cars\Renault 2001.png" />
+    <None Remove="Assets\Icons\F1 Cars\Renault 2010.png" />
     <None Remove="Assets\MemoryGameIcon.jpg" />
+    <None Remove="Assets\MemoryGameMain.png" />
     <None Remove="Assets\MemoryGameMenu.jpg" />
     <None Remove="Assets\MemoryGamePlayMenu.png" />
     <None Remove="Assets\Sounds\KILLINGMYLOVE.mp3" />
@@ -34,6 +320,867 @@
     <Resource Include="Assets\MemoryGameIcon.jpg" />
     <Resource Include="Assets\MemoryGameMenu.jpg" />
     <Resource Include="Assets\TheMemoryGame.jpg" />
+    <Content Include="Assets\Icons\Anime\1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\45628.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\48517.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\72546.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\72715.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\86185.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Asuka_Langley_Sohryu_29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Boruto.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Bruno_Bucciarati_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\bunta-fujiwara-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\CaesarA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Chrollo_Lucilfer_GI_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Diavolo_anime2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Dio3Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Doppioinfobox-removebg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Episode-1-Rebirth-death-note-22008500-1391-782.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Erina_infobox_anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\EsidisiA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\GingAv.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Giorno_Giovanna_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Hisoka_Morow_YC_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Holhorseanime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP117_Silva_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP147_Gon_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP147_Killua_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP50_Feitan_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP53_Shalnark_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP53_Shizuku_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\HxH2011_EP97_Kalluto_Close_Up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Illumi_Zoldyck_HCE_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\ImagesCASWBZQN.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Isaac_Netero_HE_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\itsuki-takeuchi-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\JonathanP2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Joseph_Joestar_anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\JosukeAnime.PNG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Jotaro4Anime.PNG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\KarsA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\keisuke-takahashi-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\KiraBDset.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Kite_CA_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Koichi_anime_AV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Kurapika_HCE_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Lawliet-L-Cole.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Leone_Anime-0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Leorio_portrait_1999.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Light_yagami.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Machi_Komacine_HA_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\mako-sato-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Meruem_CA_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Misato_Katsuragi_NGE_Illustration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Mista_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\MuhammadAvdol.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Narancia_Ghirga_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\natsuki-mogi-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\NoriakiKakyoin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Okuyasu_anime_AV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Pannacotta_Fugo_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Pariston_Hill_HCE_Portrait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\pasted image 0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Reimi_AV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Rei_Ayanami_29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Rohan_anime_AV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\ryousuke-takahashi-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Sarada.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\sayuki-initial-d-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\shingo-shoji-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Shinji_Ikari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\SpeedwagonA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Straizo_Young_in_Anime.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Suzieq.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\takumi-fujiwara-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (1).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (10).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (2).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (3).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (4).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (5).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (6).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (7).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (8).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed (9).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\unnamed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (1).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (10).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (11).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (12).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (13).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (14).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (15).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (16).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (17).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (18).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (19).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (2).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (20).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (21).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (22).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (23).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (24).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (25).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (26).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (3).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (4).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (5).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (6).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (7).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (8).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled (9).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\Untitled.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\WamuuA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Anime\WilliamA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1969 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1970 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1973 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1974 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1975 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1976 ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1977 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1978 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1978 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1979 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1980 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1980 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1981 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1982 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1982 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1983 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1985 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1988 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1989 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1990 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1991 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1991 Tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1992 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1993 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1993 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1993 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1995 Bennetton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1995 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1996 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1996 tyrrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1997 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1997 Stewart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1997 Tyrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1997 Williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1998 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1998 Stewart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1998 tyrell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1999 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1999 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\1999 Stewart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\200 Jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2000 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2000 Bennoton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2000 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2001 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2001 Jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2001 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2002 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2002 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2002 Jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2003 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2003 Jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2004 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2004 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2004 Jaguar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2004 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2004 Williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2005 Bar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2005 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2005 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2006 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2006 Honda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2006 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2006 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2007 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2007 Honda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2007 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2008 Honda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2008 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2008 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2008 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2008 Toro Rosso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2009 Brawn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2009 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2009 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2010 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2010 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2010 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2011 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2011 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2011 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2012 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2012 Lotu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2012 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2012 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2012 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2013 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2013 Force India.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2013 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2013 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2013 Williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2014 ferrrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2014 Lotus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2014 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2014 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2014 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2015 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2015 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2015 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Toro Rosso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2016 Williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2017 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2017 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2017 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2017 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Haas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2018 Williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 Haas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2019 Toro Rosso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2020 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2020 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2020 Racing point.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2020 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2020 Renault.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 alfa romeo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Alpine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Aston Martin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2021 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Alfa romeo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Alphatauri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Alpine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Haas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2022 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Alfa Romeo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Alphatauri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Alpine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Haas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2023 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Alpine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Aston Martin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Racing Bulls.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2024 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Alpine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Aston Martin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Ferrari.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Haas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Mercedes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Racing Bulls.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 Redbull.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 stake.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\2025 williams.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Ferrari 2001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Ferrari 2003.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Ferrari 2008.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Lotus 2015.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Renault 2001.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Cars\Renault 2010.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MemoryGameMain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\MemoryGamePlayMenu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

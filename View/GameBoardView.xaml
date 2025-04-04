@@ -25,7 +25,7 @@
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
                             <Grid>
-                                <Image Source="{Binding ImagePath}" Stretch="UniformToFill"/>
+                                <Image Source="{Binding ImagePath}" Stretch="Uniform"/>
                             </Grid>
                         </Border>
                     </ControlTemplate>
@@ -51,9 +51,5 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
-
-        <Grid.Background>
-            <ImageBrush ImageSource="D:\MemoryGame\MemoryGame\Assets\MemoryGameMain.png" Stretch="UniformToFill"/>
-        </Grid.Background>
     </Grid>
 </UserControl>

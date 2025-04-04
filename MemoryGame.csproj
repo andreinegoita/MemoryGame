@@ -120,6 +120,415 @@
     <None Remove="Assets\Icons\Anime\Untitled.png" />
     <None Remove="Assets\Icons\Anime\WamuuA.png" />
     <None Remove="Assets\Icons\Anime\WilliamA.png" />
+    <None Remove="Assets\Icons\Cars Logos\Abarth-logo-640x540.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\ABT-Sportsline-logo-silver-640x250.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Acura-logo-1990-640x406.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Alfa-Romeo-logo-2015-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Alpina-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Alpine-logo-640x341.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\AMG-logo-black-640x62.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\ARO-logo-640x567.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Aston-Martin-logo-2003-640x286.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\audi-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\bentley-logo-2002-download.png" />
+    <None Remove="Assets\Icons\Cars Logos\bmw-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\BMW-M-logo-640x231.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Brabus-logo-640x281.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Bugatti-logo-640x327.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Buick-logo-2002-640x200.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\cadillac-logo-2021-full-download.png" />
+    <None Remove="Assets\Icons\Cars Logos\Caterham-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\chevrolet-corvette-logo-2020-download.png" />
+    <None Remove="Assets\Icons\Cars Logos\Chevrolet-logo-2013-640x281.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\chrysler-logo-2009-download.png" />
+    <None Remove="Assets\Icons\Cars Logos\Citroen-logo-2009-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Dacia-logo-2008-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Daewoo-logo-640x404.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Daihatsu-logo-1997-1280x233.png" />
+    <None Remove="Assets\Icons\Cars Logos\DMC-logo-640x124.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\dodge-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\DS-logo-2009-640x486.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\ferrari-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\ford-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Genesis-logo-640x248.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\GMC-logo-640x145.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\GT-R-logo-640x454.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Hennessey-text-logo-1186x130.png" />
+    <None Remove="Assets\Icons\Cars Logos\Holden-logo-2016-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\honda-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Hummer-logo-2000x205.png" />
+    <None Remove="Assets\Icons\Cars Logos\hyundai-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Infiniti-logo-1989-640x308.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\jaguar-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\jeep-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Kia-logo-640x321.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Koenigsegg-logo-1994-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\KTM-logo-640x200.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\lamborghini-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Lancia-logo-2007-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Land-Rover-logo-2011-1920x1080.png" />
+    <None Remove="Assets\Icons\Cars Logos\Lexus-logo-1988-640x266.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Lincoln-logo-2019-640x222.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\MAN-logo-640x355.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mansory-logo-640x60.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\maserati-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Maybach-logo-640x353.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\mazda-logo-2018-vertical-download.png" />
+    <None Remove="Assets\Icons\Cars Logos\McLaren-logo-2002-640x92.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mercedes-Benz-logo-2011-640x369.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mercury-logo-1980-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\MG-logo-red-2010-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mini-logo-2001-640x270.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mitsubishi-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Mustang-logo-2010-1920x1080.png" />
+    <None Remove="Assets\Icons\Cars Logos\nio-logo-1800x700-show.png" />
+    <None Remove="Assets\Icons\Cars Logos\Nismo-logo-640x79.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\nissan-logo-2020-black-show.png" />
+    <None Remove="Assets\Icons\Cars Logos\Oldsmobile-logo-1996-640x260.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Opel-logo-2009-640x496.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Pagani-logo-1992-640x343.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Polestar-logo-640x505.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Pontiac-logo-640x440.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\porsche-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\RAM-logo-2009-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Renault-logo-2015-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Rimac-logo-2016-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Rolls-Royce-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Ruf-logo-640x282.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Saab-logo-2013-640x143.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Saturn-logo-1985-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Scania-logo-640x169.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\SEAT-logo-2012-640x508.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Skoda-logo-2016-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Smart-logo-1994-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\SsangYong-logo-640x422.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\subaru-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Suzuki-logo-640x285.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\tesla-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\toyota-logo.png" />
+    <None Remove="Assets\Icons\Cars Logos\Triumph-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Vauxhall-logo-2008-red-640x478.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Viper-logo-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Volkswagen-logo-2019-640x500.jpg" />
+    <None Remove="Assets\Icons\Cars Logos\Volvo-logo-2014-640x550.jpg" />
+    <None Remove="Assets\Icons\Cars\%2714_Cadillac_CTS_Sedan.jpg" />
+    <None Remove="Assets\Icons\Cars\1280px-2005-03-04_Motorshow_Geneva_117.jpg" />
+    <None Remove="Assets\Icons\Cars\1280px-HondaS2000-004.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2011_BMW_Z4_sDrive23i_M_Sport_Highline_2.5.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2017_Aston_Martin_V12_Vantage_S,_Jet_Black,_front_left.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2017_Renault_Megane_Dynamique_S_NAV_DC_1.5_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2018_Ford_Mustang_GT_5.0.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2019_Aston_Martin_Vantage_V8_Automatic_4.0_%281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-2019_Land_Rover_Range_Rover_Evoque_R-Dynamic_2.0.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-Alpina_B3_BiTurbo.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-Aston_Martin_DBS_-_Flickr_-_Alexandre_Prévot_%2811%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-Aston_Martin_Valkyrie_Verification_Prototype_001_Genf_2019_1Y7A5569.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-BMW_Z8_%282009-05-20%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-JAIA18_Porsche_Panamera_4_E-Hybrid_97ABE1_1.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-Pagani,_GIMS_2019,_Le_Grand-Saconnex_%28GIMS0023%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1920px-Peugeot_207_75_Forever_%28Facelift%29_–_Frontansicht,_5._Mai_2012,_Ratingen_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1969_Dodge_Charger_R-T,_front_right_%282022_Ellwood_City_Fall_Fest_&amp;_Car_Cruise%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1970_Chevrolet_Camaro_%2827755093943%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1984_Chevrolet_Camaro_Z-28_%2837192436560%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1985-1992_Mazda_RX-7_FC.jpg" />
+    <None Remove="Assets\Icons\Cars\1989_Ruf_BTR_in_Black_Metallic,_front_left.jpg" />
+    <None Remove="Assets\Icons\Cars\1992-1993_Mazda_MX-5_%28NA%29_roadster_%282011-11-18%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\1993ToyotaMR2Hardtop.jpg" />
+    <None Remove="Assets\Icons\Cars\1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_%28Lime_Rock%29.jpg" />
+    <None Remove="Assets\Icons\Cars\1994_Toyota_Celica_GT-4_2.0.jpg" />
+    <None Remove="Assets\Icons\Cars\1994_Toyota_Supra_Sport_Roof_in_Red,_front_left.jpg" />
+    <None Remove="Assets\Icons\Cars\1996-koenigsegg-cc-prototype_100529345_l.jpg" />
+    <None Remove="Assets\Icons\Cars\1998_BMW_Alpina_B3_3.2_Biturbo.jpg" />
+    <None Remove="Assets\Icons\Cars\1998_Renault_Clio_Grande_1.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2000_Alpina_B3.jpg" />
+    <None Remove="Assets\Icons\Cars\2000_Ford_Mustang_GT_Coupe_%2814235434679%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2001-2002_Subaru_Impreza_%28GDE_MY02%29_RS_sedan_%282011-06-15%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2001_BMW_Z3_Roadster_Automatic_2.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2002_Peugeot_206_LX_1.4_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2002_Peugeot_307_Rapier_16V_1.6_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2002_Renault_Espace_Expression_DCi_2.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2002_Toyota_MR2_1.8_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2003_BMW_520i_SE_2.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2004_Cobra_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2005-2008_BMW_320i_%28E90%29_sedan_%282011-07-17%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2005_Ford_Mustang_GT_Deluxe_Coupe,_front_right,_07-02-2023.jpg" />
+    <None Remove="Assets\Icons\Cars\2005_Ford_Mustang_V6_Premium_Convertible.jpg" />
+    <None Remove="Assets\Icons\Cars\2007_Subaru_Impreza_%28GH7_MY08%29_R_hatchback_%282015-07-09%29_01_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2008_Audi_A3_Sport_TDi_1.9_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2008_Peugeot_407_Sport_HDi_2.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2008_Peugeot_607_front.JPG" />
+    <None Remove="Assets\Icons\Cars\2009_Audi_A6_%284F%29_2.0_TFSI_sedan_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2009_Rolls-Royce_Phantom_%283C68%29_coupe_%282015-01-25%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2010_Audi_A5_SE_TDi_2.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2010_BMW_730d_%28F01_MY10%29_sedan_%282015-12-07%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2011_Audi_A7_%284G%29_3.0_TFSI_quattro_hatchback_%282016-01-07%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2011_Dodge_Durango_Citadel_--_06-16-2011.jpg" />
+    <None Remove="Assets\Icons\Cars\2011_Saab_9-5_UWS.jpg" />
+    <None Remove="Assets\Icons\Cars\2011_Skoda_Yeti_S_TSi_1.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2012_Aston_Martin_One-77_coupe_%282012-10-26%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2012_Audi_A8_%284H%29_4.2_quattro_sedan_%282018-10-12%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2012_BMW_320d_%28F30_MY13%29_Luxury_Line_sedan_%282015-07-24%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2012_BMW_Alpina_B3_GT3.jpg" />
+    <None Remove="Assets\Icons\Cars\2013_Audi_A1_%288X_MY14%29_1.4_TFSI_Sport_S_line_Sportback_5-door_hatchback_%282015-08-07%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2013_Audi_A7_%284G%29_3.0_TDI_S_line_quattro_sedan_%282017-01-15%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2013_Audi_S3_Limousine_8VS_2.0_TFSI_S_tronic_quattro_Daytonagrau-Perleffekt.jpg" />
+    <None Remove="Assets\Icons\Cars\2013_Skoda_Fabia_VRS_S-A_1.4_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2014-03-04_Geneva_Motor_Show_1375.jpg" />
+    <None Remove="Assets\Icons\Cars\2014_Aston_Martin_Vanquish,_skyfall_silver.jpg" />
+    <None Remove="Assets\Icons\Cars\2014_Cadillac_ELR_trimmed.jpg" />
+    <None Remove="Assets\Icons\Cars\2014_Mustang_Convertible.jpg" />
+    <None Remove="Assets\Icons\Cars\2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2015-03-03_Geneva_Motor_Show_3305_%28cropped%29.JPG" />
+    <None Remove="Assets\Icons\Cars\2015-03-03_Geneva_Motor_Show_5826.jpg" />
+    <None Remove="Assets\Icons\Cars\2015-2017_Mercedes-AMG_GT_%28C_190%29_S_coupe_%282017-07-15%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2015_BMW_528i_%285_Series,_F10%29_M_Sport_4-door_sedan_%2819119409664%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2015_Koenigsegg_Agera_N_%2819886243212%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2015_Mercedes-Benz_C_200_%28W_205%29_sedan_%282015-07-03%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2015_Volkswagen_Scirocco_GT_BlueMotion_Tech_2.0.jpg" />
+    <None Remove="Assets\Icons\Cars\2016-03-01_Geneva_Motor_Show_1167.jpg" />
+    <None Remove="Assets\Icons\Cars\2016-03-01_Geneva_Motor_Show_1354.jpg" />
+    <None Remove="Assets\Icons\Cars\2016-Ferrari-F12tdf-007-2000-2048x1365.jpg" />
+    <None Remove="Assets\Icons\Cars\2016_BMW_428i_%28F32%29_Luxury_Line_coupe_%282018-08-06%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2016_Skoda_Octavia_SE_L_TSi_Estate_1.4_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2017-03-07_Geneva_Motor_Show_1205.jpg" />
+    <None Remove="Assets\Icons\Cars\2017-04-02_Mitsubishi_Lancer_Evolution_X_MR_SST_14_%282%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2017_Alfa_Romeo_Giulia_V6_Biturbo_Quadrifoglio_2.9.jpg" />
+    <None Remove="Assets\Icons\Cars\2017_BMW_740d_XDRIVE_M_Sport_Automatic_3.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2017_BMW_M3_%28F80%29_sedan_%282018-08-31%29_01.jpg" />
+    <None Remove="Assets\Icons\Cars\2017_Land_Rover_Range_Rover_Velar_First_Edition_D3_3.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018-Ferrari-812-Superfast-019-1536-1.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Aston_Martin_DB11_V8_Automatic_4.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Aston_Martin_DBS_Superleggera_V12_Automatic_5.2_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Audi_A6_TDi_Quattro_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Ford_GT.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Jaguar_I-Pace_EV400_AWD_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Skoda_Fabia_SE_MPi_1.0.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Skoda_Karoq_Edition_TDi_SCR_4X4_2.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2018_Skoda_Superb_SE_L_Executive_TSi_1.4.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_Audi_A7_3.0_quattro_Premium_Plus_in_Brilliant_Black,_front_left.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_BMW_318d_SE_Automatic_2.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_BMW_840d_xDrive_Automatic_3.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_Chevrolet_Camaro_base,_front_11.9.19.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_Ferrari_812_Superfast_S-A_6.5.jpg" />
+    <None Remove="Assets\Icons\Cars\2019_Porsche_911_Carrera_S_S-A_3.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2020-Ferrari-F8-Spider-008-1536.jpg" />
+    <None Remove="Assets\Icons\Cars\2020_BMW_420i_Sport_Automatic_2.0.jpg" />
+    <None Remove="Assets\Icons\Cars\2020_Jaguar_F-Type_575_coupe_Auto_Zuerich_2021_IMG_0180.jpg" />
+    <None Remove="Assets\Icons\Cars\2020_Mercedes-Benz_GLE_350_4Matic_front_6.16.19.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_Cadillac_Escalade_ESV_4WD_Premium_Luxury_in_Satin_Steel_Metallic,_front_right.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_Dodge_Durango_GT_%28facelift%29,_front_6.21.22.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_McLaren_Artura_%281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_Mercedes-AMG_GT_Black_Series.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_Rolls_Royce_Ghost_V12_4x4_Auto.jpg" />
+    <None Remove="Assets\Icons\Cars\2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg" />
+    <None Remove="Assets\Icons\Cars\2022-Ferrari-Daytona-SP3-001-1536.jpg" />
+    <None Remove="Assets\Icons\Cars\2022_Alpina_B4.jpg" />
+    <None Remove="Assets\Icons\Cars\2022_Koenigsegg_CC850.jpg" />
+    <None Remove="Assets\Icons\Cars\2022_Renault_ArkanaRenault_Arkana_Iconic_E-Tech_HEV_Auto.jpg" />
+    <None Remove="Assets\Icons\Cars\2022_Toyota_GR86_Premium_in_Halo,_Front_Right,_04-10-2022.jpg" />
+    <None Remove="Assets\Icons\Cars\2023_Honda_Civic_Type_R_3_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2023_McLaren_750S_1.jpg" />
+    <None Remove="Assets\Icons\Cars\2023_Mercedes_Maybach_S580_in_Obsidian_Black_and_High-Tech_Silver,_front_left_side.jpg" />
+    <None Remove="Assets\Icons\Cars\2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_%28DSC02285%29.jpg" />
+    <None Remove="Assets\Icons\Cars\2024_Ford_Mustang_Dark_Horse.jpg" />
+    <None Remove="Assets\Icons\Cars\2024_Mercedes-Maybach_GLS_600_SUV.png" />
+    <None Remove="Assets\Icons\Cars\2025-Ferrari-296-770x506.png" />
+    <None Remove="Assets\Icons\Cars\2025-Ferrari-Roma-770x513.jpg" />
+    <None Remove="Assets\Icons\Cars\2025-Ferrari-SF90-770x488.png" />
+    <None Remove="Assets\Icons\Cars\2025_Honda_Civic_Sport_Touring_Hybrid_in_Blue_Lagoon,_front_left,_2024-09-24.jpg" />
+    <None Remove="Assets\Icons\Cars\220px-KTM_X-BOW_GT4.jpg" />
+    <None Remove="Assets\Icons\Cars\2257144.jpg" />
+    <None Remove="Assets\Icons\Cars\24_Dodge_Charger_Daytona_RT.jpg" />
+    <None Remove="Assets\Icons\Cars\280px-Regera_%28light_gradient%29.png" />
+    <None Remove="Assets\Icons\Cars\38-ferrari-488-pista-spider-2019-fd-otr-front.jpg" />
+    <None Remove="Assets\Icons\Cars\Alfa_Romeo_33_Stradale_-_01.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_B12_%28E38%29_%2816531947875%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_B12_5.0_%28E31%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_B3_at_Legendy_2018_in_Prague_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_B3_BiTurbo.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_B5_Biturbo_Touring_IMG_0752.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpina_Roadster_3.4S.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpine-renault-a110-berlinette.jpg" />
+    <None Remove="Assets\Icons\Cars\Alpine_Vision_Geneva_Motor_Show_2016.jpg" />
+    <None Remove="Assets\Icons\Cars\Apollo_Intensa_Emozione_%28IE%29_Golden_Dragon,_front_2.1.20.jpg" />
+    <None Remove="Assets\Icons\Cars\Aston_Martin_DB12_1X7A1921.jpg" />
+    <None Remove="Assets\Icons\Cars\Aston_Martin_DB9_-_Birmingham_-_2005-10-14_%282%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Aston_Martin_DB9_coupe_03_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Aston_Martin_Vanquish_%282024%29_Auto_Zuerich_2024_DSC_6828.jpg" />
+    <None Remove="Assets\Icons\Cars\Aston_Martin_Vulcan_%2827701406352%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Audi_A6_C6_3.2.jpg" />
+    <None Remove="Assets\Icons\Cars\Audi_RS6_-_Flickr_-_Alexandre_Prévot_%281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Audi_s3_front.jpg" />
+    <None Remove="Assets\Icons\Cars\Audi_S8_%28D4,_Facelift%29_–_Frontansicht,_16._August_2014,_Essen.jpg" />
+    <None Remove="Assets\Icons\Cars\B6クーペ.JPG" />
+    <None Remove="Assets\Icons\Cars\B7Limousine.JPG" />
+    <None Remove="Assets\Icons\Cars\Bentley_Continental_GTC_Top_Marques_2019_IMG_1078.jpg" />
+    <None Remove="Assets\Icons\Cars\Bentley_Continental_GT_%28II%29_–_Frontansicht_%283%29,_30._August_2011,_Düsseldorf.jpg" />
+    <None Remove="Assets\Icons\Cars\BMW_Alpina_B3_%287150475857%29.jpg" />
+    <None Remove="Assets\Icons\Cars\BMW_Alpina_B5_Touring_F11_%2810350071153%29.jpg" />
+    <None Remove="Assets\Icons\Cars\BMW_Alpina_B7_Biturbo_G12.jpg" />
+    <None Remove="Assets\Icons\Cars\BRRacing_Porsche_997_GT3_front.jpg" />
+    <None Remove="Assets\Icons\Cars\BSRt9J.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Bolide_Milano.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Centodieci_side.png" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Chiron_%2836559710091%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Divo,_Paris_Motor_Show_2018,_IMG_0708.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_La_Voiture_Noire,_GIMS_2019,_Le_Grand-Saconnex_%28GIMS0950%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Mistral_at_Quail_2023_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Tourbillon.jpg" />
+    <None Remove="Assets\Icons\Cars\Bugatti_Veyron_16.4_–_Frontansicht_%282%29,_5._April_2012,_Düsseldorf.jpg" />
+    <None Remove="Assets\Icons\Cars\Cadillac_ATS-L_China_2016-04-04.jpg" />
+    <None Remove="Assets\Icons\Cars\Cadillac_ATS_in_Red_at_NAIAS_2012.jpg" />
+    <None Remove="Assets\Icons\Cars\Cadillac_XTS_01_China_2014-04-14.jpg" />
+    <None Remove="Assets\Icons\Cars\Cars_-_Hennessey_Venom_650R.jpg" />
+    <None Remove="Assets\Icons\Cars\Chevrolet_Camaro_-_Flickr_-_Alexandre_Prévot_%2816%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Chevrolet_Corvette_C8_IAA_2021_1X7A0156.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia1100s.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_1300.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_1410.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_Double_Cab.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_Logan_1.4_mpi.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_Logan_front_20080917.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_Nova_GT_-_Front-Left_with_opened_doors.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_Sandero_1.5_dCi.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_SupeRNova_Rapsodie_by_Alofok %281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Dacia_SupeRNova_Rapsodie_by_Alofok.jpg" />
+    <None Remove="Assets\Icons\Cars\Dodge_Challenger_2006_PBCd%27E.jpg" />
+    <None Remove="Assets\Icons\Cars\Dodge_Challenger_SRT8_%282015%29_Hirschaid-20220709-RM-120221.jpg" />
+    <None Remove="Assets\Icons\Cars\Dodge_Viper_RT-10_1X7A6634.jpg" />
+    <None Remove="Assets\Icons\Cars\E63_Alpina_B6_S.jpg" />
+    <None Remove="Assets\Icons\Cars\ER34_-_25GT_2door_Front_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\FairladyZ34.jpg" />
+    <None Remove="Assets\Icons\Cars\Ferrari-250-GT-Drogo-Berlinetta-Breadvan-293x293.jpg" />
+    <None Remove="Assets\Icons\Cars\Ferrari-458-MM-Speciale-1-293x293.png" />
+    <None Remove="Assets\Icons\Cars\Ferrari-Daytona-SP3-770x504.png" />
+    <None Remove="Assets\Icons\Cars\Ferrari-F40.jpg" />
+    <None Remove="Assets\Icons\Cars\Ferrari-F50--293x293.jpg" />
+    <None Remove="Assets\Icons\Cars\Ferrari-Portofino.jpg" />
+    <None Remove="Assets\Icons\Cars\Ferrari-Purosangue--770x567.png" />
+    <None Remove="Assets\Icons\Cars\Ferrari-SP-Arya-293x293.jpg" />
+    <None Remove="Assets\Icons\Cars\ferrari_296_gtb_2022_4k_8k-HD-2048x1152.jpg" />
+    <None Remove="Assets\Icons\Cars\Ford_GT_Carmel.jpg" />
+    <None Remove="Assets\Icons\Cars\Ford_Mustang_serial_number_one.jpg" />
+    <None Remove="Assets\Icons\Cars\Ford_Mustang_VII_Sindelfingen_2024_IMG_9164.jpg" />
+    <None Remove="Assets\Icons\Cars\FoS20162016_0624_132727AA_%2827886350045%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Geneva_International_Motor_Show_2018,_Le_Grand-Saconnex_%281X7A0083%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Geneva_International_Motor_Show_2018,_Le_Grand-Saconnex_%281X7A1872%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Geneva_MotorShow_2013_-_KTM_X-bow_GT_blue_front.jpg" />
+    <None Remove="Assets\Icons\Cars\Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg" />
+    <None Remove="Assets\Icons\Cars\GIMS_2019,_Le_Grand-Saconnex_%28GIMS0696%29.jpg" />
+    <None Remove="Assets\Icons\Cars\GIMS_2019,_Le_Grand-Saconnex_%28GIMS0833%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Gray_Lamborghini_LP640.jpg" />
+    <None Remove="Assets\Icons\Cars\Hennessey_Venom_GT_%2816040233465%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Honda,_Paris_Motor_Show_2018,_Paris_%281Y7A1625%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Honda_Civic_e-HEV_Sport_%28XI%29_–_f_30062024.jpg" />
+    <None Remove="Assets\Icons\Cars\Honda_NSX_reg_1991_2977_cc.jpg" />
+    <None Remove="Assets\Icons\Cars\iUVeVuE.jpg" />
+    <None Remove="Assets\Icons\Cars\Jaguar_F-Type_Coupé_%2851883664211%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Jaguar_XE_20t_Prestige_X760_Fuji_White_%283%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Jaguar_XF_30D_X260_white_%281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Koenigsegg_CCX_-_Flickr_-_Alexandre_Prévot_%2811%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Koenigsegg_Gemera.jpg" />
+    <None Remove="Assets\Icons\Cars\KTM_X-BOW_R_%28RGB%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Lada_Niva_front_20080228.jpg" />
+    <None Remove="Assets\Icons\Cars\LamborghiniDiabloSV.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Aventador_LP_700-4_-_Flickr_-_Alexandre_Prévot_%282%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Countach_LP500S.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Countach_LPI_800-4_IMG_8008.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Essenza_SCV12_001.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Reventón_%288675042970%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Revuelto_DSC_6985_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Temerario.jpg" />
+    <None Remove="Assets\Icons\Cars\Lamborghini_Urus_SE_001.jpg" />
+    <None Remove="Assets\Icons\Cars\Maserati_Alfieri_al_Salone_dell%27automobile_di_Ginevra_2014.jpeg.jpeg" />
+    <None Remove="Assets\Icons\Cars\Maserati_Granturismo_-_Flickr_-_Alexandre_Prévot_%289%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Maserati_GranTurismo_Trofeo_IMG_7283.jpg" />
+    <None Remove="Assets\Icons\Cars\Maserati_MC20_IAA_2021_1X7A0087.jpg" />
+    <None Remove="Assets\Icons\Cars\Maserati_Quattroporte_-_Flickr_-_Alexandre_Prévot_%2830%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Maserati_Quattroporte_VI_Trofeo_Retro_Classics_2024_IMG_9027.jpg" />
+    <None Remove="Assets\Icons\Cars\Maybach_62_near_Astor_pl.jpg" />
+    <None Remove="Assets\Icons\Cars\Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Mazda_RX-8.jpg" />
+    <None Remove="Assets\Icons\Cars\MC12._%285234528513%29.jpg" />
+    <None Remove="Assets\Icons\Cars\McLaren_GTS,_Frankfurt_am_Main_%28P1032580%29.jpg" />
+    <None Remove="Assets\Icons\Cars\McLaren_Senna_IMG_3279.jpg" />
+    <None Remove="Assets\Icons\Cars\McLaren_Speedtail_Genf_2019_1Y7A5636.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-AMG_C192_1X7A0832.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-AMG_E_53_%28W213%29_FL_IMG_3965.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-AMG_One_at_the_2022_Goodwood_Festival_of_Speed.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-Benz_SLR_McLaren_%288615973055%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-Benz_W206_IMG_5796.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-Benz_W214_IAA_2023_1X7A0284.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-Benz_W223_IMG_6663.jpg" />
+    <None Remove="Assets\Icons\Cars\Mercedes-Benz_X167_IMG_5259.jpg" />
+    <None Remove="Assets\Icons\Cars\Mitsubishi_Eclipse_front_20080801.jpg" />
+    <None Remove="Assets\Icons\Cars\Nio_EP9.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_FAIRLADY_Z_%28Z34%29_Version_ST,_2022,_left-front.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_GT-R_MY2017_%281%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_Skyline_GT-R_R34_V_Spec_II.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_Skyline_R32_GT-R_001.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_Skyline_R33_GT-R_001.jpg" />
+    <None Remove="Assets\Icons\Cars\Nissan_Skyline_R34_GT-R_Nür_001.jpg" />
+    <None Remove="Assets\Icons\Cars\Orange_Enzo_Ferrari_%287191948164%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Pagani_Utopia.jpg" />
+    <None Remove="Assets\Icons\Cars\Pagani_Zonda_C12_%27chassis_001%27_Genf_2019_1Y7A5539.jpg" />
+    <None Remove="Assets\Icons\Cars\Pagani_Zonda_R_-_Flickr_-_The_Car_Spy_%281%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Paris_-_Mondial_de_l%27automobile_-_Rolls_Royce_-_Ghost_-_01.jpg" />
+    <None Remove="Assets\Icons\Cars\Peugeot_406_front_20080730.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_718_Boxster_Spyder_IMG_2961.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_911_GT1-96_front-left_Porsche_Museum.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_918_Spyder_IAA_2013.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_991_at_European_Motor_Show_Brussels_2018_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_%288%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_%28July_2008%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_5_E-Tech_Electric_DSC_7279.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Alpine_A110-50_%2801%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Alpine_A310.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Clio_III_20090527_front.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Clio_TCe_90_Luxe_%28IV%29_–_Frontansicht,_17._Mai_2013,_Münster.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Espace_Edition_25th_dCi_175_%28IV,_Facelift%29_–_Frontansicht,_17._Juli_2011,_Ratingen.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Espace_front_20080215.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Espace_Intens_ENERGY_dCi_160_EDC_%28V%29_–_Frontansicht,_2._Mai_2015,_Düsseldorf.jpg" />
+    <None Remove="Assets\Icons\Cars\Renault_Espace_VI_Automesse_Ludwigsburg_2024_IMG_1558.jpg" />
+    <None Remove="Assets\Icons\Cars\Rimac_C_Two_2018_Geneva_Motor_Show.jpg" />
+    <None Remove="Assets\Icons\Cars\Rimac_Nevera.jpg" />
+    <None Remove="Assets\Icons\Cars\Rimconc1.jpg" />
+    <None Remove="Assets\Icons\Cars\Rolls-Royce_Cullinan_Top_Marques_2019_IMG_1058.jpg" />
+    <None Remove="Assets\Icons\Cars\Rolls-Royce_Phantom_VIII_Series_II_Monteverde_Black_Peony_Pink_%285%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Rolls-Royce_Wraith,_GIMS_2019,_Le_Grand-Saconnex_%28GIMS0561%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Rolls_Royce_Dawn_2016_%2831214258855%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Rolls_Royce_Phantom_2015_%2822719825307%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Rt12.jpg" />
+    <None Remove="Assets\Icons\Cars\Ruf_RGT._%284301007524%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Fabia_front_20080612.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Fabia_IV_IMG_5307.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Fabia_vRS_%287914423470%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Kamiq_%282019%29_Monte_Carlo_1X7A6165.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Kodiaq_Vienna_19-20_IMG_2247.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Octavia_II_front_20100923.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Octavia_I_front_20080213.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Rapid_2021_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Skoda_Superb_blau.jpg" />
+    <None Remove="Assets\Icons\Cars\Skyline2000gt-x.jpg" />
+    <None Remove="Assets\Icons\Cars\SLY_5735_%2815649834087%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Solenza_winter.jpg" />
+    <None Remove="Assets\Icons\Cars\Subaru_Impreza_GT_%2839720984685%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Suzuki_Cappuccino_front_20090514.jpg" />
+    <None Remove="Assets\Icons\Cars\Touring-Berlinetta-Lusso-293x293.jpg" />
+    <None Remove="Assets\Icons\Cars\Toyota-Celica-GT.jpg" />
+    <None Remove="Assets\Icons\Cars\Toyota_GT86_–_Frontansicht,_17._September_2012,_Düsseldorf.jpg" />
+    <None Remove="Assets\Icons\Cars\Toyota_Supra_Monrepos_2019_IMG_1898.jpg" />
+    <None Remove="Assets\Icons\Cars\Toyota_Yaris_Cross_Hybrid_%28XP210%29_1X7A1846.jpg" />
+    <None Remove="Assets\Icons\Cars\Volkswagen_Arteon_%282020%29_1X7A0291.jpg" />
+    <None Remove="Assets\Icons\Cars\VW_Käfer_Baujahr_1966.jpg" />
+    <None Remove="Assets\Icons\Cars\Yellow_Lamborghini_Gallardo_edit.jpg" />
+    <None Remove="Assets\Icons\Cars\__14_Fiat-Chrysler_SRT_Viper_GTS_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Cars\Škoda_Kodiaq_II_IMG_9433.jpg" />
+    <None Remove="Assets\Icons\Cars\Škoda_Superb_IV_Combi_Automesse_Ludwigsburg_2024_IMG_1400.jpg" />
+    <None Remove="Assets\Icons\Cars\Škoda_Yeti_diesel_Greenline_registered_July_2014_%28ie_post_2013_facelift%29_1598cc.jpg" />
+    <None Remove="Assets\Icons\Cars\Майбах_в_Алма-Ате.jpg" />
     <None Remove="Assets\Icons\F1 Cars\1969 Ferrari.png" />
     <None Remove="Assets\Icons\F1 Cars\1970 Tyrrell.png" />
     <None Remove="Assets\Icons\F1 Cars\1973 Tyrrell.png" />
@@ -294,6 +703,366 @@
     <None Remove="Assets\Icons\F1 Cars\Lotus 2015.png" />
     <None Remove="Assets\Icons\F1 Cars\Renault 2001.png" />
     <None Remove="Assets\Icons\F1 Cars\Renault 2010.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Alexander Albon.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Antonio Giovinnazi.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Carlos Sainz.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Charles Leclerc.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Daniel Ricciardo.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Esteban Ocon.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Felipe Massa.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Fernando Alonso.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Franco Colapinto.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Gabriel Bortoletto.png" />
+    <None Remove="Assets\Icons\F1 Drivers\George Russel.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Isack Hadjar.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Jask Doohan.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Jenson Button.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Kamui Kobaiashi.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Kevin Magnussen.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Kimi Antonelli.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Kimi.jpg" />
+    <None Remove="Assets\Icons\F1 Drivers\Lance Stroll.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Lando Norris.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Lewis Hamilton.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Liam Lawson.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Logan Sargeant.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Mark Webber.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Max Verstappen.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Michael Schumacher.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Mick Schumacher.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Mika Hakkinen.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Nicholas Latifi.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Nico Hulkenberg.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Nico Rosberg.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Nkita Mazepin.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Nyck De Vries.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Oliver Bearman.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Oscar Piastri.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Pastor Maldonado.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Pierre Gasl.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Robert Kubica.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Romain Grojsean.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Sergio Perez.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Valterri Bottas.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Yuki Tsunoda.png" />
+    <None Remove="Assets\Icons\F1 Drivers\Zhou Guanyu.png" />
+    <None Remove="Assets\Icons\F1 Logos\Alfa_Romeo_Racing_logo.png" />
+    <None Remove="Assets\Icons\F1 Logos\alpine-f1-team-1.png" />
+    <None Remove="Assets\Icons\F1 Logos\Atlassian_Williams_Racing_Logo-scaled.jpg" />
+    <None Remove="Assets\Icons\F1 Logos\Benetton_Formula_logo.jpg" />
+    <None Remove="Assets\Icons\F1 Logos\Brawn.png" />
+    <None Remove="Assets\Icons\F1 Logos\BWT_Racing_Point_Logo.png" />
+    <None Remove="Assets\Icons\F1 Logos\Caterham-Logo_2690930.jpg" />
+    <None Remove="Assets\Icons\F1 Logos\F6SzatG3_400x400.png" />
+    <None Remove="Assets\Icons\F1 Logos\Honda.png" />
+    <None Remove="Assets\Icons\F1 Logos\logo-force-india-f1-team-2011.png" />
+    <None Remove="Assets\Icons\F1 Logos\Logo_Aston_Martin_F1_Team.jpg" />
+    <None Remove="Assets\Icons\F1 Logos\Logo_Toro_Rosso.jpg" />
+    <None Remove="Assets\Icons\F1 Logos\Lotus_F1_Team_logo.png" />
+    <None Remove="Assets\Icons\F1 Logos\Marussia_F1.png" />
+    <None Remove="Assets\Icons\F1 Logos\Mclaren.png" />
+    <None Remove="Assets\Icons\F1 Logos\Mercedes-F1.png" />
+    <None Remove="Assets\Icons\F1 Logos\Redbull Racing.png" />
+    <None Remove="Assets\Icons\F1 Logos\Renault_2023.png" />
+    <None Remove="Assets\Icons\F1 Logos\Sauber_F1_Team_logo.svg.png" />
+    <None Remove="Assets\Icons\F1 Logos\Scuderia Ferrari HP.png" />
+    <None Remove="Assets\Icons\F1 Logos\Scuderia_Alpha-Tauri.svg.png" />
+    <None Remove="Assets\Icons\F1 Logos\toyota-f1.png" />
+    <None Remove="Assets\Icons\F1 Logos\uuQxV8xeSFh3PpnuzAyKKV.png" />
+    <None Remove="Assets\Icons\F1 Logos\VCARB_F1_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\ACF_Fiorentina_-_logo_%28Italy,_2022%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\ACS_Sepsi_OSK_Sfantu_Gheorghe_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Arsenal_FC.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Aston_Villa_FC_new_crest.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\Astra_Giurgiu_logo.png" />
+    <None Remove="Assets\Icons\Football Logos\AS_Roma_logo_%282017%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\AtalantaBC.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Atletico_Madrid_Logo_2024.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Bologna_F.C._1909_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Borussia_Dortmund_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Cagliari_Calcio_1920.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Cfmuniversitateacluj.png" />
+    <None Remove="Assets\Icons\Football Logos\CFR_Cluj_badge.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Chelsea_FC.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Club_Athletic_Bilbao_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Crystal_Palace_FC_logo_%282022%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\CS_Universitatea_Craiova_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Everton_FC_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Fcsb-logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Arges_Pitesti_badge.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Barcelona_%28crest%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Bayern_München_logo_%282024%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Dinamo_Bucuresti_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Farul_Constanța_logo.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Internazionale_Milano_2021.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Rapid_Bucuresti_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Southampton.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_U_Craiova_1948_logo.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Viitorul_2017_badge.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\FC_Voluntari_logo.png" />
+    <None Remove="Assets\Icons\Football Logos\Fulham_FC_%28shield%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Genoa_CFC_crest.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Getafe_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Inter_Miami_CF_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Juventus_FC_-_logo_black_%28Italy,_2020%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Leicester_City_crest.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\Lille_OSC_2018_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Liverpool_FC.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\Logo_FC_Nantes_%28avec_fond%29_-_2019.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Logo_of_AC_Milan.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Manchester_City_FC_badge.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\Manchester_United_FC_crest.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Newcastle_United_Logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Nottingham_Forest_F.C._logo.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\OGC_Nice_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Olympique_Lyonnais_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Olympique_Marseille_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Paris_Saint-Germain_F.C..svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Petrolul_Ploiesti_logo.png" />
+    <None Remove="Assets\Icons\Football Logos\RB_Leipzig_2014_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\RCD_Espanyol_crest.svg.webp" />
+    <None Remove="Assets\Icons\Football Logos\RC_Celta_de_Vigo_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Real_betis_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Real_Madrid_CF.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Real_Sociedad_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Real_Valladolid_CF_crest.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\S.S._Lazio_badge.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Sevilla_FC_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\SSC_Napoli_2024_%28deep_blue_navy%29.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Torino_FC_Logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Tottenham_Hotspur.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\UD_Las_Palmas_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\UTA_Arad_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Valenciacf.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\Villarreal_CF_logo-en.svg.png" />
+    <None Remove="Assets\Icons\Football Logos\West_Ham_United_FC_logo.svg.png" />
+    <None Remove="Assets\Icons\Football Players\12-06-05-aut-rom-freundschaftsspiel-269.jpg" />
+    <None Remove="Assets\Icons\Football Players\800px-George_Puscas_%28cropped%29_-_Sweden_vs_Romania_23_March_2019.jpg" />
+    <None Remove="Assets\Icons\Football Players\Adrian_Mutu_2.jpg" />
+    <None Remove="Assets\Icons\Football Players\Algérie-Roumanie_-_20140604_-_Răzvan_Raț.jpg" />
+    <None Remove="Assets\Icons\Football Players\Algérie-Roumanie_-_20140604_-_Vlad_Chiricheș.jpg" />
+    <None Remove="Assets\Icons\Football Players\Antoine Griezmann.jpg" />
+    <None Remove="Assets\Icons\Football Players\Bellingham.jpg" />
+    <None Remove="Assets\Icons\Football Players\Benzema.jpg" />
+    <None Remove="Assets\Icons\Football Players\Ciprian_Marica_2011-08-03.jpg" />
+    <None Remove="Assets\Icons\Football Players\Ciro Immobile.jpg" />
+    <None Remove="Assets\Icons\Football Players\CR7.png" />
+    <None Remove="Assets\Icons\Football Players\Dan_Petrescu_%28cropped%29_-_Chelsea_Legends_1_Inter_Forever_4_%2827457025407%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\David Beckham.jpg" />
+    <None Remove="Assets\Icons\Football Players\Denis_Alibec_Astra_2015.png" />
+    <None Remove="Assets\Icons\Football Players\Dennis_Man_-_23_November_2017.jpg" />
+    <None Remove="Assets\Icons\Football Players\Didier Drogba.jpg" />
+    <None Remove="Assets\Icons\Football Players\Eden Hazard.jpg" />
+    <None Remove="Assets\Icons\Football Players\Erling Haaland.png" />
+    <None Remove="Assets\Icons\Football Players\Florinel_Coman_training_for_FCSB_-_3_July_2023_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Florin_Niță_-_26_May_2018_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Francesco Totti.jpg" />
+    <None Remove="Assets\Icons\Football Players\Gabriel_Tamas_-_Petrolul_Ploiesti_vs_Rapid_Bucuresti,_13_August_2022.jpg" />
+    <None Remove="Assets\Icons\Football Players\Gareth Bale.png" />
+    <None Remove="Assets\Icons\Football Players\gheorghe-hagi-football-player-fc-fcsb-galatasaray-s-k-football.jpg" />
+    <None Remove="Assets\Icons\Football Players\Gianluigi_Buffon_%2831784615942%29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Giroud.jpg" />
+    <None Remove="Assets\Icons\Football Players\Harry Kane.png" />
+    <None Remove="Assets\Icons\Football Players\Havi.jpg" />
+    <None Remove="Assets\Icons\Football Players\Ianis Hagi.jpg" />
+    <None Remove="Assets\Icons\Football Players\Jack Grealish.jpg" />
+    <None Remove="Assets\Icons\Football Players\Kante.jpg" />
+    <None Remove="Assets\Icons\Football Players\Kevin-De-Bruyne-Background-PNG-Image.png" />
+    <None Remove="Assets\Icons\Football Players\Lamine Yamal.jpg" />
+    <None Remove="Assets\Icons\Football Players\lewandowski.jpg" />
+    <None Remove="Assets\Icons\Football Players\Luis-Suarez.png" />
+    <None Remove="Assets\Icons\Football Players\Luka Modric.jpg" />
+    <None Remove="Assets\Icons\Football Players\Lukaku.jpg" />
+    <None Remove="Assets\Icons\Football Players\Maradona.jpg" />
+    <None Remove="Assets\Icons\Football Players\Mbappe.jpg" />
+    <None Remove="Assets\Icons\Football Players\Messi.jpg" />
+    <None Remove="Assets\Icons\Football Players\Mihai_Pintilii_-_3_July_2023_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Mohamed-Salah-Transparent-Images.png" />
+    <None Remove="Assets\Icons\Football Players\Neymar.jpg" />
+    <None Remove="Assets\Icons\Football Players\Nicholas.jpg" />
+    <None Remove="Assets\Icons\Football Players\NIG-ARG_%285%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\n_golo_kante.png" />
+    <None Remove="Assets\Icons\Football Players\Octavian_Popescu_-_CFR_Cluj_vs_FCSB,_17_April_2022_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Radu_Dragusin_-_Frosinone_vs_Genoa_14_May_2023.jpg" />
+    <None Remove="Assets\Icons\Football Players\Raheem Sterling.jpg" />
+    <None Remove="Assets\Icons\Football Players\Razvan_Marin_%28cropped%29_-_Sweden_vs_Romaina_23_March_2019.jpg" />
+    <None Remove="Assets\Icons\Football Players\Rodri.jpg" />
+    <None Remove="Assets\Icons\Football Players\Ronaldinho.png" />
+    <None Remove="Assets\Icons\Football Players\Rostov-Anderleht_%283%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\ruben-dias.png" />
+    <None Remove="Assets\Icons\Football Players\Saka.jpg" />
+    <None Remove="Assets\Icons\Football Players\Sergio Ramos.jpg" />
+    <None Remove="Assets\Icons\Football Players\Son Heung-min.jpg" />
+    <None Remove="Assets\Icons\Football Players\thierry-henry-arsenal-f-c-premier-league-france-national-football-team-fc-barcelona-arsenal-f-c.jpg" />
+    <None Remove="Assets\Icons\Football Players\Thomas Muller.jpg" />
+    <None Remove="Assets\Icons\Football Players\Toni Kroos.jpg" />
+    <None Remove="Assets\Icons\Football Players\UEFA_EURO_qualifiers_Sweden_vs_Romaina_20190323_29_%28cropped%29.jpg" />
+    <None Remove="Assets\Icons\Football Players\Vini Jr.jpg" />
+    <None Remove="Assets\Icons\Football Players\Virgil van Dijk.jpg" />
+    <None Remove="Assets\Icons\Football Players\Zinedine Zidane.jpg" />
+    <None Remove="Assets\Icons\Football Players\zlatan-ibrahimovic-png-11.png" />
+    <None Remove="Assets\Icons\Music Albums\-and-justice-for-all-albums-photo-1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\0e90e07471b14a0da74084a477e0305c.webp" />
+    <None Remove="Assets\Icons\Music Albums\1665396-photo-u-404389255.jpg" />
+    <None Remove="Assets\Icons\Music Albums\50_Cent_-_The_Massacre.png" />
+    <None Remove="Assets\Icons\Music Albums\808s_&amp;_Heartbreak.png" />
+    <None Remove="Assets\Icons\Music Albums\Album_Cover_of_Travis_Scott%27s_Day_Before_Rodeo.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Alleyezonme.jpg" />
+    <None Remove="Assets\Icons\Music Albums\ASAP_Rocky_Testing.jpg" />
+    <None Remove="Assets\Icons\Music Albums\AtLongLastASAPCover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\BornToDieAlbumCover.png" />
+    <None Remove="Assets\Icons\Music Albums\BornToDieTheParadiseEditionCover.png" />
+    <None Remove="Assets\Icons\Music Albums\californication-albums-photo-u1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Call_Me_If_You_Get_Lost_album_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Culture_II.png" />
+    <None Remove="Assets\Icons\Music Albums\Curtis_%2850_Cent_album%29.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Damn_Collectors_Edition_cover.png" />
+    <None Remove="Assets\Icons\Music Albums\dark-side-of-the-moon-albums-photo-1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Dr.DreTheChronic.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Certified_Lover_Boy.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Dark_Lane_Demo_Tapes.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_For_All_The_Dogs.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_If_You%27re_Reading_This_It%27s_Too_Late.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_More_Life_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Nothing_Was_the_Same_cover.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Scary_Hours_2.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Take_Care_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Thank_Me_Later_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_-_Views_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_and_21_Savage_-_Her_Loss.png" />
+    <None Remove="Assets\Icons\Music Albums\Drake_and_Future_-_What_a_Time_to_Be_Alive_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Drake_Care_Package_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\DrDre-2001.jpg" />
+    <None Remove="Assets\Icons\Music Albums\DS2_by_Future.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Eminem_-_Music_to_Be_Murdered_By.png" />
+    <None Remove="Assets\Icons\Music Albums\Eminem_-_The_Death_of_Slim_Shady_%28Coup_de_Grâce%29.png" />
+    <None Remove="Assets\Icons\Music Albums\Eminem_-_The_Slim_Shady_LP_CD_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Encore_%28Eminem_album%29_coverart.jpg" />
+    <None Remove="Assets\Icons\Music Albums\EVOL_by_Future_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\f3aa2afa43dc94eb79562be7a23ce876.png" />
+    <None Remove="Assets\Icons\Music Albums\Future_-_High_Off_Life.png" />
+    <None Remove="Assets\Icons\Music Albums\Future_and_Metro_Boomin_-_We_Don%27t_Trust_You.png" />
+    <None Remove="Assets\Icons\Music Albums\Future_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Get_Rich_Or_Die_Tryin%27.jpg" />
+    <None Remove="Assets\Icons\Music Albums\HNDRXX_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Honestly,_Nevermind_-_Drake.png" />
+    <None Remove="Assets\Icons\Music Albums\Igor_-_Tyler,_the_Creator.jpg" />
+    <None Remove="Assets\Icons\Music Albums\illmatic-albums-photo-1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\I_Never_Liked_You_%28Future%29.png" />
+    <None Remove="Assets\Icons\Music Albums\JACKBOYS_-_Album_Cover_by_JACKBOYS_&amp;_Travis_Scott,_December_27,_2019.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Jack_Harlow_-_Come_Home_the_Kids_Miss_You.png" />
+    <None Remove="Assets\Icons\Music Albums\Jack_Harlow_-_Jackman.png" />
+    <None Remove="Assets\Icons\Music Albums\Jack_Harlow_Thats_What_They_All_Say.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Justin 1.png" />
+    <None Remove="Assets\Icons\Music Albums\Justin 2.png" />
+    <None Remove="Assets\Icons\Music Albums\Kanyewest_collegedropout.jpg" />
+    <None Remove="Assets\Icons\Music Albums\KendrickLamarGKMCDeluxe.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Kendrick_Lamar_-_GNX.png" />
+    <None Remove="Assets\Icons\Music Albums\Kendrick_Lamar_-_Mr._Morale_&amp;_the_Big_Steppers.png" />
+    <None Remove="Assets\Icons\Music Albums\Kendrick_Lamar_-_To_Pimp_a_Butterfly.png" />
+    <None Remove="Assets\Icons\Music Albums\Kids_See_Ghosts_Cover.png" />
+    <None Remove="Assets\Icons\Music Albums\kill-em-all-disc-2-albums-photo-1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Lana_Del_Rey_-_Blue_Banisters_cover.png" />
+    <None Remove="Assets\Icons\Music Albums\Lana_Del_Rey_-_Did_You_Know_That_There%27s_a_Tunnel_Under_Ocean_Blvd.png" />
+    <None Remove="Assets\Icons\Music Albums\Lana_Del_Rey_-_Honeymoon_%28Official_Album_Cover%29.png" />
+    <None Remove="Assets\Icons\Music Albums\Lana_Del_Rey_-_Lust_for_Life.png" />
+    <None Remove="Assets\Icons\Music Albums\Lana_Del_Rey_-_Norman_Fucking_Rockwell.png" />
+    <None Remove="Assets\Icons\Music Albums\Late_registration_cd_cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Live_Love_ASAP.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Long-live-asap.jpg" />
+    <None Remove="Assets\Icons\Music Albums\master-of-puppets-albums-photo-u3.jpg" />
+    <None Remove="Assets\Icons\Music Albums\MigosCulture.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Migos_-_Culture_III.png" />
+    <None Remove="Assets\Icons\Music Albums\MyDearMelancholy_-_album_by_The_Weeknd.jpg" />
+    <None Remove="Assets\Icons\Music Albums\My_Beautiful_Dark_Twisted_Fantasy.jpg" />
+    <None Remove="Assets\Icons\Music Albums\PartyNextDoor_and_Drake_-_Some_Sexy_Songs_4_U.png" />
+    <None Remove="Assets\Icons\Music Albums\Pluto_x_Baby_Pluto_Cover.png" />
+    <None Remove="Assets\Icons\Music Albums\Recovery_Album_Cover.jpg" />
+    <None Remove="Assets\Icons\Music Albums\ride-the-lightning-albums-photo-u1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Rodeo_Travis_Scott_Expanded.png" />
+    <None Remove="Assets\Icons\Music Albums\Scorpion_by_Drake.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Shock+value.jpg" />
+    <None Remove="Assets\Icons\Music Albums\so-much-fun-photo-u1.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Strictly_4_My_N.I.G.G.A.Z.jpg" />
+    <None Remove="Assets\Icons\Music Albums\The_Eminem_Show.jpg" />
+    <None Remove="Assets\Icons\Music Albums\The_life_of_pablo_alternate.jpg" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_After_Hours.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Beauty_Behind_the_Madness.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Dawn_FM.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Echoes_of_Silence.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_House_of_Balloons.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Hurry_Up_Tomorrow.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Kiss_Land.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Starboy.png" />
+    <None Remove="Assets\Icons\Music Albums\The_Weeknd_-_Thursday.png" />
+    <None Remove="Assets\Icons\Music Albums\Travis_Scott_-_Astroworld.png" />
+    <None Remove="Assets\Icons\Music Albums\Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png" />
+    <None Remove="Assets\Icons\Music Albums\Travis_Scott_-_Utopia.png" />
+    <None Remove="Assets\Icons\Music Albums\Tyler,_the_Creator_-_Flower_Boy.png" />
+    <None Remove="Assets\Icons\Music Albums\UltraviolenceLDR.png" />
+    <None Remove="Assets\Icons\Music Albums\Watch_The_Throne.jpg" />
+    <None Remove="Assets\Icons\Music Albums\We_Still_Don%27t_Trust_You.png" />
+    <None Remove="Assets\Icons\Music Albums\Wolf_Cover2.jpg" />
+    <None Remove="Assets\Icons\Music Albums\Yeezus_album_cover.png" />
+    <None Remove="Assets\Icons\NBA Players\AnthonyDavis-Mavs-1739547006440-small.png" />
+    <None Remove="Assets\Icons\NBA Players\AnthonyEdwards-1728924472703-small.png" />
+    <None Remove="Assets\Icons\NBA Players\AustinReaves-1728926751713-small.png" />
+    <None Remove="Assets\Icons\NBA Players\Chris Paul.png" />
+    <None Remove="Assets\Icons\NBA Players\DemarDerozan-new-1733883145528-small.png" />
+    <None Remove="Assets\Icons\NBA Players\DevinBooker-1728920490609-small.png" />
+    <None Remove="Assets\Icons\NBA Players\DonovanMitchell-1728925934374-small.png" />
+    <None Remove="Assets\Icons\NBA Players\DraymondGreen-1728999592664-small.png" />
+    <None Remove="Assets\Icons\NBA Players\GiannisAntetekounmpo-1728920065023-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JalenGreen-1729000006834-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JamesHarden-new-1732046759070-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JaMorant-1728929090318-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JaylenBrown-1728927397366-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JaysonTatum-1728925658477-small.png" />
+    <None Remove="Assets\Icons\NBA Players\JimmyButler-Warriors-1739547119052-small.png" />
+    <None Remove="Assets\Icons\NBA Players\Jordan.png" />
+    <None Remove="Assets\Icons\NBA Players\KevinDurant-1728928916230-small.png" />
+    <None Remove="Assets\Icons\NBA Players\Kobe.png" />
+    <None Remove="Assets\Icons\NBA Players\KyrieIrving-1728927928732-small.png" />
+    <None Remove="Assets\Icons\NBA Players\LebronJames-1728999922314-small.png" />
+    <None Remove="Assets\Icons\NBA Players\LukaDoncic-Lakers-1739547156481-small.png" />
+    <None Remove="Assets\Icons\NBA Players\NikolaJokic-1729002012896-small.png" />
+    <None Remove="Assets\Icons\NBA Players\PooleWizards01-1702522152850-small.png" />
+    <None Remove="Assets\Icons\NBA Players\Shaq.png" />
+    <None Remove="Assets\Icons\NBA Players\StephenCurry-1728925743060-small.png" />
+    <None Remove="Assets\Icons\NBA Players\TraeYoung-1728924107843-small.png" />
+    <None Remove="Assets\Icons\NBA Players\TylerHerro-new-1733882995784-small.png" />
+    <None Remove="Assets\Icons\NBA Players\VictorWembanyama-1728928616499-small.png" />
+    <None Remove="Assets\Icons\NBA Players\Westbrook.png" />
+    <None Remove="Assets\Icons\NBA Players\ZionWilliamson-1728924002127-small.png" />
+    <None Remove="Assets\Icons\NBA Teams\1926_charlotte__hornets_-primary-2015.png" />
+    <None Remove="Assets\Icons\NBA Teams\2547_san_antonio_spurs-primary-2018.png" />
+    <None Remove="Assets\Icons\NBA Teams\3152_golden_state_warriors-primary-2020.png" />
+    <None Remove="Assets\Icons\NBA Teams\3463_dallas_mavericks-primary-2018.png" />
+    <None Remove="Assets\Icons\NBA Teams\4043_sacramento_kings-primary-2017.png" />
+    <None Remove="Assets\Icons\NBA Teams\4373_memphis_grizzlies-primary-2019.png" />
+    <None Remove="Assets\Icons\NBA Teams\4812_indiana_pacers-primary-2018.png" />
+    <None Remove="Assets\Icons\NBA Teams\5671_washington_wizards-primary-2016.png" />
+    <None Remove="Assets\Icons\NBA Teams\6830_houston_rockets-primary-2020.png" />
+    <None Remove="Assets\Icons\NBA Teams\7024_toronto_raptors-primary-2021.png" />
+    <None Remove="Assets\Icons\NBA Teams\7034_philadelphia_76ers-primary-2016.png" />
+    <None Remove="Assets\Icons\NBA Teams\8190_atlanta_hawks-primary-2021.png" />
+    <None Remove="Assets\Icons\NBA Teams\8926_denver_nuggets-primary-2019.png" />
+    <None Remove="Assets\Icons\NBA Teams\9669_minnesota_timberwolves-primary-2018.png" />
+    <None Remove="Assets\Icons\NBA Teams\9725_portland_trail_blazers-primary-2018.png" />
+    <None Remove="Assets\Icons\NBA Teams\boston_celtics_logo_primary_19977628.png" />
+    <None Remove="Assets\Icons\NBA Teams\brooklyn_nets_logo_primary_2025_sportslogosnet-1501.png" />
+    <None Remove="Assets\Icons\NBA Teams\chicago_bulls_logo_primary_19672598.png" />
+    <None Remove="Assets\Icons\NBA Teams\cleveland_cavaliers_logo_primary_2023_sportslogosnet-5369.png" />
+    <None Remove="Assets\Icons\NBA Teams\detroit_pistons_logo_primary_20185710.png" />
+    <None Remove="Assets\Icons\NBA Teams\khmovcnezy06c3nm05ccn0oj2.png" />
+    <None Remove="Assets\Icons\NBA Teams\los_angeles_clippers_logo_primary_2025_sportslogosnet-5542.png" />
+    <None Remove="Assets\Icons\NBA Teams\los_angeles_lakers_logo_primary_2024_sportslogosnet-7324.png" />
+    <None Remove="Assets\Icons\NBA Teams\MiamiHeat.png" />
+    <None Remove="Assets\Icons\NBA Teams\milwaukee_bucks_logo_primary_20165763.png" />
+    <None Remove="Assets\Icons\NBA Teams\new_orleans_pelicans_logo_primary_2024_sportslogosnet-9292.png" />
+    <None Remove="Assets\Icons\NBA Teams\orlando_magic_logo_primary_20117178.png" />
+    <None Remove="Assets\Icons\NBA Teams\phoenix_suns_logo_primary_20143696.png" />
+    <None Remove="Assets\Icons\NBA Teams\utah_jazz_logo_primary_2023_sportslogosnet-8513.png" />
     <None Remove="Assets\MemoryGameIcon.jpg" />
     <None Remove="Assets\MemoryGameMain.png" />
     <None Remove="Assets\MemoryGameMenu.jpg" />
@@ -654,6 +1423,1233 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Icons\Anime\WilliamA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Abarth-logo-640x540.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\ABT-Sportsline-logo-silver-640x250.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Acura-logo-1990-640x406.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Alfa-Romeo-logo-2015-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Alpina-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Alpine-logo-640x341.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\AMG-logo-black-640x62.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\ARO-logo-640x567.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Aston-Martin-logo-2003-640x286.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\audi-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\bentley-logo-2002-download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\bmw-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\BMW-M-logo-640x231.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Brabus-logo-640x281.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Bugatti-logo-640x327.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Buick-logo-2002-640x200.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\cadillac-logo-2021-full-download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Caterham-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\chevrolet-corvette-logo-2020-download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Chevrolet-logo-2013-640x281.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\chrysler-logo-2009-download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Citroen-logo-2009-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Dacia-logo-2008-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Daewoo-logo-640x404.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Daihatsu-logo-1997-1280x233.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\DMC-logo-640x124.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\dodge-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\DS-logo-2009-640x486.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\ferrari-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\ford-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Genesis-logo-640x248.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\GMC-logo-640x145.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\GT-R-logo-640x454.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Hennessey-text-logo-1186x130.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Holden-logo-2016-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\honda-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Hummer-logo-2000x205.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\hyundai-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Infiniti-logo-1989-640x308.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\jaguar-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\jeep-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Kia-logo-640x321.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Koenigsegg-logo-1994-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\KTM-logo-640x200.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\lamborghini-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Lancia-logo-2007-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Land-Rover-logo-2011-1920x1080.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Lexus-logo-1988-640x266.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Lincoln-logo-2019-640x222.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\MAN-logo-640x355.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mansory-logo-640x60.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\maserati-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Maybach-logo-640x353.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\mazda-logo-2018-vertical-download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\McLaren-logo-2002-640x92.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mercedes-Benz-logo-2011-640x369.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mercury-logo-1980-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\MG-logo-red-2010-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mini-logo-2001-640x270.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mitsubishi-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Mustang-logo-2010-1920x1080.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\nio-logo-1800x700-show.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Nismo-logo-640x79.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\nissan-logo-2020-black-show.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Oldsmobile-logo-1996-640x260.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Opel-logo-2009-640x496.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Pagani-logo-1992-640x343.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Polestar-logo-640x505.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Pontiac-logo-640x440.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\porsche-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\RAM-logo-2009-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Renault-logo-2015-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Rimac-logo-2016-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Rolls-Royce-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Ruf-logo-640x282.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Saab-logo-2013-640x143.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Saturn-logo-1985-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Scania-logo-640x169.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\SEAT-logo-2012-640x508.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Skoda-logo-2016-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Smart-logo-1994-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\SsangYong-logo-640x422.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\subaru-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Suzuki-logo-640x285.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\tesla-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\toyota-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Triumph-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Vauxhall-logo-2008-red-640x478.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Viper-logo-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Volkswagen-logo-2019-640x500.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars Logos\Volvo-logo-2014-640x550.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\'14_Cadillac_CTS_Sedan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1280px-2005-03-04_Motorshow_Geneva_117.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1280px-HondaS2000-004.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2011_BMW_Z4_sDrive23i_M_Sport_Highline_2.5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2017_Aston_Martin_V12_Vantage_S,_Jet_Black,_front_left.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2017_Renault_Megane_Dynamique_S_NAV_DC_1.5_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2018_Ford_Mustang_GT_5.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2019_Aston_Martin_Vantage_V8_Automatic_4.0_(1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-2019_Land_Rover_Range_Rover_Evoque_R-Dynamic_2.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-Alpina_B3_BiTurbo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-Aston_Martin_DBS_-_Flickr_-_Alexandre_Prévot_(11)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-Aston_Martin_Valkyrie_Verification_Prototype_001_Genf_2019_1Y7A5569.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-BMW_Z8_(2009-05-20).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-JAIA18_Porsche_Panamera_4_E-Hybrid_97ABE1_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-Pagani,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0023).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1920px-Peugeot_207_75_Forever_(Facelift)_–_Frontansicht,_5._Mai_2012,_Ratingen_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1969_Dodge_Charger_R-T,_front_right_(2022_Ellwood_City_Fall_Fest_&amp;_Car_Cruise).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1970_Chevrolet_Camaro_(27755093943)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1984_Chevrolet_Camaro_Z-28_(37192436560).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1985-1992_Mazda_RX-7_FC.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1989_Ruf_BTR_in_Black_Metallic,_front_left.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1992-1993_Mazda_MX-5_(NA)_roadster_(2011-11-18)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1993ToyotaMR2Hardtop.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1994_Toyota_Celica_GT-4_2.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1994_Toyota_Supra_Sport_Roof_in_Red,_front_left.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1996-koenigsegg-cc-prototype_100529345_l.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1998_BMW_Alpina_B3_3.2_Biturbo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\1998_Renault_Clio_Grande_1.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2000_Alpina_B3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2000_Ford_Mustang_GT_Coupe_(14235434679)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2001-2002_Subaru_Impreza_(GDE_MY02)_RS_sedan_(2011-06-15)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2001_BMW_Z3_Roadster_Automatic_2.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2002_Peugeot_206_LX_1.4_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2002_Peugeot_307_Rapier_16V_1.6_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2002_Renault_Espace_Expression_DCi_2.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2002_Toyota_MR2_1.8_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2003_BMW_520i_SE_2.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2004_Cobra_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2005-2008_BMW_320i_(E90)_sedan_(2011-07-17)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2005_Ford_Mustang_GT_Deluxe_Coupe,_front_right,_07-02-2023.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2005_Ford_Mustang_V6_Premium_Convertible.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2007_Subaru_Impreza_(GH7_MY08)_R_hatchback_(2015-07-09)_01_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2008_Audi_A3_Sport_TDi_1.9_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2008_Peugeot_407_Sport_HDi_2.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2008_Peugeot_607_front.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2009_Audi_A6_(4F)_2.0_TFSI_sedan_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2009_Rolls-Royce_Phantom_(3C68)_coupe_(2015-01-25)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2009_Skoda_Superb_Elegance_CRTDi_Automatic_2.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2010_Audi_A5_SE_TDi_2.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2010_BMW_730d_(F01_MY10)_sedan_(2015-12-07)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2011_Audi_A7_(4G)_3.0_TFSI_quattro_hatchback_(2016-01-07)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2011_Dodge_Durango_Citadel_--_06-16-2011.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2011_Saab_9-5_UWS.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2011_Skoda_Yeti_S_TSi_1.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2012_Aston_Martin_One-77_coupe_(2012-10-26)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2012_Audi_A8_(4H)_4.2_quattro_sedan_(2018-10-12)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2012_BMW_320d_(F30_MY13)_Luxury_Line_sedan_(2015-07-24)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2012_BMW_Alpina_B3_GT3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2013_Audi_A1_(8X_MY14)_1.4_TFSI_Sport_S_line_Sportback_5-door_hatchback_(2015-08-07)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2013_Audi_A7_(4G)_3.0_TDI_S_line_quattro_sedan_(2017-01-15)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2013_Audi_S3_Limousine_8VS_2.0_TFSI_S_tronic_quattro_Daytonagrau-Perleffekt.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2013_Skoda_Fabia_VRS_S-A_1.4_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2014-03-04_Geneva_Motor_Show_1375.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2014_Aston_Martin_Vanquish,_skyfall_silver.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2014_Cadillac_ELR_trimmed.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2014_Mustang_Convertible.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2014_Skoda_Rapid_SE_Connect_TSi_1.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015-03-03_Geneva_Motor_Show_3305_(cropped).JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015-03-03_Geneva_Motor_Show_5826.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015-2017_Mercedes-AMG_GT_(C_190)_S_coupe_(2017-07-15)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015_BMW_528i_(5_Series,_F10)_M_Sport_4-door_sedan_(19119409664).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015_Koenigsegg_Agera_N_(19886243212).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015_Mercedes-Benz_C_200_(W_205)_sedan_(2015-07-03)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2015_Volkswagen_Scirocco_GT_BlueMotion_Tech_2.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2016-03-01_Geneva_Motor_Show_1167.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2016-03-01_Geneva_Motor_Show_1354.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2016-Ferrari-F12tdf-007-2000-2048x1365.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2016_BMW_428i_(F32)_Luxury_Line_coupe_(2018-08-06)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2016_Skoda_Octavia_SE_L_TSi_Estate_1.4_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017-03-07_Geneva_Motor_Show_1205.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017-04-02_Mitsubishi_Lancer_Evolution_X_MR_SST_14_(2).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017_Alfa_Romeo_Giulia_V6_Biturbo_Quadrifoglio_2.9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017_BMW_740d_XDRIVE_M_Sport_Automatic_3.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017_BMW_M3_(F80)_sedan_(2018-08-31)_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2017_Land_Rover_Range_Rover_Velar_First_Edition_D3_3.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018-Ferrari-812-Superfast-019-1536-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Aston_Martin_DB11_V8_Automatic_4.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Aston_Martin_DBS_Superleggera_V12_Automatic_5.2_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Audi_A6_TDi_Quattro_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Ford_GT.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Jaguar_I-Pace_EV400_AWD_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Skoda_Fabia_SE_MPi_1.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Skoda_Karoq_Edition_TDi_SCR_4X4_2.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2018_Skoda_Superb_SE_L_Executive_TSi_1.4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_Audi_A7_3.0_quattro_Premium_Plus_in_Brilliant_Black,_front_left.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_BMW_318d_SE_Automatic_2.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_BMW_840d_xDrive_Automatic_3.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_Chevrolet_Camaro_base,_front_11.9.19.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_Ferrari_812_Superfast_S-A_6.5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2019_Porsche_911_Carrera_S_S-A_3.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2020-Ferrari-F8-Spider-008-1536.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2020_BMW_420i_Sport_Automatic_2.0.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2020_Jaguar_F-Type_575_coupe_Auto_Zuerich_2021_IMG_0180.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2020_Mercedes-Benz_GLE_350_4Matic_front_6.16.19.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_Cadillac_Escalade_ESV_4WD_Premium_Luxury_in_Satin_Steel_Metallic,_front_right.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_Dodge_Durango_GT_(facelift),_front_6.21.22.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_McLaren_Artura_(1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_Mercedes-AMG_GT_Black_Series.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_Rolls_Royce_Ghost_V12_4x4_Auto.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2021_Skoda_Octavia_SE_First_Edition_TSi_e-TEC_SA_1.0_Front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2022-Ferrari-Daytona-SP3-001-1536.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2022_Alpina_B4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2022_Koenigsegg_CC850.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2022_Renault_ArkanaRenault_Arkana_Iconic_E-Tech_HEV_Auto.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2022_Toyota_GR86_Premium_in_Halo,_Front_Right,_04-10-2022.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2023_Honda_Civic_Type_R_3_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2023_McLaren_750S_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2023_Mercedes_Maybach_S580_in_Obsidian_Black_and_High-Tech_Silver,_front_left_side.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2024_6_Hours_of_Spa-Francorchamps_Peugeot_TotalEnergies_Peugeot_9X8_No.94_(DSC02285).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2024_Ford_Mustang_Dark_Horse.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2024_Mercedes-Maybach_GLS_600_SUV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2025-Ferrari-296-770x506.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2025-Ferrari-Roma-770x513.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2025-Ferrari-SF90-770x488.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2025_Honda_Civic_Sport_Touring_Hybrid_in_Blue_Lagoon,_front_left,_2024-09-24.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\220px-KTM_X-BOW_GT4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\2257144.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\24_Dodge_Charger_Daytona_RT.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\280px-Regera_(light_gradient).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\38-ferrari-488-pista-spider-2019-fd-otr-front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alfa_Romeo_33_Stradale_-_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_B12_(E38)_(16531947875).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_B12_5.0_(E31).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_B3_at_Legendy_2018_in_Prague_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_B3_BiTurbo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_B5_Biturbo_Touring_IMG_0752.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpina_Roadster_3.4S.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpine-renault-a110-berlinette.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Alpine_Vision_Geneva_Motor_Show_2016.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Apollo_Intensa_Emozione_(IE)_Golden_Dragon,_front_2.1.20.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Aston_Martin_DB12_1X7A1921.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Aston_Martin_DB9_-_Birmingham_-_2005-10-14_(2)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Aston_Martin_DB9_coupe_03_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Aston_Martin_Vanquish_(2024)_Auto_Zuerich_2024_DSC_6828.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Aston_Martin_Vulcan_(27701406352).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Audi_A6_C6_3.2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Audi_RS6_-_Flickr_-_Alexandre_Prévot_(1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Audi_s3_front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Audi_S8_(D4,_Facelift)_–_Frontansicht,_16._August_2014,_Essen.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\B6クーペ.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\B7Limousine.JPG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bentley_Continental_GTC_Top_Marques_2019_IMG_1078.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bentley_Continental_GT_(II)_–_Frontansicht_(3),_30._August_2011,_Düsseldorf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\BMW_Alpina_B3_(7150475857).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\BMW_Alpina_B5_Touring_F11_(10350071153).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\BMW_Alpina_B7_Biturbo_G12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\BRRacing_Porsche_997_GT3_front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\BSRt9J.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Bolide_Milano.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Centodieci_side.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Chiron_(36559710091).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Divo,_Paris_Motor_Show_2018,_IMG_0708.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_La_Voiture_Noire,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0950).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Mistral_at_Quail_2023_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Tourbillon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Bugatti_Veyron_16.4_–_Frontansicht_(2),_5._April_2012,_Düsseldorf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Cadillac_ATS-L_China_2016-04-04.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Cadillac_ATS_in_Red_at_NAIAS_2012.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Cadillac_XTS_01_China_2014-04-14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Cars_-_Hennessey_Venom_650R.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Chevrolet_Camaro_-_Flickr_-_Alexandre_Prévot_(16)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Chevrolet_Corvette_C8_IAA_2021_1X7A0156.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia1100s.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_1300.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_1410.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_Double_Cab.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_Logan_1.4_mpi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_Logan_front_20080917.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_Nova_GT_-_Front-Left_with_opened_doors.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_Sandero_1.5_dCi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_SupeRNova_Rapsodie_by_Alofok (1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dacia_SupeRNova_Rapsodie_by_Alofok.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dodge_Challenger_2006_PBCd'E.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dodge_Challenger_SRT8_(2015)_Hirschaid-20220709-RM-120221.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Dodge_Viper_RT-10_1X7A6634.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\E63_Alpina_B6_S.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\ER34_-_25GT_2door_Front_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\FairladyZ34.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-250-GT-Drogo-Berlinetta-Breadvan-293x293.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-458-MM-Speciale-1-293x293.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-Daytona-SP3-770x504.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-F40.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-F50--293x293.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-Portofino.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-Purosangue--770x567.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ferrari-SP-Arya-293x293.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\ferrari_296_gtb_2022_4k_8k-HD-2048x1152.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ford_GT_Carmel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ford_Mustang_serial_number_one.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ford_Mustang_VII_Sindelfingen_2024_IMG_9164.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\FoS20162016_0624_132727AA_(27886350045).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Geneva_International_Motor_Show_2018,_Le_Grand-Saconnex_(1X7A0083)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Geneva_International_Motor_Show_2018,_Le_Grand-Saconnex_(1X7A1872).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Geneva_MotorShow_2013_-_KTM_X-bow_GT_blue_front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\GIMS_2019,_Le_Grand-Saconnex_(GIMS0696).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\GIMS_2019,_Le_Grand-Saconnex_(GIMS0833).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Gray_Lamborghini_LP640.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Hennessey_Venom_GT_(16040233465).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Honda,_Paris_Motor_Show_2018,_Paris_(1Y7A1625).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Honda_Civic_e-HEV_Sport_(XI)_–_f_30062024.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Honda_NSX_reg_1991_2977_cc.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\iUVeVuE.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Jaguar_F-Type_Coupé_(51883664211).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Jaguar_XE_20t_Prestige_X760_Fuji_White_(3).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Jaguar_XF_30D_X260_white_(1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Koenigsegg_CCX_-_Flickr_-_Alexandre_Prévot_(11).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Koenigsegg_Gemera.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\KTM_X-BOW_R_(RGB).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lada_Niva_front_20080228.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\LamborghiniDiabloSV.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Aventador_LP_700-4_-_Flickr_-_Alexandre_Prévot_(2)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Countach_LP500S.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Countach_LPI_800-4_IMG_8008.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Essenza_SCV12_001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Reventón_(8675042970)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Revuelto_DSC_6985_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Sian_at_IAA_2019_IMG_0332.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Temerario.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Lamborghini_Urus_SE_001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_Alfieri_al_Salone_dell'automobile_di_Ginevra_2014.jpeg.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_Granturismo_-_Flickr_-_Alexandre_Prévot_(9)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_GranTurismo_Trofeo_IMG_7283.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_MC20_IAA_2021_1X7A0087.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_Quattroporte_-_Flickr_-_Alexandre_Prévot_(30)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maserati_Quattroporte_VI_Trofeo_Retro_Classics_2024_IMG_9027.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Maybach_62_near_Astor_pl.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mazda_Roadster_(MX-5)_by_Negawa_Bridge_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mazda_RX-8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\MC12._(5234528513).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\McLaren_GTS,_Frankfurt_am_Main_(P1032580).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\McLaren_Senna_IMG_3279.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\McLaren_Speedtail_Genf_2019_1Y7A5636.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-AMG_C192_1X7A0832.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-AMG_E_53_(W213)_FL_IMG_3965.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-AMG_One_at_the_2022_Goodwood_Festival_of_Speed.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-Benz_SLR_McLaren_(8615973055)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-Benz_W206_IMG_5796.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-Benz_W214_IAA_2023_1X7A0284.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-Benz_W223_IMG_6663.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mercedes-Benz_X167_IMG_5259.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Mitsubishi_Eclipse_front_20080801.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nio_EP9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_FAIRLADY_Z_(Z34)_Version_ST,_2022,_left-front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_GT-R_MY2017_(1)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_Skyline_GT-R_R34_V_Spec_II.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_Skyline_R32_GT-R_001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_Skyline_R33_GT-R_001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Nissan_Skyline_R34_GT-R_Nür_001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Orange_Enzo_Ferrari_(7191948164).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Pagani_Utopia.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Pagani_Zonda_C12_'chassis_001'_Genf_2019_1Y7A5539.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Pagani_Zonda_R_-_Flickr_-_The_Car_Spy_(1).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Paris_-_Mondial_de_l'automobile_-_Rolls_Royce_-_Ghost_-_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Peugeot_406_front_20080730.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_718_Boxster_Spyder_IMG_2961.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_911_GT1-96_front-left_Porsche_Museum.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_918_Spyder_IAA_2013.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_991_at_European_Motor_Show_Brussels_2018_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_997_Turbo_-_Flickr_-_Alexandre_Prévot_(8)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_(July_2008).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_5_E-Tech_Electric_DSC_7279.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Alpine_A110-50_(01).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Alpine_A310.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Clio_III_20090527_front.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Clio_TCe_90_Luxe_(IV)_–_Frontansicht,_17._Mai_2013,_Münster.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Espace_Edition_25th_dCi_175_(IV,_Facelift)_–_Frontansicht,_17._Juli_2011,_Ratingen.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Espace_front_20080215.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Espace_Intens_ENERGY_dCi_160_EDC_(V)_–_Frontansicht,_2._Mai_2015,_Düsseldorf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Renault_Espace_VI_Automesse_Ludwigsburg_2024_IMG_1558.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rimac_C_Two_2018_Geneva_Motor_Show.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rimac_Nevera.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rimconc1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rolls-Royce_Cullinan_Top_Marques_2019_IMG_1058.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rolls-Royce_Phantom_VIII_Series_II_Monteverde_Black_Peony_Pink_(5).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rolls-Royce_Wraith,_GIMS_2019,_Le_Grand-Saconnex_(GIMS0561).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rolls_Royce_Dawn_2016_(31214258855).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rolls_Royce_Phantom_2015_(22719825307).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Rt12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Ruf_RGT._(4301007524).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Fabia_front_20080612.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Fabia_IV_IMG_5307.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Fabia_vRS_(7914423470)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Kamiq_(2019)_Monte_Carlo_1X7A6165.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Kodiaq_Vienna_19-20_IMG_2247.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Octavia_II_front_20100923.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Octavia_I_front_20080213.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Rapid_2021_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skoda_Superb_blau.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Skyline2000gt-x.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\SLY_5735_(15649834087).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Solenza_winter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Subaru_Impreza_GT_(39720984685)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Suzuki_Cappuccino_front_20090514.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Touring-Berlinetta-Lusso-293x293.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Toyota-Celica-GT.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Toyota_GT86_–_Frontansicht,_17._September_2012,_Düsseldorf.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Toyota_Supra_Monrepos_2019_IMG_1898.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Toyota_Yaris_Cross_Hybrid_(XP210)_1X7A1846.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Volkswagen_Arteon_(2020)_1X7A0291.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\VW_Käfer_Baujahr_1966.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Yellow_Lamborghini_Gallardo_edit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\__14_Fiat-Chrysler_SRT_Viper_GTS_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Škoda_Kodiaq_II_IMG_9433.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Škoda_Superb_IV_Combi_Automesse_Ludwigsburg_2024_IMG_1400.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Škoda_Yeti_diesel_Greenline_registered_July_2014_(ie_post_2013_facelift)_1598cc.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Cars\Майбах_в_Алма-Ате.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Icons\F1 Cars\1969 Ferrari.png">
@@ -1176,6 +3172,1056 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Icons\F1 Cars\Renault 2010.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Alexander Albon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Antonio Giovinnazi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Carlos Sainz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Charles Leclerc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Daniel Ricciardo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Esteban Ocon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Felipe Massa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Fernando Alonso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Franco Colapinto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Gabriel Bortoletto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\George Russel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Isack Hadjar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Jask Doohan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Jenson Button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Kamui Kobaiashi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Kevin Magnussen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Kimi Antonelli.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Kimi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Lance Stroll.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Lando Norris.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Lewis Hamilton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Liam Lawson.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Logan Sargeant.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Mark Webber.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Max Verstappen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Michael Schumacher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Mick Schumacher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Mika Hakkinen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Nicholas Latifi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Nico Hulkenberg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Nico Rosberg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Nkita Mazepin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Nyck De Vries.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Oliver Bearman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Oscar Piastri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Pastor Maldonado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Pierre Gasl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Robert Kubica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Romain Grojsean.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Sergio Perez.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Valterri Bottas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Yuki Tsunoda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Drivers\Zhou Guanyu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Alfa_Romeo_Racing_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Brawn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\F6SzatG3_400x400.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Honda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Marussia_F1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Mclaren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Mercedes-F1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Redbull Racing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Renault_2023.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Sauber_F1_Team_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Scuderia Ferrari HP.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\Scuderia_Alpha-Tauri.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\uuQxV8xeSFh3PpnuzAyKKV.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1 Logos\VCARB_F1_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\ACS_Sepsi_OSK_Sfantu_Gheorghe_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Arsenal_FC.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Aston_Villa_FC_new_crest.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Astra_Giurgiu_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\AS_Roma_logo_(2017).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\AtalantaBC.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Atletico_Madrid_Logo_2024.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Bologna_F.C._1909_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Borussia_Dortmund_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Cagliari_Calcio_1920.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Cfmuniversitateacluj.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\CFR_Cluj_badge.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Chelsea_FC.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Club_Athletic_Bilbao_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Crystal_Palace_FC_logo_(2022).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\CS_Universitatea_Craiova_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Everton_FC_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Fcsb-logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Arges_Pitesti_badge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Barcelona_(crest).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Bayern_München_logo_(2024).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Dinamo_Bucuresti_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Farul_Constanța_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Internazionale_Milano_2021.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Rapid_Bucuresti_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Southampton.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_U_Craiova_1948_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Viitorul_2017_badge.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\FC_Voluntari_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Fulham_FC_(shield).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Genoa_CFC_crest.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Getafe_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Inter_Miami_CF_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Juventus_FC_-_logo_black_(Italy,_2020).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Leicester_City_crest.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Lille_OSC_2018_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Liverpool_FC.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Logo_FC_Nantes_(avec_fond)_-_2019.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Logo_of_AC_Milan.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Manchester_City_FC_badge.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Manchester_United_FC_crest.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Newcastle_United_Logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Nottingham_Forest_F.C._logo.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\OGC_Nice_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Olympique_Lyonnais_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Olympique_Marseille_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Paris_Saint-Germain_F.C..svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Petrolul_Ploiesti_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\RB_Leipzig_2014_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\RCD_Espanyol_crest.svg.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\RC_Celta_de_Vigo_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Real_betis_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Real_Madrid_CF.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Real_Sociedad_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Real_Valladolid_CF_crest.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\S.S._Lazio_badge.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Sevilla_FC_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\SSC_Napoli_2024_(deep_blue_navy).svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Torino_FC_Logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Tottenham_Hotspur.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\UD_Las_Palmas_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\UTA_Arad_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Valenciacf.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\Villarreal_CF_logo-en.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Logos\West_Ham_United_FC_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\12-06-05-aut-rom-freundschaftsspiel-269.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\800px-George_Puscas_(cropped)_-_Sweden_vs_Romania_23_March_2019.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Adrian_Mutu_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Algérie-Roumanie_-_20140604_-_Răzvan_Raț.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Algérie-Roumanie_-_20140604_-_Vlad_Chiricheș.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Antoine Griezmann.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Bellingham.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Benzema.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Ciprian_Marica_2011-08-03.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Ciro Immobile.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\CR7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Dan_Petrescu_(cropped)_-_Chelsea_Legends_1_Inter_Forever_4_(27457025407).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\David Beckham.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Denis_Alibec_Astra_2015.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Dennis_Man_-_23_November_2017.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Didier Drogba.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Eden Hazard.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Erling Haaland.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Florinel_Coman_training_for_FCSB_-_3_July_2023_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Florin_Niță_-_26_May_2018_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Francesco Totti.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Gabriel_Tamas_-_Petrolul_Ploiesti_vs_Rapid_Bucuresti,_13_August_2022.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Gareth Bale.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\gheorghe-hagi-football-player-fc-fcsb-galatasaray-s-k-football.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Gianluigi_Buffon_(31784615942)_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Giroud.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Harry Kane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Havi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Ianis Hagi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Jack Grealish.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Kante.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Kevin-De-Bruyne-Background-PNG-Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Lamine Yamal.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\lewandowski.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Luis-Suarez.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Luka Modric.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Lukaku.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Maradona.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Mbappe.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Messi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Mihai_Pintilii_-_3_July_2023_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Mohamed-Salah-Transparent-Images.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Neymar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Nicholas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\NIG-ARG_(5).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\n_golo_kante.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Octavian_Popescu_-_CFR_Cluj_vs_FCSB,_17_April_2022_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Radu_Dragusin_-_Frosinone_vs_Genoa_14_May_2023.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Raheem Sterling.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Razvan_Marin_(cropped)_-_Sweden_vs_Romaina_23_March_2019.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Rodri.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Ronaldinho.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Rostov-Anderleht_(3).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\ruben-dias.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Saka.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Sergio Ramos.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Son Heung-min.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\thierry-henry-arsenal-f-c-premier-league-france-national-football-team-fc-barcelona-arsenal-f-c.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Thomas Muller.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Toni Kroos.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\UEFA_EURO_qualifiers_Sweden_vs_Romaina_20190323_29_(cropped).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Vini Jr.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Virgil van Dijk.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\Zinedine Zidane.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Football Players\zlatan-ibrahimovic-png-11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\-and-justice-for-all-albums-photo-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\0e90e07471b14a0da74084a477e0305c.webp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\1665396-photo-u-404389255.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\50_Cent_-_The_Massacre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\808s_&amp;_Heartbreak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Album_Cover_of_Travis_Scott's_Day_Before_Rodeo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Alleyezonme.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\ASAP_Rocky_Testing.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\AtLongLastASAPCover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\BornToDieAlbumCover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\BornToDieTheParadiseEditionCover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\californication-albums-photo-u1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Call_Me_If_You_Get_Lost_album_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Culture_II.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Curtis_(50_Cent_album).jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Damn_Collectors_Edition_cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\dark-side-of-the-moon-albums-photo-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Dr.DreTheChronic.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Certified_Lover_Boy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Dark_Lane_Demo_Tapes.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_For_All_The_Dogs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_If_You're_Reading_This_It's_Too_Late.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_More_Life_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Nothing_Was_the_Same_cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Scary_Hours_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Take_Care_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Thank_Me_Later_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_-_Views_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_and_21_Savage_-_Her_Loss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_and_Future_-_What_a_Time_to_Be_Alive_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Drake_Care_Package_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\DrDre-2001.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\DS2_by_Future.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Eminem_-_Music_to_Be_Murdered_By.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Eminem_-_The_Death_of_Slim_Shady_(Coup_de_Grâce).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Eminem_-_The_Slim_Shady_LP_CD_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Encore_(Eminem_album)_coverart.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\EVOL_by_Future_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\f3aa2afa43dc94eb79562be7a23ce876.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Future_-_High_Off_Life.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Future_and_Metro_Boomin_-_We_Don't_Trust_You.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Future_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Get_Rich_Or_Die_Tryin'.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\HNDRXX_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Honestly,_Nevermind_-_Drake.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Igor_-_Tyler,_the_Creator.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\illmatic-albums-photo-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\I_Never_Liked_You_(Future).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\JACKBOYS_-_Album_Cover_by_JACKBOYS_&amp;_Travis_Scott,_December_27,_2019.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Jack_Harlow_-_Come_Home_the_Kids_Miss_You.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Jack_Harlow_-_Jackman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Jack_Harlow_Thats_What_They_All_Say.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Justin 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Justin 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Kanyewest_collegedropout.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\KendrickLamarGKMCDeluxe.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Kendrick_Lamar_-_GNX.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Kendrick_Lamar_-_Mr._Morale_&amp;_the_Big_Steppers.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Kendrick_Lamar_-_To_Pimp_a_Butterfly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Kids_See_Ghosts_Cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\kill-em-all-disc-2-albums-photo-1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Lana_Del_Rey_-_Blue_Banisters_cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Lana_Del_Rey_-_Did_You_Know_That_There's_a_Tunnel_Under_Ocean_Blvd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Lana_Del_Rey_-_Honeymoon_(Official_Album_Cover).png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Lana_Del_Rey_-_Lust_for_Life.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Lana_Del_Rey_-_Norman_Fucking_Rockwell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Late_registration_cd_cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Live_Love_ASAP.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Long-live-asap.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\master-of-puppets-albums-photo-u3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\MigosCulture.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Migos_-_Culture_III.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\MyDearMelancholy_-_album_by_The_Weeknd.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\My_Beautiful_Dark_Twisted_Fantasy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\PartyNextDoor_and_Drake_-_Some_Sexy_Songs_4_U.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Pluto_x_Baby_Pluto_Cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Recovery_Album_Cover.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\ride-the-lightning-albums-photo-u1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Rodeo_Travis_Scott_Expanded.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Scorpion_by_Drake.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Shock+value.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\so-much-fun-photo-u1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Strictly_4_My_N.I.G.G.A.Z.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Eminem_Show.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_life_of_pablo_alternate.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_After_Hours.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Beauty_Behind_the_Madness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Dawn_FM.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Echoes_of_Silence.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_House_of_Balloons.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Hurry_Up_Tomorrow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Kiss_Land.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Starboy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\The_Weeknd_-_Thursday.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Travis_Scott_-_Astroworld.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Travis_Scott_-_Birds_in_the_Trap_Sing_McKnight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Travis_Scott_-_Utopia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Tyler,_the_Creator_-_Flower_Boy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\UltraviolenceLDR.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Watch_The_Throne.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\We_Still_Don't_Trust_You.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Wolf_Cover2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\Music Albums\Yeezus_album_cover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\AnthonyDavis-Mavs-1739547006440-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\AnthonyEdwards-1728924472703-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\AustinReaves-1728926751713-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\Chris Paul.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\DemarDerozan-new-1733883145528-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\DevinBooker-1728920490609-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\DonovanMitchell-1728925934374-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\DraymondGreen-1728999592664-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\GiannisAntetekounmpo-1728920065023-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JalenGreen-1729000006834-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JamesHarden-new-1732046759070-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JaMorant-1728929090318-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JaylenBrown-1728927397366-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JaysonTatum-1728925658477-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\JimmyButler-Warriors-1739547119052-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\Jordan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\KevinDurant-1728928916230-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\Kobe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\KyrieIrving-1728927928732-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\LebronJames-1728999922314-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\LukaDoncic-Lakers-1739547156481-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\NikolaJokic-1729002012896-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\PooleWizards01-1702522152850-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\Shaq.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\StephenCurry-1728925743060-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\TraeYoung-1728924107843-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\TylerHerro-new-1733882995784-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\VictorWembanyama-1728928616499-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\Westbrook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Players\ZionWilliamson-1728924002127-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\1926_charlotte__hornets_-primary-2015.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\2547_san_antonio_spurs-primary-2018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\3152_golden_state_warriors-primary-2020.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\3463_dallas_mavericks-primary-2018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\4043_sacramento_kings-primary-2017.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\4373_memphis_grizzlies-primary-2019.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\4812_indiana_pacers-primary-2018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\5671_washington_wizards-primary-2016.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\6830_houston_rockets-primary-2020.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\7024_toronto_raptors-primary-2021.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\7034_philadelphia_76ers-primary-2016.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\8190_atlanta_hawks-primary-2021.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\8926_denver_nuggets-primary-2019.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\9669_minnesota_timberwolves-primary-2018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\9725_portland_trail_blazers-primary-2018.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\boston_celtics_logo_primary_19977628.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\brooklyn_nets_logo_primary_2025_sportslogosnet-1501.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\chicago_bulls_logo_primary_19672598.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\cleveland_cavaliers_logo_primary_2023_sportslogosnet-5369.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\detroit_pistons_logo_primary_20185710.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\khmovcnezy06c3nm05ccn0oj2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\los_angeles_clippers_logo_primary_2025_sportslogosnet-5542.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\los_angeles_lakers_logo_primary_2024_sportslogosnet-7324.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\MiamiHeat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\milwaukee_bucks_logo_primary_20165763.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\new_orleans_pelicans_logo_primary_2024_sportslogosnet-9292.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\orlando_magic_logo_primary_20117178.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\phoenix_suns_logo_primary_20143696.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\NBA Teams\utah_jazz_logo_primary_2023_sportslogosnet-8513.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\MemoryGameMain.png">

@@ -52,7 +52,13 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
-            string[] imageFiles = Directory.GetFiles(categoryFolder, "*.png");
+            string[] imageFiles = Directory.GetFiles(categoryFolder)
+    .Where(file => file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                   file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                   file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                   file.EndsWith(".gif", StringComparison.OrdinalIgnoreCase))
+    .ToArray();
+
 
             if (imageFiles.Length < numberOfPairs)
             {

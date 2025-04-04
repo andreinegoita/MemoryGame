@@ -18,6 +18,7 @@ namespace MemoryGame.ViewModel
         private GameTileModel _firstSelectedTile;
         private GameTileModel _secondSelectedTile;
         private readonly Random _random = new Random();
+        private bool _isBusy;
 
         public ObservableCollection<GameTileModel> Tiles { get; }
 
@@ -77,39 +78,51 @@ namespace MemoryGame.ViewModel
             OnPropertyChanged(nameof(Tiles));
         }
 
-        private void FlipTile(object parameter)
+        private async void FlipTile(object parameter)
         {
-            if (parameter is GameTileModel tile && !tile.IsFlipped && !tile.IsMatched)
+            if (parameter is not GameTileModel tile || tile.IsFlipped || tile.IsMatched || _isBusy)
+                return;
+
+            if (_firstSelectedTile != null && _secondSelectedTile != null)
             {
-                tile.IsFlipped = true;
-                OnPropertyChanged(nameof(Tiles));
+                _isBusy = true;
+                await Task.Delay(200);
 
-                if (_firstSelectedTile == null)
+
+                if (!_firstSelectedTile.IsMatched && !_secondSelectedTile.IsMatched)
                 {
-                    _firstSelectedTile = tile;
+                    _firstSelectedTile.IsFlipped = false;
+                    _secondSelectedTile.IsFlipped = false;
+                    OnPropertyChanged(nameof(Tiles));
                 }
-                else
+
+
+                _firstSelectedTile = null;
+                _secondSelectedTile = null;
+                _isBusy = false;
+            }
+
+            tile.IsFlipped = true;
+            OnPropertyChanged(nameof(Tiles));
+
+            if (_firstSelectedTile == null)
+            {
+                _firstSelectedTile = tile;
+            }
+            else
+            {
+                _secondSelectedTile = tile;
+
+                if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
                 {
-                    _secondSelectedTile = tile;
-
-                    if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
-                    {
-                        _firstSelectedTile.IsMatched = true;
-                        _secondSelectedTile.IsMatched = true;
-                    }
-                    else
-                    {
-                        _firstSelectedTile.IsFlipped = false;
-                        _secondSelectedTile.IsFlipped = false;
-                    }
-
+                    _firstSelectedTile.IsMatched = true;
+                    _secondSelectedTile.IsMatched = true;
                     _firstSelectedTile = null;
                     _secondSelectedTile = null;
-
-                    OnPropertyChanged(nameof(Tiles));
                 }
             }
         }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

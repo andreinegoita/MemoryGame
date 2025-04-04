@@ -5,8 +5,33 @@ namespace MemoryGame.Model
 {
     public class GameTileModel : INotifyPropertyChanged
     {
-        public bool IsMatched { get; set; }
-        public bool IsFlipped { get; set; }
+        private bool _isMatched;
+        public bool IsMatched
+        {
+            get => _isMatched;
+            set
+            {
+                if (_isMatched != value)
+                {
+                    _isMatched = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        private bool _isFlipped;
+        public bool IsFlipped
+        {
+            get => _isFlipped;
+            set
+            {
+                if (_isFlipped != value)
+                {
+                    _isFlipped = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         private string _imagePath;
         public string ImagePath

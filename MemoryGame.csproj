@@ -770,6 +770,65 @@
     <None Remove="Assets\Icons\F1 Logos\toyota-f1.png" />
     <None Remove="Assets\Icons\F1 Logos\uuQxV8xeSFh3PpnuzAyKKV.png" />
     <None Remove="Assets\Icons\F1 Logos\VCARB_F1_logo.svg.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Alain Prost.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Alex Albon.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Antonio Giovinnazzi.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Ayrton Senna.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Brendon Hartley.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Carlos Sainz.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Charles Leclerc.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Damon Hill.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Daniel Riccardo.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Daniil Kvyat.png" />
+    <None Remove="Assets\Icons\F1\Helmets\David Coulthard.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Esteban Ocon.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Felipe Massa.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Felipe Nasr.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Fernando Alonso.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Gabriel Bortoleto.png" />
+    <None Remove="Assets\Icons\F1\Helmets\George Russell.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Giancarlo Fisichella.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Isack Hadjar.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jack Doohan.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jacques Villeneuve.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jean Alesi.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jenson Button.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jolyon Palmer.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Juan Pablo Montoya.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Jules Bianchi.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Kamui Kobayashi.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Kevin Magnussen.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Kimi Antonelli.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Kimi Raikkonen.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Lance Stroll.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Lewis Hamilton.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Liam Lawson.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Logan Seargant.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Marcus Ericsson.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Mark Webber.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Max Verstappen.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Michael Schumacher.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Mick Schumacher.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Mika Hakkinen.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nelson Piquet Jr.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nicholas Latifi.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nico Rosberg.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nigel Mansell.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Niki Lauda.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nikita Mazepin.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Niko Hulkenberg.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Nyck De Vries.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Oliver Bearman.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Pastor Maldonado.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Pierre Gasly.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Robert Kubica.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Romain Grosjean.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Rubens Barrichello.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Sebastian Vettel.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Sergio Perez.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Stoffel Vandoorne.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Valterri Bottas.png" />
+    <None Remove="Assets\Icons\F1\Helmets\Zhou Guanyu.png" />
     <None Remove="Assets\Icons\Football Logos\ACF_Fiorentina_-_logo_%28Italy,_2022%29.svg.png" />
     <None Remove="Assets\Icons\Football Logos\ACS_Sepsi_OSK_Sfantu_Gheorghe_logo.svg.png" />
     <None Remove="Assets\Icons\Football Logos\Arsenal_FC.svg.png" />
@@ -3343,6 +3402,183 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Icons\F1 Logos\VCARB_F1_logo.svg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Alain Prost.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Alex Albon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Antonio Giovinnazzi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Ayrton Senna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Brendon Hartley.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Carlos Sainz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Charles Leclerc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Damon Hill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Daniel Riccardo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Daniil Kvyat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\David Coulthard.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Esteban Ocon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Felipe Massa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Felipe Nasr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Fernando Alonso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Gabriel Bortoleto.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\George Russell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Giancarlo Fisichella.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Isack Hadjar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jack Doohan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jacques Villeneuve.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jean Alesi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jenson Button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jolyon Palmer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Juan Pablo Montoya.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Jules Bianchi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Kamui Kobayashi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Kevin Magnussen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Kimi Antonelli.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Kimi Raikkonen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Lance Stroll.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Lewis Hamilton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Liam Lawson.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Logan Seargant.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Marcus Ericsson.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Mark Webber.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Max Verstappen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Michael Schumacher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Mick Schumacher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Mika Hakkinen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nelson Piquet Jr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nicholas Latifi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nico Rosberg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nigel Mansell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Niki Lauda.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nikita Mazepin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Niko Hulkenberg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Nyck De Vries.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Oliver Bearman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Pastor Maldonado.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Pierre Gasly.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Robert Kubica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Romain Grosjean.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Rubens Barrichello.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Sebastian Vettel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Sergio Perez.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Stoffel Vandoorne.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Valterri Bottas.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\F1\Helmets\Zhou Guanyu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Icons\Football Logos\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png">

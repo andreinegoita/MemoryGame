@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using MemoryGame.Model;
@@ -55,17 +56,33 @@ namespace MemoryGame.ViewModel
             _mainViewModel = mainViewModel;
             Users = UserService.LoadUsers();
 
-            ImageOptions = new ObservableCollection<string>
+            string userImagesFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Icons","F1","Helmets");
+
+            if (!Directory.Exists(userImagesFolder))
             {
-                "/Assets/Users/8168-sonic-pfpsgg.gif",
-                "/Assets/Users/1336-fabian-pfpsgg.png",
-                "/Assets/Users/4113-luffy-pfpsgg.png",
-                "/Assets/Users/5517-lildeady-pfpsgg.png",
-                "/Assets/Users/7442-tyler-the-creator-pfpsgg.png"
-            };
+                MessageBox.Show($"Folderul nu există: {userImagesFolder}");
+                ImageOptions = new ObservableCollection<string>();
+            }
+            else
+            {
+
+                var imageFiles = Directory.GetFiles(userImagesFolder)
+                    .Where(file => file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                                   file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                                   file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                                   file.EndsWith(".gif", StringComparison.OrdinalIgnoreCase))
+                    .Select(path => path.Replace(AppDomain.CurrentDomain.BaseDirectory, string.Empty).Replace("\\", "/"))
+                    .ToList();
+
+                ImageOptions = new ObservableCollection<string>(imageFiles);
+               
+            }
 
             _currentImageIndex = 0;
-            SelectedImage = ImageOptions[0];
+
+            SelectedImage = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ImageOptions[_currentImageIndex]);
+
+
 
             NextImageCommand = new RelayCommand(_ => NextImage());
             PreviousImageCommand = new RelayCommand(_ => PreviousImage());
@@ -104,14 +121,16 @@ namespace MemoryGame.ViewModel
         private void NextImage()
         {
             _currentImageIndex = (_currentImageIndex + 1) % ImageOptions.Count;
-            SelectedImage = ImageOptions[_currentImageIndex];
+            SelectedImage = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ImageOptions[_currentImageIndex]);
         }
+
 
         private void PreviousImage()
         {
             _currentImageIndex = (_currentImageIndex - 1 + ImageOptions.Count) % ImageOptions.Count;
-            SelectedImage = ImageOptions[_currentImageIndex];
+            SelectedImage = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ImageOptions[_currentImageIndex]);
         }
+
 
         private void StartGame()
         {

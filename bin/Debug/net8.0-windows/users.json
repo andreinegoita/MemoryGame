@@ -1,52 +1,7 @@
 [
   {
-    "Id": "50d04fb4-10a2-46bd-a3f0-cb69a191dd0f",
-    "Name": "ana",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "0c780b7b-2878-45ef-a1ec-da3ac3514e4c",
-    "Name": "ion",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "c81706dd-07c0-4d42-ba24-3704be3329ed",
-    "Name": "ionel",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "97bab8a2-f7ab-4d13-b08d-100ab2c9ac0f",
-    "Name": "ionica",
-    "SelectedImage": "/Assets/Users/4113-luffy-pfpsgg.png"
-  },
-  {
-    "Id": "ce3e8e60-e8cb-464a-ab7a-2575800294ca",
-    "Name": "gigi",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "874a847e-4605-41cf-a520-9f49777ece27",
-    "Name": "gigica",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "8b3b55b8-cdbb-4065-b299-7cbe4453d50c",
-    "Name": "ionicaa",
-    "SelectedImage": "/Assets/Users/1336-fabian-pfpsgg.png"
-  },
-  {
-    "Id": "c7642bd6-c6dd-47d5-a7b7-a40b1f01e298",
-    "Name": "ionicaal",
-    "SelectedImage": "/Assets/Users/8168-sonic-pfpsgg.gif"
-  },
-  {
-    "Id": "629c6985-afac-40e1-bbca-8362c1c4bd23",
-    "Name": "ba",
-    "SelectedImage": "/Assets/Users/4113-luffy-pfpsgg.png"
-  },
-  {
-    "Id": "82f6eb65-773c-4b32-9d25-0cc0eed50048",
-    "Name": "a",
-    "SelectedImage": "/Assets/Users/4113-luffy-pfpsgg.png"
+    "Id": "2f59f2a6-a502-40af-baae-093be6e6f5e4",
+    "Name": "Ana",
+    "SelectedImage": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets/Icons/F1/Helmets/Max Verstappen.png"
   }
 ]

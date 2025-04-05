@@ -51,6 +51,8 @@ namespace MemoryGame.Model
             IsFlipped = false;
         }
 
+
+
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {

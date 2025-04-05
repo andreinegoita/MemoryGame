@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using MemoryGame.Model;
@@ -17,8 +18,8 @@ namespace MemoryGame.ViewModel
         private readonly int _columns;
         private GameTileModel _firstSelectedTile;
         private GameTileModel _secondSelectedTile;
-        private readonly Random _random = new Random();
         private bool _isBusy;
+        private readonly Random _random = new Random();
 
         public ObservableCollection<GameTileModel> Tiles { get; }
 
@@ -43,7 +44,7 @@ namespace MemoryGame.ViewModel
         private void GenerateTiles()
         {
             int totalTiles = _rows * _columns;
-            int numberOfPairs = totalTiles / 2; 
+            int numberOfPairs = totalTiles / 2;
 
             string categoryFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Icons", SelectedCategory);
 
@@ -54,12 +55,11 @@ namespace MemoryGame.ViewModel
             }
 
             string[] imageFiles = Directory.GetFiles(categoryFolder)
-    .Where(file => file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                   file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
-                   file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
-                   file.EndsWith(".gif", StringComparison.OrdinalIgnoreCase))
-    .ToArray();
-
+                .Where(file => file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
+                               file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                               file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                               file.EndsWith(".gif", StringComparison.OrdinalIgnoreCase))
+                .ToArray();
 
             if (imageFiles.Length < numberOfPairs)
             {
@@ -83,25 +83,23 @@ namespace MemoryGame.ViewModel
             if (parameter is not GameTileModel tile || tile.IsFlipped || tile.IsMatched || _isBusy)
                 return;
 
+            // Dacă există deja două tile-uri selectate, resetează-le înainte de a procesa click-ul curent
             if (_firstSelectedTile != null && _secondSelectedTile != null)
             {
                 _isBusy = true;
-                await Task.Delay(200);
-
-
+                await Task.Delay(500); // întârziere pentru a permite vizualizarea celor două tile-uri
                 if (!_firstSelectedTile.IsMatched && !_secondSelectedTile.IsMatched)
                 {
                     _firstSelectedTile.IsFlipped = false;
                     _secondSelectedTile.IsFlipped = false;
                     OnPropertyChanged(nameof(Tiles));
                 }
-
-
                 _firstSelectedTile = null;
                 _secondSelectedTile = null;
                 _isBusy = false;
             }
 
+            // Flip tile-ul curent
             tile.IsFlipped = true;
             OnPropertyChanged(nameof(Tiles));
 
@@ -113,16 +111,27 @@ namespace MemoryGame.ViewModel
             {
                 _secondSelectedTile = tile;
 
+                // Dacă tile-urile au aceeași imagine, le marcăm ca potrivite
                 if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
                 {
                     _firstSelectedTile.IsMatched = true;
                     _secondSelectedTile.IsMatched = true;
                     _firstSelectedTile = null;
                     _secondSelectedTile = null;
+                    OnPropertyChanged(nameof(Tiles));
+                    CheckGameWon();
                 }
             }
         }
 
+        private void CheckGameWon()
+        {
+            // Dacă toate tile-urile sunt marcate ca matched, jocul este câștigat
+            if (Tiles.All(tile => tile.IsMatched))
+            {
+                MessageBox.Show("Ai câștigat!", "Felicitări", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

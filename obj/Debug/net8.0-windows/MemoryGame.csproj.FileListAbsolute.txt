@@ -1215,3 +1215,5 @@ D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Sergio
 D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Stoffel Vandoorne.png
 D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Valterri Bottas.png
 D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Zhou Guanyu.png
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.baml

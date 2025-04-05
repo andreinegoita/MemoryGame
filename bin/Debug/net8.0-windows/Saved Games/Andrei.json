@@ -1,0 +1,167 @@
+[
+  {
+    "Id": "2edb3b04-531c-4387-9d0a-7088f30de205",
+    "Name": "Andrei",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2002 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2025 stake.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1970 Tyrrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alpine.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Tyrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Tyrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Bar.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alfa romeo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Bar.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1970 Tyrrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2025 stake.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alfa romeo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2002 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alpine.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "3bb070ff-3d89-4256-b8bd-bfec3170d99d",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Cars",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2002 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2025 stake.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1970 Tyrrell.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alpine.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Tyrell.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Tyrell.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Bar.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alfa romeo.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Bar.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1970 Tyrrell.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2025 stake.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alfa romeo.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2002 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2022 Alpine.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T20:01:35.1606062+03:00"
+      }
+    ]
+  }
+]

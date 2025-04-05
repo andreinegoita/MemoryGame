@@ -40,7 +40,14 @@ namespace MemoryGame.ViewModel
 
             TileClickCommand = new RelayCommand(FlipTile);
         }
-
+        public GameBoardViewModel(GameState state)
+        {
+            _rows = state.Rows;
+            _columns = state.Columns;
+            SelectedCategory = state.SelectedCategory;
+            Tiles = new ObservableCollection<GameTileModel>(state.Tiles);
+            TileClickCommand = new RelayCommand(FlipTile);
+        }
         private void GenerateTiles()
         {
             int totalTiles = _rows * _columns;
@@ -83,11 +90,10 @@ namespace MemoryGame.ViewModel
             if (parameter is not GameTileModel tile || tile.IsFlipped || tile.IsMatched || _isBusy)
                 return;
 
-            // Dacă există deja două tile-uri selectate, resetează-le înainte de a procesa click-ul curent
             if (_firstSelectedTile != null && _secondSelectedTile != null)
             {
                 _isBusy = true;
-                await Task.Delay(500); // întârziere pentru a permite vizualizarea celor două tile-uri
+                await Task.Delay(500); 
                 if (!_firstSelectedTile.IsMatched && !_secondSelectedTile.IsMatched)
                 {
                     _firstSelectedTile.IsFlipped = false;
@@ -99,7 +105,6 @@ namespace MemoryGame.ViewModel
                 _isBusy = false;
             }
 
-            // Flip tile-ul curent
             tile.IsFlipped = true;
             OnPropertyChanged(nameof(Tiles));
 
@@ -110,8 +115,6 @@ namespace MemoryGame.ViewModel
             else
             {
                 _secondSelectedTile = tile;
-
-                // Dacă tile-urile au aceeași imagine, le marcăm ca potrivite
                 if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
                 {
                     _firstSelectedTile.IsMatched = true;
@@ -126,12 +129,24 @@ namespace MemoryGame.ViewModel
 
         private void CheckGameWon()
         {
-            // Dacă toate tile-urile sunt marcate ca matched, jocul este câștigat
             if (Tiles.All(tile => tile.IsMatched))
             {
                 MessageBox.Show("Ai câștigat!", "Felicitări", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
+
+        public GameState GetCurrentState()
+        {
+            return new GameState
+            {
+                Name = "Joc curent",
+                SelectedCategory = SelectedCategory,
+                Rows = _rows,
+                Columns = _columns,
+                Tiles = Tiles.ToList()
+            };
+        }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)

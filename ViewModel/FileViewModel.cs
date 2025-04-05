@@ -14,6 +14,7 @@ namespace MemoryGame.ViewModel
         public ICommand ExitCommand { get; }
         public ICommand CategoryCommand { get; }
         public ICommand NewGameCommand { get; }
+        public ICommand OpenGameCommand { get; }
 
         public FileViewModel(MainViewModel mainViewModel)
         {
@@ -21,6 +22,7 @@ namespace MemoryGame.ViewModel
             ExitCommand = new RelayCommand(Exit);
             CategoryCommand = new RelayCommand(Category);
             NewGameCommand = new RelayCommand(NewGame);
+            OpenGameCommand = new RelayCommand(OpenGame);
         }
 
         private void Exit(object parameter)
@@ -47,13 +49,24 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
-           
-            
+
+
             _mainViewModel.CurrentView = new GameBoardView
             {
-                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns,_mainViewModel.SelectedCategory)
+                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns, _mainViewModel.SelectedCategory)
             };
 
         }
+
+        private void OpenGame(object parameter)
+        {
+            var loadGameWindow = new LoadGameWindow
+            {
+                DataContext = new LoadGameWindowViewModel(_mainViewModel,_mainViewModel.CurrentUserName)
+            };
+
+            loadGameWindow.ShowDialog(); 
+        }
+
     }
 }

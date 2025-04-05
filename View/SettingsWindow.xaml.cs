@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MemoryGame.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,13 @@ namespace MemoryGame.View
     /// </summary>
     public partial class SettingsWindow : Window
     {
-        public SettingsWindow()
+
+        private MainViewModel _mainViewModel;
+        public SettingsWindow(MainViewModel mainViewModel)
         {
             InitializeComponent();
+            _mainViewModel = mainViewModel;
+            this.DataContext = new SettingsViewModel(_mainViewModel);
         }
     }
 }

@@ -4507,4 +4507,8 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Saved Games\" />
+  </ItemGroup>
+
 </Project>

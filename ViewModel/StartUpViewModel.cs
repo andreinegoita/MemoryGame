@@ -102,7 +102,8 @@ namespace MemoryGame.ViewModel
 
             if (!string.IsNullOrWhiteSpace(viewModel.UserName))
             {
-                var newUser = new User { Name = viewModel.UserName, SelectedImage = SelectedImage };
+                // Ensure that the name is passed correctly
+                var newUser = new User(viewModel.UserName) { SelectedImage = SelectedImage };
                 Users.Add(newUser);
                 UserService.SaveUsers(Users);
             }
@@ -138,7 +139,7 @@ namespace MemoryGame.ViewModel
             {
                 SelectedUser.SelectedImage = SelectedImage;
                 UserService.SaveUsers(Users);
-                MessageBox.Show($"Game started for {SelectedUser.Name}!");
+                _mainViewModel.CurrentUserName = SelectedUser.Name;
                 _mainViewModel.CurrentView = new PlayMenu
                 {
                     DataContext = new PlayMenuViewModel(_mainViewModel) 

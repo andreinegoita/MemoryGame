@@ -1,4 +1,5 @@
-﻿using MemoryGame.View;
+﻿using MemoryGame.Model;
+using MemoryGame.View;
 using MemoryGame.ViewModel.Commands;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,19 @@ namespace MemoryGame.ViewModel
     {
 
         private object _currentView;
+        private string _currentUserName;
+        public string CurrentUserName
+        {
+            get => _currentUserName;
+            set
+            {
+                if (_currentUserName != value)
+                {
+                    _currentUserName = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         public object CurrentView
         {
@@ -47,6 +61,7 @@ namespace MemoryGame.ViewModel
             }
         }
 
+        public GameState CurrentGameState { get; set; }
 
         private string _selectedCategory = "Default";
         public string SelectedCategory
@@ -83,7 +98,7 @@ namespace MemoryGame.ViewModel
         private void OpenSettingsWindow(object obj)
         {
             
-            var settingsWindow = new SettingsWindow();
+            var settingsWindow = new SettingsWindow(this);
             settingsWindow.ShowDialog();
         }
 

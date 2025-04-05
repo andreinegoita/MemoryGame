@@ -1,0 +1,827 @@
+[
+  {
+    "Id": "ae068020-ea9a-46bd-9c81-632003019fdd",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "7d2cc1d2-3c36-4555-a074-d9e924866016",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Logos",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T18:10:24.6424545+03:00"
+      }
+    ]
+  },
+  {
+    "Id": "46048d54-1022-4e48-851c-2585fe79a4de",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\West_Ham_United_FC_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\FC_Internazionale_Milano_2021.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\CFR_Cluj_badge.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Real_Sociedad_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Petrolul_Ploiesti_logo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Olympique_Lyonnais_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Olympique_Lyonnais_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\FC_Internazionale_Milano_2021.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\CFR_Cluj_badge.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Real_Sociedad_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\UTA_Arad_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\UTA_Arad_logo.svg.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Petrolul_Ploiesti_logo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\West_Ham_United_FC_logo.svg.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "09ab2e75-0dee-42f3-976f-9821b1a19ab8",
+          "Name": "Joc curent",
+          "SelectedCategory": "Football Logos",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\West_Ham_United_FC_logo.svg.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\FC_Internazionale_Milano_2021.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\CFR_Cluj_badge.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Real_Sociedad_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Petrolul_Ploiesti_logo.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\ACF_Fiorentina_-_logo_(Italy,_2022).svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Olympique_Lyonnais_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Olympique_Lyonnais_logo.svg.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\FC_Internazionale_Milano_2021.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\CFR_Cluj_badge.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Real_Sociedad_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\UTA_Arad_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\UTA_Arad_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\Petrolul_Ploiesti_logo.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Football Logos\\West_Ham_United_FC_logo.svg.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T19:26:15.2542472+03:00"
+      }
+    ]
+  },
+  {
+    "Id": "0385c271-6873-44e1-a4a9-a93d4424702c",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Mercedes-Benz-logo-2011-640x369.jpg",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\ARO-logo-640x567.jpg",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\cadillac-logo-2021-full-download.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\nio-logo-1800x700-show.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\cadillac-logo-2021-full-download.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Lancia-logo-2007-640x550.jpg",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\honda-logo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\nio-logo-1800x700-show.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\ARO-logo-640x567.jpg",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Lancia-logo-2007-640x550.jpg",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Alfa-Romeo-logo-2015-640x550.jpg",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Daihatsu-logo-1997-1280x233.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Daihatsu-logo-1997-1280x233.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Alfa-Romeo-logo-2015-640x550.jpg",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\honda-logo.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Mercedes-Benz-logo-2011-640x369.jpg",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "576a25e7-89ed-479b-a78e-e850d1695473",
+          "Name": "Joc curent",
+          "SelectedCategory": "Cars Logos",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Mercedes-Benz-logo-2011-640x369.jpg"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\ARO-logo-640x567.jpg"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\cadillac-logo-2021-full-download.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\nio-logo-1800x700-show.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\cadillac-logo-2021-full-download.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Lancia-logo-2007-640x550.jpg"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\honda-logo.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\nio-logo-1800x700-show.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\ARO-logo-640x567.jpg"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Lancia-logo-2007-640x550.jpg"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Alfa-Romeo-logo-2015-640x550.jpg"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Daihatsu-logo-1997-1280x233.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Daihatsu-logo-1997-1280x233.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Alfa-Romeo-logo-2015-640x550.jpg"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\honda-logo.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\Cars Logos\\Mercedes-Benz-logo-2011-640x369.jpg"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T19:34:43.7751655+03:00"
+      }
+    ]
+  },
+  {
+    "Id": "c7fde75c-512b-45f4-9c94-cf28b98a82ad",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "19490666-8f86-4717-af53-ae8b3de06f23",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Logos",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T19:55:32.9216152+03:00"
+      }
+    ]
+  },
+  {
+    "Id": "e8d1d098-a477-4d20-9e94-090141df62b4",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "859cf61d-9ce1-400d-a7ac-01af008e5544",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Logos",
+          "Rows": 4,
+          "Columns": 4,
+          "Tiles": [
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Marussia_F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Renault_2023.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\uuQxV8xeSFh3PpnuzAyKKV.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Sauber_F1_Team_logo.svg.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Redbull Racing.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mercedes-F1.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Mclaren.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Logos\\Scuderia Ferrari HP.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T19:55:51.5319731+03:00"
+      }
+    ]
+  }
+]

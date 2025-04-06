@@ -22,5 +22,17 @@
       "WinRate": 0
     },
     "SavedGames": []
+  },
+  {
+    "Id": "ff4a552a-fe6d-4f1a-82f5-bc1f2e546fbd",
+    "Name": "Andrei",
+    "SelectedImage": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets/Icons/F1/Helmets/Alain Prost.png",
+    "GameBoardState": [],
+    "Statistics": {
+      "GamesPlayed": 0,
+      "GamesWon": 0,
+      "WinRate": 0
+    },
+    "SavedGames": []
   }
 ]

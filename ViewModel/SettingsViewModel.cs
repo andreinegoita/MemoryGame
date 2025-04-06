@@ -39,7 +39,6 @@ namespace MemoryGame.ViewModel
 
         private void Exit(object parameter)
         {
-            // 1. Confirmare de ieșire
             var result = MessageBox.Show(
                 "Vrei să salvezi progresul înainte de a ieși?",
                 "Confirmare",
@@ -73,6 +72,13 @@ namespace MemoryGame.ViewModel
 
         private void SaveUserProgress(GameBoardViewModel gameVm)
         {
+
+            if (gameVm.IsGameOver || gameVm.Tiles.All(t => t.IsMatched) || gameVm.RemainingTime.TotalSeconds <= 0)
+            {
+                MessageBox.Show("Jocul este deja terminat și nu va fi salvat.");
+                return;
+            }
+
             string saveFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Saved Games");
 
 

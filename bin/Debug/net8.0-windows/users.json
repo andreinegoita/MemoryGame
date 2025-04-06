@@ -1,16 +1,1 @@
-[
-  {
-    "Id": "8c4eddc3-7ab1-4da8-8834-2425c7ca5ac9",
-    "Name": "Ana",
-    "SelectedImage": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets/Icons/F1/Helmets/Ayrton Senna.png",
-    "GameBoardState": [],
-    "SavedGames": []
-  },
-  {
-    "Id": "4b606f48-057e-4e3c-b5cc-c7dad96ca5da",
-    "Name": "Andrei",
-    "SelectedImage": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets/Icons/F1/Helmets/Antonio Giovinnazzi.png",
-    "GameBoardState": [],
-    "SavedGames": []
-  }
-]
+[]

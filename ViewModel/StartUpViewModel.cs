@@ -102,7 +102,6 @@ namespace MemoryGame.ViewModel
 
             if (!string.IsNullOrWhiteSpace(viewModel.UserName))
             {
-                // Ensure that the name is passed correctly
                 var newUser = new User(viewModel.UserName) { SelectedImage = SelectedImage };
                 Users.Add(newUser);
                 UserService.SaveUsers(Users);
@@ -113,11 +112,30 @@ namespace MemoryGame.ViewModel
         {
             if (SelectedUser != null)
             {
+                string userName = SelectedUser.Name; 
+
                 Users.Remove(SelectedUser);
-                SelectedUser = null;
+
                 UserService.SaveUsers(Users);
+
+                string saveFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Saved Games", $"{userName}.json");
+                if (File.Exists(saveFilePath))
+                {
+                    try
+                    {
+                        File.Delete(saveFilePath);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Eroare la ștergerea salvărilor: {ex.Message}", "Eroare", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+
+
+                SelectedUser = null;
             }
         }
+
 
         private void NextImage()
         {

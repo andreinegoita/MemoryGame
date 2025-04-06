@@ -49,6 +49,11 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
+            if (_mainViewModel.SelectedCategory == "Default")
+            {
+                MessageBox.Show("Trebuie selectata o categorie inainte de a porni jocul", "Eroare", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
 
 
             var timeWindow = new TimeInputWindow();

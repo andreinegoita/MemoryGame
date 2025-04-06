@@ -15,16 +15,26 @@ namespace MemoryGame.ViewModel
         private readonly MainViewModel _mainViewModel;
 
         public ICommand ExitCommand { get; }
+        public ICommand AboutCommand { get; }
         public HelpViewModel(MainViewModel mainViewModel)
         {
             _mainViewModel = mainViewModel;
             ExitCommand = new RelayCommand(Exit);
+            AboutCommand = new RelayCommand(About);
         }
         private void Exit(object parameter)
         {
             _mainViewModel.CurrentView = new PlayMenu
             {
                 DataContext = new PlayMenuViewModel(_mainViewModel)
+            };
+        }
+
+        private void About(object parameter)
+        {
+            _mainViewModel.CurrentView = new AboutWindow
+            {
+                DataContext = new AboutViewModel(_mainViewModel)
             };
         }
     }

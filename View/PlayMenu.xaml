@@ -6,14 +6,54 @@
              xmlns:local="clr-namespace:MemoryGame.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#6200EE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="4" Opacity="0.2"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="25">
+                            <Grid>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
+
         <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" />
 
-        <UniformGrid Columns="1" Rows="3" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="150">
-            <Button Content="File" Command="{Binding FileCommand}" Height="40"/>
-            <Button Content="Options" Command="{Binding OptionsCommand}" Height="40"/>
-            <Button Content="Help" Command="{Binding HelpCommand}" Height="40"/>
-            <Button Content="Exit" Command="{Binding ExitCommand}" Height="40"/>
-        </UniformGrid>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <UniformGrid Columns="1" Rows="4" VerticalAlignment="Center" HorizontalAlignment="Center" Width="250" Height="300">
+                <Button Content="File" Command="{Binding FileCommand}" Style="{StaticResource ModernButtonStyle}" Margin="10,12,-10,13" />
+                <Button Content="Options" Command="{Binding OptionsCommand}" Style="{StaticResource ModernButtonStyle}" Margin="10,12,-10,13" />
+                <Button Content="Help" Command="{Binding HelpCommand}" Style="{StaticResource ModernButtonStyle}" Margin="10,12,-10,13" />
+                <Button Content="Exit" Command="{Binding ExitCommand}" Style="{StaticResource ModernButtonStyle}" Margin="10,12,-10,13" />
+            </UniformGrid>
+        </Grid>
     </Grid>
 </UserControl>

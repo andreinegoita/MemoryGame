@@ -13,6 +13,9 @@ namespace MemoryGame.Model
         public string SelectedCategory { get; set; }
         public int Rows { get; set; }
         public int Columns { get; set; }
+
+        public TimeSpan RemainingTime { get; set; }
+
         public List<GameTileModel> Tiles { get; set; }
     }
 

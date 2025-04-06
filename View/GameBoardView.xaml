@@ -36,14 +36,11 @@
                             </Grid>
                         </Border>
                         <ControlTemplate.Triggers>
-                            <!-- Când jetonul este întors, afișăm imaginea -->
                             <DataTrigger Binding="{Binding IsFlipped}" Value="True">
                                 <Setter TargetName="TileImage" Property="Opacity" Value="1"/>
                             </DataTrigger>
-                            <!-- Când jetonul e potrivit, îl dezactivăm -->
                             <DataTrigger Binding="{Binding IsMatched}" Value="True">
                                 <Setter Property="IsEnabled" Value="False"/>
-                                <!-- opțional: păstrează opacitatea la 1 -->
                                 <Setter TargetName="TileImage" Property="Opacity" Value="1"/>
                             </DataTrigger>
                         </ControlTemplate.Triggers>
@@ -54,7 +51,22 @@
     </UserControl.Resources>
 
     <Grid>
-        <ItemsControl ItemsSource="{Binding Tiles}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock Grid.Row="0"
+                   Text="{Binding TimerDisplay}"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="10"
+                   Foreground="DarkRed" />
+
+
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Tiles}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <UniformGrid Rows="{Binding Rows}" Columns="{Binding Columns}"/>

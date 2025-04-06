@@ -7,8 +7,10 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Threading;
 using MemoryGame.Model;
 using MemoryGame.ViewModel.Commands;
+using MemoryGame.View;
 
 namespace MemoryGame.ViewModel
 {
@@ -20,6 +22,9 @@ namespace MemoryGame.ViewModel
         private GameTileModel _secondSelectedTile;
         private bool _isBusy;
         private readonly Random _random = new Random();
+        private readonly MainViewModel _mainViewModel;
+        private bool _gameOver;
+
 
         public ObservableCollection<GameTileModel> Tiles { get; }
 
@@ -29,24 +34,74 @@ namespace MemoryGame.ViewModel
         public int Columns => _columns;
         public string SelectedCategory { get; }
 
-        public GameBoardViewModel(int rows, int columns, string selectedCategory)
+
+        public string TimerDisplay => RemainingTime.ToString(@"mm\:ss");
+
+
+        private DispatcherTimer _gameTimer;
+        private TimeSpan _remainingTime = TimeSpan.FromMinutes(2); 
+
+        public TimeSpan RemainingTime
+        {
+            get => _remainingTime;
+            set
+            {
+                _remainingTime = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(TimerDisplay));
+            }
+        }
+        public bool IsGameOver
+        {
+            get => _gameOver;
+            set
+            {
+                if (_gameOver != value)
+                {
+                    _gameOver = value;
+                    OnPropertyChanged(nameof(IsGameOver));
+                    OnPropertyChanged(nameof(TimerDisplay));
+                }
+            }
+        }
+
+        public GameBoardViewModel(int rows, int columns, string selectedCategory,TimeSpan time, MainViewModel mainViewModel)
         {
             _rows = rows;
             _columns = columns;
             SelectedCategory = selectedCategory;
             Tiles = new ObservableCollection<GameTileModel>();
+            RemainingTime = time;
+            _mainViewModel = mainViewModel;
+            _gameOver = false;
+            _gameTimer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(1)
+            };
+            _gameTimer.Tick += GameTimer_Tick;
+            _gameTimer.Start();
 
             GenerateTiles();
 
             TileClickCommand = new RelayCommand(FlipTile);
+            _mainViewModel = mainViewModel;
         }
-        public GameBoardViewModel(GameState state)
+        public GameBoardViewModel(GameState state,MainViewModel mainViewModel)
         {
             _rows = state.Rows;
             _columns = state.Columns;
             SelectedCategory = state.SelectedCategory;
             Tiles = new ObservableCollection<GameTileModel>(state.Tiles);
             TileClickCommand = new RelayCommand(FlipTile);
+            RemainingTime = state.RemainingTime;
+            _mainViewModel = mainViewModel;
+            _gameTimer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromSeconds(1)
+            };
+            _gameTimer.Tick += GameTimer_Tick;
+            _gameTimer.Start();
+
         }
         private void GenerateTiles()
         {
@@ -127,13 +182,31 @@ namespace MemoryGame.ViewModel
             }
         }
 
-        private void CheckGameWon()
+        private async void CheckGameWon()
         {
             if (Tiles.All(tile => tile.IsMatched))
             {
+
+                _gameTimer.Stop();
+                _gameTimer.Tick -= GameTimer_Tick;
+                if (_gameTimer.IsEnabled)
+                {
+                    _gameTimer.IsEnabled = false;
+                }
+
                 MessageBox.Show("Ai câștigat!", "Felicitări", MessageBoxButton.OK, MessageBoxImage.Information);
+
+
+                await Task.Delay(100);
+
+
+                _mainViewModel.CurrentView = new PlayMenu
+                {
+                    DataContext = new PlayMenuViewModel(_mainViewModel)
+                };
             }
         }
+
 
         public GameState GetCurrentState()
         {
@@ -143,9 +216,34 @@ namespace MemoryGame.ViewModel
                 SelectedCategory = SelectedCategory,
                 Rows = _rows,
                 Columns = _columns,
-                Tiles = Tiles.ToList()
+                Tiles = Tiles.ToList(),
+                RemainingTime = RemainingTime
             };
         }
+
+        private void GameTimer_Tick(object sender, EventArgs e)
+        {
+            
+            if (_gameOver)
+            {
+                return;
+            }
+
+            if (RemainingTime.TotalSeconds > 0)
+            {
+                RemainingTime = RemainingTime.Subtract(TimeSpan.FromSeconds(1));
+            }
+            else
+            {
+                _gameTimer.Stop();
+                MessageBox.Show("Timpul a expirat!", "Game Over", MessageBoxButton.OK, MessageBoxImage.Warning);
+                _mainViewModel.CurrentView = new PlayMenu
+                {
+                    DataContext = new PlayMenuViewModel(_mainViewModel)
+                };
+            }
+        }
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;

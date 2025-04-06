@@ -41,5 +41,8 @@
     <Compile Update="View\StartUpMenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\TimeInputWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

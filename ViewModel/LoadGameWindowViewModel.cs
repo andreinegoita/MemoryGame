@@ -86,7 +86,7 @@ public class LoadGameWindowViewModel : INotifyPropertyChanged
 
         _mainViewModel.CurrentView = new GameBoardView
         {
-            DataContext = new GameBoardViewModel(SelectedGame.GameState)
+            DataContext = new GameBoardViewModel(SelectedGame.GameState,_mainViewModel)
         };
     }
 

@@ -823,5 +823,134 @@
         "SaveDate": "2025-04-05T19:55:51.5319731+03:00"
       }
     ]
+  },
+  {
+    "Id": "62797f58-6b6f-4983-b64c-cf5b1954cf6d",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2019 Haas.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2019 Haas.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2003 Bar.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1985 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2023 Alpine.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2023 Alpine.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2003 Bar.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1985 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png",
+        "IsFlipped": false
+      }
+    ],
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "53c4f874-7a73-41cd-886a-1b12a1bb6f54",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Cars",
+          "Rows": 2,
+          "Columns": 6,
+          "Tiles": [
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2019 Haas.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2019 Haas.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2003 Bar.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1985 Ferrari.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2023 Alpine.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2023 Alpine.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2003 Bar.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1985 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-05T20:07:28.556603+03:00"
+      }
+    ]
   }
 ]

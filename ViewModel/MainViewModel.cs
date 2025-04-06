@@ -29,6 +29,7 @@ namespace MemoryGame.ViewModel
                 }
             }
         }
+        public TimeSpan CustomTime { get; set; } = TimeSpan.FromMinutes(2); 
 
         public object CurrentView
         {

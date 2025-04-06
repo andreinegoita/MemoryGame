@@ -1217,3 +1217,5 @@ D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Valter
 D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Icons\F1\Helmets\Zhou Guanyu.png
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.g.cs
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.baml
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\TimeInputWindow.baml
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\TimeInputWindow.g.cs

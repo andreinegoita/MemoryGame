@@ -51,10 +51,9 @@ namespace MemoryGame.ViewModel
 
 
 
-            _mainViewModel.CurrentView = new GameBoardView
-            {
-                DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns, _mainViewModel.SelectedCategory)
-            };
+            var timeWindow = new TimeInputWindow();
+            timeWindow.DataContext = new TimeInputViewModel(_mainViewModel, timeWindow);
+            timeWindow.ShowDialog();
 
         }
 

@@ -1,0 +1,173 @@
+[
+  {
+    "Id": "ca6b14b0-bb15-4f7d-a92c-87af2f96c3aa",
+    "Name": "Ana",
+    "SelectedImage": null,
+    "GameBoardState": [
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2021 Alpine.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Williams.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2014 Lotus.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Williams.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2014 Lotus.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2013 Redbull.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1996 tyrrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2021 Alpine.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Ferrari.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1996 tyrrell.png",
+        "IsFlipped": false
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2013 Redbull.png",
+        "IsFlipped": true
+      },
+      {
+        "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png",
+        "IsFlipped": false
+      }
+    ],
+    "Statistics": {
+      "GamesPlayed": 0,
+      "GamesWon": 0,
+      "WinRate": 0
+    },
+    "SavedGames": [
+      {
+        "GameState": {
+          "Id": "d11bebba-b5d5-4b40-97f8-61790b00ae33",
+          "Name": "Joc curent",
+          "SelectedCategory": "F1 Cars",
+          "Rows": 4,
+          "Columns": 4,
+          "RemainingTime": "00:01:49",
+          "Tiles": [
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2021 Alpine.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Williams.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2014 Lotus.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1997 Williams.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2014 Lotus.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2010 Mercedes.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2013 Redbull.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1996 tyrrell.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2021 Alpine.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2005 Ferrari.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\1996 tyrrell.png"
+            },
+            {
+              "IsMatched": true,
+              "IsFlipped": true,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2013 Redbull.png"
+            },
+            {
+              "IsMatched": false,
+              "IsFlipped": false,
+              "ImagePath": "D:\\MemoryGame\\MemoryGame\\bin\\Debug\\net8.0-windows\\Assets\\Icons\\F1 Cars\\2020 Racing point.png"
+            }
+          ]
+        },
+        "SaveDate": "2025-04-06T19:46:53.1522417+03:00"
+      }
+    ]
+  }
+]

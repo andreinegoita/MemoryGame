@@ -193,6 +193,7 @@ namespace MemoryGame.ViewModel
                 {
                     _gameTimer.IsEnabled = false;
                 }
+                UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, true);
 
                 MessageBox.Show("Ai câștigat!", "Felicitări", MessageBoxButton.OK, MessageBoxImage.Information);
 
@@ -236,6 +237,7 @@ namespace MemoryGame.ViewModel
             else
             {
                 _gameTimer.Stop();
+                UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, false);
                 MessageBox.Show("Timpul a expirat!", "Game Over", MessageBoxButton.OK, MessageBoxImage.Warning);
                 _mainViewModel.CurrentView = new PlayMenu
                 {

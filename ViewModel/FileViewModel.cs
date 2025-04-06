@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Input;
+using System.Xml.Serialization;
 using MemoryGame.View;
 using MemoryGame.ViewModel.Commands;
 
@@ -15,6 +16,7 @@ namespace MemoryGame.ViewModel
         public ICommand CategoryCommand { get; }
         public ICommand NewGameCommand { get; }
         public ICommand OpenGameCommand { get; }
+        public ICommand StatisticsCommand { get; }
 
         public FileViewModel(MainViewModel mainViewModel)
         {
@@ -23,6 +25,7 @@ namespace MemoryGame.ViewModel
             CategoryCommand = new RelayCommand(Category);
             NewGameCommand = new RelayCommand(NewGame);
             OpenGameCommand = new RelayCommand(OpenGame);
+            StatisticsCommand = new RelayCommand(Statistics);
         }
 
         private void Exit(object parameter)
@@ -70,6 +73,14 @@ namespace MemoryGame.ViewModel
             };
 
             loadGameWindow.ShowDialog(); 
+        }
+
+        private void Statistics(object parameter)
+        {
+            _mainViewModel.CurrentView = new StatisticsView
+            {
+                DataContext = new StatisticsViewModel(_mainViewModel)
+            };
         }
 
     }

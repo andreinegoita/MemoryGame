@@ -1219,3 +1219,5 @@ D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.g.cs
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoadGameWindow.baml
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\TimeInputWindow.baml
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\TimeInputWindow.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\StatisticsView.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\StatisticsView.baml

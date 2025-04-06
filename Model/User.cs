@@ -14,7 +14,9 @@ namespace MemoryGame.Model
 
         public List<TileState> GameBoardState { get; set; }
 
+        public PlayerStatistics Statistics { get; set; } = new PlayerStatistics();
         public List<GameSave> SavedGames { get; set; }=new List<GameSave>();
+
 
         public User(string name)
         {

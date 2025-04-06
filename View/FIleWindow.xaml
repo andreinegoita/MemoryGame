@@ -6,14 +6,45 @@
              xmlns:local="clr-namespace:MemoryGame.View"
              mc:Ignorable="d" 
              d:DesignHeight="550" d:DesignWidth="950">
+    <UserControl.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#6200EE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="4" Opacity="0.2"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="20">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
+
         <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" />
 
-        <Button Content="Category" Command="{Binding  CategoryCommand}" Height="40" Width="150" Margin="325,57,325,353"/>
-            <Button Content="New Game" Command="{Binding NewGameCommand}" Height="40"  Width="150" Margin="325,116,325,294"/>
-        <Button Content="Open Game" Command="{Binding OpenGameCommand}" Height="40"  Width="150" Margin="325,172,325,238"/>
-        <Button Content="Save Game" Height="40"  Width="150" Margin="325,230,325,180"/>
-        <Button Content="Statistics" Command="{Binding StatisticsCommand}" Height="40"  Width="150" Margin="325,289,325,121"/>
-        <Button Content="Exit" Command="{Binding ExitCommand}" Height="40"  Width="150" Margin="325,349,325,61"/>
+        <Button Content="Category" Command="{Binding CategoryCommand}" Style="{StaticResource ButtonStyle}" Margin="325,57,325,353"/>
+        <Button Content="New Game" Command="{Binding NewGameCommand}" Style="{StaticResource ButtonStyle}" Margin="325,116,325,294"/>
+        <Button Content="Open Game" Command="{Binding OpenGameCommand}" Style="{StaticResource ButtonStyle}" Margin="325,172,325,238"/>
+        <Button Content="Save Game" Style="{StaticResource ButtonStyle}" Margin="325,230,325,180"/>
+        <Button Content="Statistics" Command="{Binding StatisticsCommand}" Style="{StaticResource ButtonStyle}" Margin="325,289,325,121"/>
+        <Button Content="Exit" Command="{Binding ExitCommand}" Style="{StaticResource ButtonStyle}" Margin="325,349,325,61"/>
     </Grid>
 </UserControl>

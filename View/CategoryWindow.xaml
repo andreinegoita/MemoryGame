@@ -6,19 +6,53 @@
              xmlns:local="clr-namespace:MemoryGame.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+
+        <Style x:Key="CategoryButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#6200EE"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10, 0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="4" Opacity="0.2"/>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="25">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
-        <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" />
-        <Button Content="Anime"  Command="{Binding SelectCategoryCommand}" CommandParameter="Anime" Height="40" Width="150" Margin="79,48,571,362"/>
-        <Button Content="Cars"  Command="{Binding SelectCategoryCommand}" CommandParameter="Cars" Height="40" Width="150" Margin="444,48,206,362"/>
-        <Button Content="Cars Logos"  Command="{Binding SelectCategoryCommand}" CommandParameter="Cars Logos" Height="40" Width="150" Margin="260,127,390,283" RenderTransformOrigin="0.06,0.225"/>
-        <Button Content="F1 Logos"  Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Logos" Height="40" Width="150" Margin="79,127,571,283"/>
-        <Button Content="F1 Drivers"  Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Drivers" Height="40" Width="150" Margin="444,127,206,283"/>
-        <Button Content="F1 Cars"  Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Cars" Height="40" Width="150" Margin="260,48,390,362"/>
-        <Button Content="Football Logos"  Command="{Binding SelectCategoryCommand}" CommandParameter="Football Logos" Height="40" Width="150" Margin="444,205,206,205"/>
-        <Button Content="Football Players"  Command="{Binding SelectCategoryCommand}" CommandParameter="Football Players" Height="40" Width="150" Margin="260,283,390,127"/>
-        <Button Content="Music Albums"  Command="{Binding SelectCategoryCommand}" CommandParameter="Music Albums" Height="40" Width="150" Margin="260,205,390,205" RenderTransformOrigin="1.013,-1.225"/>
-        <Button Content="NBA Players"  Command="{Binding SelectCategoryCommand}" CommandParameter="NBA Players" Height="40" Width="150" Margin="79,283,571,127"/>
-        <Button Content="NBA Teams"  Command="{Binding SelectCategoryCommand}" CommandParameter="NBA Teams" Height="40" Width="150" Margin="79,205,571,205"/>
-        <Button Content="Exit" Command="{Binding ExitCommand }" Height="40" Width="150" Margin="444,283,206,127"/>
+
+        <Image Source="/Assets/MemoryGamePlayMenu.png" Stretch="Fill" Opacity="0.6"/>
+
+
+        <Button Content="Anime" Command="{Binding SelectCategoryCommand}" CommandParameter="Anime" Style="{StaticResource CategoryButtonStyle}" Margin="79,48,571,362"/>
+        <Button Content="Cars" Command="{Binding SelectCategoryCommand}" CommandParameter="Cars" Style="{StaticResource CategoryButtonStyle}" Margin="444,48,206,362"/>
+        <Button Content="Cars Logos" Command="{Binding SelectCategoryCommand}" CommandParameter="Cars Logos" Style="{StaticResource CategoryButtonStyle}" Margin="260,127,390,283"/>
+        <Button Content="F1 Logos" Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Logos" Style="{StaticResource CategoryButtonStyle}" Margin="79,127,571,283"/>
+        <Button Content="F1 Drivers" Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Drivers" Style="{StaticResource CategoryButtonStyle}" Margin="444,127,206,283"/>
+        <Button Content="F1 Cars" Command="{Binding SelectCategoryCommand}" CommandParameter="F1 Cars" Style="{StaticResource CategoryButtonStyle}" Margin="260,48,390,362"/>
+        <Button Content="Football Logos" Command="{Binding SelectCategoryCommand}" CommandParameter="Football Logos" Style="{StaticResource CategoryButtonStyle}" Margin="444,205,206,205"/>
+        <Button Content="Football Players" Command="{Binding SelectCategoryCommand}" CommandParameter="Football Players" Style="{StaticResource CategoryButtonStyle}" Margin="260,283,390,127"/>
+        <Button Content="Music Albums" Command="{Binding SelectCategoryCommand}" CommandParameter="Music Albums" Style="{StaticResource CategoryButtonStyle}" Margin="260,205,390,205"/>
+        <Button Content="NBA Players" Command="{Binding SelectCategoryCommand}" CommandParameter="NBA Players" Style="{StaticResource CategoryButtonStyle}" Margin="79,283,571,127"/>
+        <Button Content="NBA Teams" Command="{Binding SelectCategoryCommand}" CommandParameter="NBA Teams" Style="{StaticResource CategoryButtonStyle}" Margin="79,205,571,205"/>
+        <Button Content="Exit" Command="{Binding ExitCommand}" Style="{StaticResource CategoryButtonStyle}" Background="#F44336" Margin="444,283,206,127"/>
     </Grid>
 </UserControl>

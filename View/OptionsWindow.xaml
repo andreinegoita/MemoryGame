@@ -6,13 +6,52 @@
              xmlns:local="clr-namespace:MemoryGame.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#6200EE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="8" ShadowDepth="4" Opacity="0.2"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="25">
+                            <Grid>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/MemoryGamePlayMenu.png"/>
         </Grid.Background>
 
-        <Button Content="Standard" Command="{Binding StandardCommand}" Height="40" Width="150" Margin="325,144,325,266"/>
-        <Button Content="Custom" Command="{Binding CustomCommand}" Height="40" Width="150" Margin="325,225,325,185"/>
-        <Button Content="Exit" Command="{Binding ExitCommand}" Height="40" Width="150" Margin="325,317,325,93"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Standard" Command="{Binding StandardCommand}" Style="{StaticResource ModernButtonStyle}"/>
+            <Button Content="Custom" Command="{Binding CustomCommand}" Style="{StaticResource ModernButtonStyle}"/>
+            <Button Content="Exit" Command="{Binding ExitCommand}" Style="{StaticResource ModernButtonStyle}"/>
+        </StackPanel>
     </Grid>
 </UserControl>

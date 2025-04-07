@@ -2,13 +2,21 @@
 
 This project is about a memory game created in C# using WPF and MVVM arhitecture.The main game scope is to guess and pair a selection of images  for testing your attention and visual memory.
 
-# General structure
+# :abacus: General structure
 - **MVVM**
 -  **User System**
 -  **Categories**
 -  **Game Modes**
 -  **Statistics**
 
+# :rocket: Functionalities
+- **Authentication and register system**
+- **Choosing tables dimension (custom or standard)**
+- **Choosing preferred categories for the game**
+- **Random token generation**
+- **Saving statistics per user (in JSON)**
+- **Displaying statistics in a dedicated window**
+  
 # :camera_flash: In Game Screenshots
 ![Screenshot 2025-04-07 162951](https://github.com/user-attachments/assets/74afec63-5803-4c30-aed3-c0b9097b35e7)
 
@@ -26,5 +34,7 @@ This project is about a memory game created in C# using WPF and MVVM arhitecture
 ![image](https://github.com/user-attachments/assets/aed6f316-f5c2-4b54-bf45-02565869cad4)
 
 ![image](https://github.com/user-attachments/assets/2a81f1af-f7ef-459f-bd14-63ac868f2d72)
+
+
 
 

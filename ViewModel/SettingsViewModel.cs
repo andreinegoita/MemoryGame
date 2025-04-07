@@ -55,6 +55,7 @@ namespace MemoryGame.ViewModel
                 {
                     SaveUserProgress(gameVm);
                 }
+                gameVm.StopTimer();
             }
 
 

@@ -1126,6 +1126,7 @@
     <None Remove="Assets\MemoryGameMain.png" />
     <None Remove="Assets\MemoryGameMenu.jpg" />
     <None Remove="Assets\MemoryGamePlayMenu.png" />
+    <None Remove="Assets\MemoryGameWin.jpg" />
     <None Remove="Assets\Sounds\KILLINGMYLOVE.mp3" />
     <None Remove="Assets\Sounds\RAGEYOURDREAM.mp3" />
     <None Remove="Assets\Sounds\STAY.mp3" />
@@ -4464,6 +4465,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\MemoryGamePlayMenu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\MemoryGameWin.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Sounds\Click.mp3">

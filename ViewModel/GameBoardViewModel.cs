@@ -189,6 +189,18 @@ namespace MemoryGame.ViewModel
                 }
             }
         }
+
+        public void StopTimer()
+        {
+            if (_gameTimer != null)
+            {
+                _gameTimer.Stop();
+                _gameTimer.Tick -= GameTimer_Tick;
+                _gameTimer = null;
+            }
+        }
+
+
         private async void AgitateTiles(GameTileModel firstTile, GameTileModel secondTile)
         {
             
@@ -213,15 +225,15 @@ namespace MemoryGame.ViewModel
                 }
                 UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, true);
 
-                MessageBox.Show("Ai câștigat!", "Felicitări", MessageBoxButton.OK, MessageBoxImage.Information);
+                
 
 
                 await Task.Delay(100);
 
 
-                _mainViewModel.CurrentView = new PlayMenu
+                _mainViewModel.CurrentView = new WinGame
                 {
-                    DataContext = new PlayMenuViewModel(_mainViewModel)
+                    DataContext = new WinGameModel(_mainViewModel)
                 };
             }
         }

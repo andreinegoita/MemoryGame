@@ -50,5 +50,8 @@
     <Compile Update="View\TimeInputWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\WinGame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

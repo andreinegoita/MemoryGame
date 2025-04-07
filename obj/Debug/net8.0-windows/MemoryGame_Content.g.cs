@@ -1174,6 +1174,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/nba%20teams/utah_jazz_logo_primary_2023_sportslogosnet-8513.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygamemain.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygameplaymenu.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygamewin.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sounds/click.mp3")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/1336-fabian-pfpsgg.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/users/21cec04a1daef96dad10405131b41e45.jpg")]

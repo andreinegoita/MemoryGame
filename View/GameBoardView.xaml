@@ -34,23 +34,56 @@
                         <Border Background="{TemplateBinding Background}" 
                                 BorderBrush="{TemplateBinding BorderBrush}" 
                                 BorderThickness="{TemplateBinding BorderThickness}" 
-                                CornerRadius="12">
+                                CornerRadius="12"
+                                RenderTransformOrigin="0.5,0.5">
                             <Grid>
                                 <Image x:Name="TileImage"
                                        Source="{Binding ImagePath}"
                                        Stretch="Uniform"
                                        Opacity="0"
                                        IsHitTestVisible="False"/>
+                                <TextBlock x:Name="QuestionMark"
+                                           Text="?" 
+                                           FontSize="72" 
+                                           FontWeight="Bold" 
+                                           Foreground="White"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
                             </Grid>
                         </Border>
                         <ControlTemplate.Triggers>
                             <DataTrigger Binding="{Binding IsFlipped}" Value="True">
-                                <Setter TargetName="TileImage" Property="Opacity" Value="1"/>
-                                <Setter Property="Background" Value="#FFFFC107"/>
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="TileImage"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             From="0" To="1" Duration="0:0:0.15"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark" 
+                                                                          Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.15" Value="{x:Static Visibility.Collapsed}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.EnterActions>
+                                <DataTrigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="TileImage"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             From="1" To="0" Duration="0:0:0.15"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark" 
+                                                                          Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0:0:0.15" Value="{x:Static Visibility.Visible}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.ExitActions>
                             </DataTrigger>
                             <DataTrigger Binding="{Binding IsMatched}" Value="True">
                                 <Setter Property="IsEnabled" Value="False"/>
                                 <Setter TargetName="TileImage" Property="Opacity" Value="1"/>
+                                <Setter TargetName="QuestionMark" Property="Visibility" Value="Collapsed"/>
                                 <Setter Property="Background" Value="#FF009688"/>
                             </DataTrigger>
                         </ControlTemplate.Triggers>
@@ -58,7 +91,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
 
         <Style x:Key="TimerTextStyle" TargetType="TextBlock">
             <Setter Property="FontSize" Value="30"/>
@@ -69,22 +101,18 @@
         </Style>
     </UserControl.Resources>
 
-
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-
                 <GradientStop Color="#FFFB8C00" Offset="0" />
                 <GradientStop Color="#FFFF5722" Offset="0.5" />
                 <GradientStop Color="#FF9E3D00" Offset="1" />
             </LinearGradientBrush>
         </Grid.Background>
 
-
         <TextBlock Grid.Row="0"
                    Text="{Binding TimerDisplay}"
                    Style="{StaticResource TimerTextStyle}"/>
-
 
         <ItemsControl Grid.Row="1" ItemsSource="{Binding Tiles}">
             <ItemsControl.ItemsPanel>

@@ -11,6 +11,7 @@ using System.Windows.Threading;
 using MemoryGame.Model;
 using MemoryGame.ViewModel.Commands;
 using MemoryGame.View;
+using System.Windows.Media;
 
 namespace MemoryGame.ViewModel
 {
@@ -80,7 +81,8 @@ namespace MemoryGame.ViewModel
             };
             _gameTimer.Tick += GameTimer_Tick;
             _gameTimer.Start();
-
+            
+            
             GenerateTiles();
 
             TileClickCommand = new RelayCommand(FlipTile);
@@ -144,6 +146,9 @@ namespace MemoryGame.ViewModel
         {
             if (parameter is not GameTileModel tile || tile.IsFlipped || tile.IsMatched || _isBusy)
                 return;
+            var mediaPlayer = new MediaPlayer();
+            mediaPlayer.Open(new Uri("Assets/sounds/Click.mp3", UriKind.Relative));
+            mediaPlayer.Play();
 
             if (_firstSelectedTile != null && _secondSelectedTile != null)
             {

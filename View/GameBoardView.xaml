@@ -113,6 +113,8 @@
         <TextBlock Grid.Row="0"
                    Text="{Binding TimerDisplay}"
                    Style="{StaticResource TimerTextStyle}"/>
+        
+        
 
         <ItemsControl Grid.Row="1" ItemsSource="{Binding Tiles}">
             <ItemsControl.ItemsPanel>

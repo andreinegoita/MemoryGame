@@ -4466,6 +4466,9 @@
     <Content Include="Assets\MemoryGamePlayMenu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Sounds\Click.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Users\1336-fabian-pfpsgg.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

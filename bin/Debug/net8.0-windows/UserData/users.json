@@ -22,5 +22,17 @@
       "WinRate": 100
     },
     "SavedGames": []
+  },
+  {
+    "Id": "beb73563-713c-4f61-8a5b-20a7d73747cb",
+    "Name": "Andrei",
+    "SelectedImage": null,
+    "GameBoardState": [],
+    "Statistics": {
+      "GamesPlayed": 1,
+      "GamesWon": 1,
+      "WinRate": 100
+    },
+    "SavedGames": []
   }
 ]

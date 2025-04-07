@@ -8,12 +8,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
+using System.Windows.Media;
 using MemoryGame.Model;
 using MemoryGame.ViewModel.Commands;
 using MemoryGame.View;
-using System.Windows.Media;
-using System.Windows.Controls;
-using System.Windows.Media.Animation;
 
 namespace MemoryGame.ViewModel
 {
@@ -21,13 +19,14 @@ namespace MemoryGame.ViewModel
     {
         private readonly int _rows;
         private readonly int _columns;
+        private readonly Random _random = new Random();
+        private readonly MainViewModel _mainViewModel;
+        private DispatcherTimer _gameTimer;
+        private TimeSpan _remainingTime;
         private GameTileModel _firstSelectedTile;
         private GameTileModel _secondSelectedTile;
         private bool _isBusy;
-        private readonly Random _random = new Random();
-        private readonly MainViewModel _mainViewModel;
         private bool _gameOver;
-
 
         public ObservableCollection<GameTileModel> Tiles { get; }
 
@@ -37,12 +36,7 @@ namespace MemoryGame.ViewModel
         public int Columns => _columns;
         public string SelectedCategory { get; }
 
-
         public string TimerDisplay => RemainingTime.ToString(@"mm\:ss");
-
-
-        private DispatcherTimer _gameTimer;
-        private TimeSpan _remainingTime = TimeSpan.FromMinutes(2); 
 
         public TimeSpan RemainingTime
         {
@@ -54,6 +48,7 @@ namespace MemoryGame.ViewModel
                 OnPropertyChanged(nameof(TimerDisplay));
             }
         }
+
         public bool IsGameOver
         {
             get => _gameOver;
@@ -62,51 +57,47 @@ namespace MemoryGame.ViewModel
                 if (_gameOver != value)
                 {
                     _gameOver = value;
-                    OnPropertyChanged(nameof(IsGameOver));
-                    OnPropertyChanged(nameof(TimerDisplay));
+                    OnPropertyChanged();
                 }
             }
         }
 
-        public GameBoardViewModel(int rows, int columns, string selectedCategory,TimeSpan time, MainViewModel mainViewModel)
+        public GameBoardViewModel(int rows, int columns, string selectedCategory, TimeSpan time, MainViewModel mainViewModel)
         {
             _rows = rows;
             _columns = columns;
             SelectedCategory = selectedCategory;
-            Tiles = new ObservableCollection<GameTileModel>();
             RemainingTime = time;
             _mainViewModel = mainViewModel;
-            _gameOver = false;
-            _gameTimer = new DispatcherTimer
-            {
-                Interval = TimeSpan.FromSeconds(1)
-            };
-            _gameTimer.Tick += GameTimer_Tick;
-            _gameTimer.Start();
-            
-            
-            GenerateTiles();
 
+            Tiles = new ObservableCollection<GameTileModel>();
             TileClickCommand = new RelayCommand(FlipTile);
-            _mainViewModel = mainViewModel;
+
+            InitializeTimer();
+            GenerateTiles();
         }
-        public GameBoardViewModel(GameState state,MainViewModel mainViewModel)
+
+        public GameBoardViewModel(GameState state, MainViewModel mainViewModel)
         {
             _rows = state.Rows;
             _columns = state.Columns;
             SelectedCategory = state.SelectedCategory;
-            Tiles = new ObservableCollection<GameTileModel>(state.Tiles);
-            TileClickCommand = new RelayCommand(FlipTile);
             RemainingTime = state.RemainingTime;
             _mainViewModel = mainViewModel;
-            _gameTimer = new DispatcherTimer
-            {
-                Interval = TimeSpan.FromSeconds(1)
-            };
+
+            Tiles = new ObservableCollection<GameTileModel>(state.Tiles);
+            TileClickCommand = new RelayCommand(FlipTile);
+
+            InitializeTimer();
+        }
+
+        private void InitializeTimer()
+        {
+            _gameTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
             _gameTimer.Tick += GameTimer_Tick;
             _gameTimer.Start();
-
         }
+
         private void GenerateTiles()
         {
             int totalTiles = _rows * _columns;
@@ -120,7 +111,7 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
-            string[] imageFiles = Directory.GetFiles(categoryFolder)
+            var imageFiles = Directory.GetFiles(categoryFolder)
                 .Where(file => file.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
                                file.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
                                file.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
@@ -133,13 +124,11 @@ namespace MemoryGame.ViewModel
                 return;
             }
 
-            var selectedImages = imageFiles.OrderBy(x => _random.Next()).Take(numberOfPairs).ToList();
-            var pairedImages = selectedImages.Concat(selectedImages).OrderBy(x => _random.Next()).ToList();
+            var selectedImages = imageFiles.OrderBy(_ => _random.Next()).Take(numberOfPairs).ToList();
+            var pairedImages = selectedImages.Concat(selectedImages).OrderBy(_ => _random.Next()).ToList();
 
             foreach (var imagePath in pairedImages)
-            {
                 Tiles.Add(new GameTileModel(imagePath));
-            }
 
             OnPropertyChanged(nameof(Tiles));
         }
@@ -148,28 +137,28 @@ namespace MemoryGame.ViewModel
         {
             if (parameter is not GameTileModel tile || tile.IsFlipped || tile.IsMatched || _isBusy)
                 return;
-            var mediaPlayer = new MediaPlayer();
-            mediaPlayer.Open(new Uri("Assets/sounds/Click.mp3", UriKind.Relative));
-            mediaPlayer.Play();
+
+            PlaySound("Assets/sounds/Click.mp3");
 
             if (_firstSelectedTile != null && _secondSelectedTile != null)
             {
                 _isBusy = true;
-                await Task.Delay(500); 
+                await Task.Delay(500);
+
                 if (!_firstSelectedTile.IsMatched && !_secondSelectedTile.IsMatched)
                 {
-                    AgitateTiles(_firstSelectedTile, _secondSelectedTile);
+                    PlaySound("Assets/sounds/wrong answer Sound effect .mp3");
+                    await AgitateTiles(_firstSelectedTile, _secondSelectedTile);
                     _firstSelectedTile.IsFlipped = false;
                     _secondSelectedTile.IsFlipped = false;
-                    OnPropertyChanged(nameof(Tiles));
                 }
+
                 _firstSelectedTile = null;
                 _secondSelectedTile = null;
                 _isBusy = false;
             }
 
             tile.IsFlipped = true;
-            OnPropertyChanged(nameof(Tiles));
 
             if (_firstSelectedTile == null)
             {
@@ -180,13 +169,46 @@ namespace MemoryGame.ViewModel
                 _secondSelectedTile = tile;
                 if (_firstSelectedTile.ImagePath == _secondSelectedTile.ImagePath)
                 {
+                    PlaySound("Assets/sounds/Correct answer Sound effect.mp3");
                     _firstSelectedTile.IsMatched = true;
                     _secondSelectedTile.IsMatched = true;
                     _firstSelectedTile = null;
                     _secondSelectedTile = null;
-                    OnPropertyChanged(nameof(Tiles));
                     CheckGameWon();
                 }
+            }
+        }
+
+        private async Task AgitateTiles(GameTileModel firstTile, GameTileModel secondTile)
+        {
+            firstTile.IsAgitating = true;
+            secondTile.IsAgitating = true;
+            await Task.Delay(350);
+            firstTile.IsAgitating = false;
+            secondTile.IsAgitating = false;
+        }
+
+        private void PlaySound(string relativePath)
+        {
+            var player = new MediaPlayer();
+            player.Open(new Uri(relativePath, UriKind.Relative));
+            player.Play();
+        }
+
+        private async void CheckGameWon()
+        {
+            if (Tiles.All(tile => tile.IsMatched))
+            {
+                StopTimer();
+                UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, true);
+                PlaySound("Assets/sounds/Victory Sound Effect.mp3");
+
+                await Task.Delay(100);
+
+                _mainViewModel.CurrentView = new WinGame
+                {
+                    DataContext = new WinGameModel(_mainViewModel)
+                };
             }
         }
 
@@ -200,67 +222,9 @@ namespace MemoryGame.ViewModel
             }
         }
 
-
-        private async void AgitateTiles(GameTileModel firstTile, GameTileModel secondTile)
-        {
-            
-            firstTile.IsAgitating = true;
-            secondTile.IsAgitating = true;
-            await Task.Delay(350);
-            firstTile.IsAgitating = false;
-            secondTile.IsAgitating = false;
-        }
-
-
-        private async void CheckGameWon()
-        {
-            if (Tiles.All(tile => tile.IsMatched))
-            {
-
-                _gameTimer.Stop();
-                _gameTimer.Tick -= GameTimer_Tick;
-                if (_gameTimer.IsEnabled)
-                {
-                    _gameTimer.IsEnabled = false;
-                }
-                UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, true);
-
-                var mediaPlayer = new MediaPlayer();
-                mediaPlayer.Open(new Uri("Assets/sounds/Victory Sound Effect.mp3", UriKind.Relative));
-                mediaPlayer.Play();
-
-
-                await Task.Delay(100);
-
-
-                _mainViewModel.CurrentView = new WinGame
-                {
-                    DataContext = new WinGameModel(_mainViewModel)
-                };
-            }
-        }
-
-
-        public GameState GetCurrentState()
-        {
-            return new GameState
-            {
-                Name = "Joc curent",
-                SelectedCategory = SelectedCategory,
-                Rows = _rows,
-                Columns = _columns,
-                Tiles = Tiles.ToList(),
-                RemainingTime = RemainingTime
-            };
-        }
-
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            
-            if (_gameOver)
-            {
-                return;
-            }
+            if (_gameOver) return;
 
             if (RemainingTime.TotalSeconds > 0)
             {
@@ -268,11 +232,9 @@ namespace MemoryGame.ViewModel
             }
             else
             {
-                _gameTimer.Stop();
+                StopTimer();
                 UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, false);
-                var mediaPlayer = new MediaPlayer();
-                mediaPlayer.Open(new Uri("Assets/sounds/Lose.mp3", UriKind.Relative));
-                mediaPlayer.Play();
+                PlaySound("Assets/sounds/Lose.mp3");
 
                 _mainViewModel.CurrentView = new LoseGame
                 {
@@ -281,12 +243,18 @@ namespace MemoryGame.ViewModel
             }
         }
 
-
+        public GameState GetCurrentState() => new GameState
+        {
+            Name = "Joc curent",
+            SelectedCategory = SelectedCategory,
+            Rows = _rows,
+            Columns = _columns,
+            Tiles = Tiles.ToList(),
+            RemainingTime = RemainingTime
+        };
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

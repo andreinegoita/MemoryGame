@@ -12,6 +12,7 @@ namespace MemoryGame.ViewModel
 {
     public class AddUserViewModel : INotifyPropertyChanged
     {
+        
         private string _userName;
         public string UserName
         {

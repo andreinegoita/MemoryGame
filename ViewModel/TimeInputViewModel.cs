@@ -32,7 +32,6 @@ namespace MemoryGame.ViewModel
                 TimeSpan time = new TimeSpan(0, min, sec);
                 _mainViewModel.CustomTime = time;
 
-                // Start GameBoardView
                 _mainViewModel.CurrentView = new GameBoardView
                 {
                     DataContext = new GameBoardViewModel(_mainViewModel.GameRows, _mainViewModel.GameColumns, _mainViewModel.SelectedCategory, time,_mainViewModel)

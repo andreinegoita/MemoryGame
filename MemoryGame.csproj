@@ -1129,9 +1129,11 @@
     <None Remove="Assets\MemoryGamePlayMenu.png" />
     <None Remove="Assets\MemoryGameWin.jpg" />
     <None Remove="Assets\Sounds\KILLINGMYLOVE.mp3" />
+    <None Remove="Assets\Sounds\Lose.mp3" />
     <None Remove="Assets\Sounds\RAGEYOURDREAM.mp3" />
     <None Remove="Assets\Sounds\STAY.mp3" />
     <None Remove="Assets\Sounds\Untitled.mp3" />
+    <None Remove="Assets\Sounds\Victory Sound Effect.mp3" />
     <None Remove="Assets\TheMemoryGame.jpg" />
     <None Remove="Assets\Users\1336-fabian-pfpsgg.png" />
     <None Remove="Assets\Users\21cec04a1daef96dad10405131b41e45.jpg" />
@@ -4475,6 +4477,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Sounds\Click.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sounds\Lose.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sounds\Victory Sound Effect.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Users\1336-fabian-pfpsgg.png">

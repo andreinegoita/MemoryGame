@@ -225,7 +225,9 @@ namespace MemoryGame.ViewModel
                 }
                 UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, true);
 
-                
+                var mediaPlayer = new MediaPlayer();
+                mediaPlayer.Open(new Uri("Assets/sounds/Victory Sound Effect.mp3", UriKind.Relative));
+                mediaPlayer.Play();
 
 
                 await Task.Delay(100);
@@ -268,7 +270,10 @@ namespace MemoryGame.ViewModel
             {
                 _gameTimer.Stop();
                 UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, false);
-                
+                var mediaPlayer = new MediaPlayer();
+                mediaPlayer.Open(new Uri("Assets/sounds/Lose.mp3", UriKind.Relative));
+                mediaPlayer.Play();
+
                 _mainViewModel.CurrentView = new LoseGame
                 {
                     DataContext = new LoseGameViewModel(_mainViewModel)

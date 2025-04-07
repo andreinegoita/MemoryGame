@@ -23,7 +23,30 @@ This project is about a memory game created in C# using WPF and MVVM arhitecture
 - **MVVM Pattern**
 - **JSON**
 - **.NET 8.0 / .NET Framework**
-  
+
+# :books: Project Structure 
+ * 📂 MemoryGame
+ * ┣ 📂 Assets 
+ * ┣ 📂 Data
+ * ┃ ┣ 📜 User.json
+ * ┣ 📂 Model
+ * ┃ ┣ 📜 BoolToVisibilityConverter.cs
+ * ┃ ┣ 📜 GameSave.cs
+ * ┃ ┣ 📜 GameState.cs
+ * ┃ ┣ 📜 GameTileModel.cs
+ * ┃ ┣ 📜 InverseBoolToVisibilityConverter.cs
+ * ┃ ┣ 📜 NullToBooleanConverter.cs
+ * ┃ ┣ 📜 PlayerStatistics.cs
+ * ┃ ┣ 📜 TileState.cs
+ * ┃ ┣ 📜 User.cs
+ * ┃ ┣ 📜 UserManager.cs
+ * ┣ 📂 Saved Games
+ * ┣ 📂 Services
+ * ┣ 📂 View
+ * ┣ 📂 ViewModel
+ * ┣ 📜 README.md  
+ * ┣ 📜 .gitignore  
+
 # :camera_flash: In Game Screenshots
 ![Screenshot 2025-04-07 162951](https://github.com/user-attachments/assets/74afec63-5803-4c30-aed3-c0b9097b35e7)
 

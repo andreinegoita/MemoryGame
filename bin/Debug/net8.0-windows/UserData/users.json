@@ -29,9 +29,9 @@
     "SelectedImage": null,
     "GameBoardState": [],
     "Statistics": {
-      "GamesPlayed": 1,
+      "GamesPlayed": 2,
       "GamesWon": 1,
-      "WinRate": 100
+      "WinRate": 50
     },
     "SavedGames": []
   }

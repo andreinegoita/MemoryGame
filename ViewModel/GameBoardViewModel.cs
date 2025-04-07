@@ -12,6 +12,8 @@ using MemoryGame.Model;
 using MemoryGame.ViewModel.Commands;
 using MemoryGame.View;
 using System.Windows.Media;
+using System.Windows.Controls;
+using System.Windows.Media.Animation;
 
 namespace MemoryGame.ViewModel
 {
@@ -156,6 +158,7 @@ namespace MemoryGame.ViewModel
                 await Task.Delay(500); 
                 if (!_firstSelectedTile.IsMatched && !_secondSelectedTile.IsMatched)
                 {
+                    AgitateTiles(_firstSelectedTile, _secondSelectedTile);
                     _firstSelectedTile.IsFlipped = false;
                     _secondSelectedTile.IsFlipped = false;
                     OnPropertyChanged(nameof(Tiles));
@@ -186,6 +189,16 @@ namespace MemoryGame.ViewModel
                 }
             }
         }
+        private async void AgitateTiles(GameTileModel firstTile, GameTileModel secondTile)
+        {
+            
+            firstTile.IsAgitating = true;
+            secondTile.IsAgitating = true;
+            await Task.Delay(350);
+            firstTile.IsAgitating = false;
+            secondTile.IsAgitating = false;
+        }
+
 
         private async void CheckGameWon()
         {

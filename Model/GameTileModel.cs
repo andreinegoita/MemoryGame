@@ -6,6 +6,8 @@ namespace MemoryGame.Model
     public class GameTileModel : INotifyPropertyChanged
     {
         private bool _isMatched;
+
+        private bool _isAgitating;
         public bool IsMatched
         {
             get => _isMatched;
@@ -28,6 +30,19 @@ namespace MemoryGame.Model
                 if (_isFlipped != value)
                 {
                     _isFlipped = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public bool IsAgitating
+        {
+            get => _isAgitating;
+            set
+            {
+                if (_isAgitating != value)
+                {
+                    _isAgitating = value;
                     OnPropertyChanged();
                 }
             }

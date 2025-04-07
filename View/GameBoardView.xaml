@@ -1,13 +1,12 @@
 ﻿<UserControl x:Class="MemoryGame.View.GameBoardView"
-             x:Name="root"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="600">
-
     <UserControl.Resources>
+       
         <Style x:Key="TileButtonStyle" TargetType="Button">
             <Setter Property="Width" Value="250"/>
             <Setter Property="Height" Value="180"/>
@@ -15,8 +14,8 @@
             <Setter Property="Background">
                 <Setter.Value>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="#FFFB8C00" Offset="0" />
-                        <GradientStop Color="#FFFF5722" Offset="1" />
+                        <GradientStop Color="#FFFB8C00" Offset="0"/>
+                        <GradientStop Color="#FFFF5722" Offset="1"/>
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
@@ -31,11 +30,38 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
-                                BorderBrush="{TemplateBinding BorderBrush}" 
-                                BorderThickness="{TemplateBinding BorderThickness}" 
+                        <ControlTemplate.Resources>
+                           
+                            <Storyboard x:Key="AgitateStoryboard">
+                                <DoubleAnimation Storyboard.TargetName="TileButtonScaleTransform"
+                                                 Storyboard.TargetProperty="ScaleX"
+                                                 From="1" To="0.8" Duration="0:0:0.1" AutoReverse="True"/>
+                                <DoubleAnimation Storyboard.TargetName="TileButtonScaleTransform"
+                                                 Storyboard.TargetProperty="ScaleY"
+                                                 From="1" To="0.8" Duration="0:0:0.1" AutoReverse="True"/>
+                            </Storyboard>
+                            
+                            <Storyboard x:Key="MatchedStoryboard">
+                                <DoubleAnimation Storyboard.TargetName="TileButtonScaleTransform"
+                                                 Storyboard.TargetProperty="ScaleX"
+                                                 From="1" To="1.2" Duration="0:0:0.1" AutoReverse="True"/>
+                                <DoubleAnimation Storyboard.TargetName="TileButtonScaleTransform"
+                                                 Storyboard.TargetProperty="ScaleY"
+                                                 From="1" To="1.2" Duration="0:0:0.1" AutoReverse="True"/>
+                            </Storyboard>
+                        </ControlTemplate.Resources>
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
                                 CornerRadius="12"
                                 RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                
+                                <TransformGroup>
+                                    <ScaleTransform x:Name="TileButtonScaleTransform" ScaleX="1" ScaleY="1"/>
+                                    <TranslateTransform x:Name="TileButtonTranslateTransform"/>
+                                </TransformGroup>
+                            </Border.RenderTransform>
                             <Grid>
                                 <Image x:Name="TileImage"
                                        Source="{Binding ImagePath}"
@@ -43,15 +69,16 @@
                                        Opacity="0"
                                        IsHitTestVisible="False"/>
                                 <TextBlock x:Name="QuestionMark"
-                                           Text="?" 
-                                           FontSize="72" 
-                                           FontWeight="Bold" 
+                                           Text="?"
+                                           FontSize="72"
+                                           FontWeight="Bold"
                                            Foreground="White"
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="Center"/>
                             </Grid>
                         </Border>
                         <ControlTemplate.Triggers>
+          
                             <DataTrigger Binding="{Binding IsFlipped}" Value="True">
                                 <DataTrigger.EnterActions>
                                     <BeginStoryboard>
@@ -59,8 +86,8 @@
                                             <DoubleAnimation Storyboard.TargetName="TileImage"
                                                              Storyboard.TargetProperty="Opacity"
                                                              From="0" To="1" Duration="0:0:0.15"/>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark" 
-                                                                          Storyboard.TargetProperty="Visibility">
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark"
+                                                                           Storyboard.TargetProperty="Visibility">
                                                 <DiscreteObjectKeyFrame KeyTime="0:0:0.15" Value="{x:Static Visibility.Collapsed}"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
@@ -72,8 +99,8 @@
                                             <DoubleAnimation Storyboard.TargetName="TileImage"
                                                              Storyboard.TargetProperty="Opacity"
                                                              From="1" To="0" Duration="0:0:0.15"/>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark" 
-                                                                          Storyboard.TargetProperty="Visibility">
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="QuestionMark"
+                                                                           Storyboard.TargetProperty="Visibility">
                                                 <DiscreteObjectKeyFrame KeyTime="0:0:0.15" Value="{x:Static Visibility.Visible}"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
@@ -81,10 +108,18 @@
                                 </DataTrigger.ExitActions>
                             </DataTrigger>
                             <DataTrigger Binding="{Binding IsMatched}" Value="True">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MatchedStoryboard}"/>
+                                </DataTrigger.EnterActions>
                                 <Setter Property="IsEnabled" Value="False"/>
                                 <Setter TargetName="TileImage" Property="Opacity" Value="1"/>
                                 <Setter TargetName="QuestionMark" Property="Visibility" Value="Collapsed"/>
                                 <Setter Property="Background" Value="#FF009688"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsAgitating}" Value="True">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource AgitateStoryboard}"/>
+                                </DataTrigger.EnterActions>
                             </DataTrigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -104,28 +139,26 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#FFFB8C00" Offset="0" />
-                <GradientStop Color="#FFFF5722" Offset="0.5" />
-                <GradientStop Color="#FF9E3D00" Offset="1" />
+                <GradientStop Color="#FFFB8C00" Offset="0"/>
+                <GradientStop Color="#FFFF5722" Offset="0.5"/>
+                <GradientStop Color="#FF9E3D00" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
 
         <TextBlock Grid.Row="0"
                    Text="{Binding TimerDisplay}"
                    Style="{StaticResource TimerTextStyle}"/>
-        
-        
 
         <ItemsControl Grid.Row="1" ItemsSource="{Binding Tiles}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <UniformGrid Rows="{Binding Rows}" Columns="{Binding Columns}" />
+                    <UniformGrid Rows="{Binding Rows}" Columns="{Binding Columns}"/>
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Button Command="{Binding DataContext.TileClickCommand, ElementName=root}" 
-                            CommandParameter="{Binding}" 
+                    <Button Command="{Binding DataContext.TileClickCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                            CommandParameter="{Binding}"
                             Style="{StaticResource TileButtonStyle}"/>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>

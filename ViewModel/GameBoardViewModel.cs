@@ -268,10 +268,10 @@ namespace MemoryGame.ViewModel
             {
                 _gameTimer.Stop();
                 UserManager.UpdateUserStatistics(_mainViewModel.CurrentUserName, false);
-                MessageBox.Show("Timpul a expirat!", "Game Over", MessageBoxButton.OK, MessageBoxImage.Warning);
-                _mainViewModel.CurrentView = new PlayMenu
+                
+                _mainViewModel.CurrentView = new LoseGame
                 {
-                    DataContext = new PlayMenuViewModel(_mainViewModel)
+                    DataContext = new LoseGameViewModel(_mainViewModel)
                 };
             }
         }

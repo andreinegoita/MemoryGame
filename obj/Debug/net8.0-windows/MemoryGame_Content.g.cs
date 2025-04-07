@@ -1172,6 +1172,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/nba%20teams/orlando_magic_logo_primary_20117178.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/nba%20teams/phoenix_suns_logo_primary_20143696.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/nba%20teams/utah_jazz_logo_primary_2023_sportslogosnet-8513.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygamelose.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygamemain.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygameplaymenu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/memorygamewin.jpg")]

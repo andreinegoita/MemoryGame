@@ -26,6 +26,9 @@
     <Compile Update="View\LoadGameWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\LoseGame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\MainMenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

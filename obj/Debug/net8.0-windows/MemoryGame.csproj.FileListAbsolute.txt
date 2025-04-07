@@ -1227,3 +1227,6 @@ D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\Sounds\Click.mp3
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\WinGame.g.cs
 D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\WinGame.baml
 D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\MemoryGameWin.jpg
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoseGame.g.cs
+D:\MemoryGame\MemoryGame\obj\Debug\net8.0-windows\View\LoseGame.baml
+D:\MemoryGame\MemoryGame\bin\Debug\net8.0-windows\Assets\MemoryGameLose.jpg

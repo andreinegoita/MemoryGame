@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\MemoryGame\MemoryGame\App.xaml
-181857897173
-1120-1179025004
-52149855525
+1970185267
+11211591568060
+54851663424
 1981839832580
-View\AboutWindow.xaml;View\AddUserWindow.xaml;View\CategoryWindow.xaml;View\CustomOptionsWindow.xaml;View\FIleWindow.xaml;View\GameBoardView.xaml;View\HelpWindow.xaml;View\LoadGameWindow.xaml;View\MainMenuView.xaml;View\MainWindow.xaml;View\OptionsWindow.xaml;View\PlayMenu.xaml;View\SettingsWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;View\StatisticsView.xaml;View\TimeInputWindow.xaml;View\WinGame.xaml;
+View\AboutWindow.xaml;View\AddUserWindow.xaml;View\CategoryWindow.xaml;View\CustomOptionsWindow.xaml;View\FIleWindow.xaml;View\GameBoardView.xaml;View\HelpWindow.xaml;View\LoadGameWindow.xaml;View\LoseGame.xaml;View\MainMenuView.xaml;View\MainWindow.xaml;View\OptionsWindow.xaml;View\PlayMenu.xaml;View\SettingsWindow.xaml;View\StartUpMenu.xaml;View\StartUpMenuView.xaml;View\StatisticsView.xaml;View\TimeInputWindow.xaml;View\WinGame.xaml;
 
 False
 
